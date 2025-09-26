@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Top Cryptos News — Live Crypto Dashboard</title>
+  <title>Top Cryptos Bites and News and Predictor based on Candle stick pattern analysis</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta name="description" content="Live crypto prices, candlestick charts and latest crypto news. Free, static, and ready to host."/>
+  <meta name="description" content="Daily crypto bites, Top crypto news, Crypto headlines, Live crypto prices, Candlestick charts and Predictor based on candle sticks analyse."/>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .news-card img { width: 120px; height: 80px; object-fit: cover; border-radius: 6px; }
@@ -19,64 +19,76 @@
     }
     #daily-update { max-height: 360px; overflow:auto; }
   </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-93VYTJML1K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-93VYTJML1K');
-</script>
 </head>
 <body class="bg-gray-900 text-gray-100 min-h-screen">
+
+
   <div class="max-w-7xl mx-auto p-4">
     <header class="flex items-center justify-between mb-4">
       <div>
         <h1 class="text-2xl font-bold">TopCryptosNews</h1>
       </div>
+	<div class="flex items-center gap-4">
       <div class="text-right text-sm text-gray-400">
         <div id="last-updated">—</div>
+	<img src="tcn.jpg" alt="TopCryptoNews" class="w-1000 h-10 object-contain" />
+  </div>
       </div>
     </header>
 
-    <main class="space-y-4">
-      <section class="grid grid-cols-1 lg:grid-cols-6 gap-4">
-        <div class="lg:col-span-1 bg-gray-800 p-4 rounded-2xl shadow">
-          <h2 class="text-lg font-semibold mb-2">Today's Crypto Bites🚨</h2>
-          <div id="daily-update" class="prose prose-invert text-sm">
-<b>Market Overview:</b>
-Cryptos market looks cautious.<br><br>
-BTC holds 113K USD<br><br>
-<b>Headlines:</b>
-Crypto treasury companies have faced pressure in recent weeks after rally in stock market. As a ripple effect inflows for digital assets fades and that caused the cryptos rout.<br><br>
-BTC AND ETH to watch out for to get insight on over all cryptocurrencies trajectory for the upcoming weeks.<br><br>
-<b>Market Sentiment:</b>
-Neutral. BTC needs to hold 112000 USD. Otherwise downtrend may continue and BTC may head to 100000 USD.<br><br>
-<b>Regulatory Roundup:</b>
-Bank of Canada to implement stablecoin regulatory framework.<br><br>
-UK regulators promote exempting crypto from integrity and some other rules and regulations<br><br>
 
-Check our dashboard for live data. Also do not forget to try predictor tool 📊 which analyze candle sticks to predict price movement🚦
+    <main class="space-y-4">
+  <!-- Row 1: Today's Crypto Bites -->
+  <section class="grid grid-cols-1 gap-4">
+    <div class="bg-gray-800 p-4 rounded-2xl shadow">
+      <h2 class="text-lg font-semibold mb-2">Today's Crypto Bites🚨</h2>
+      <div id="daily-update" class="prose prose-invert text-sm leading-loose"">
+
+<b>Headlines:</b><br>
+-> Bitcoin Dips to $109K Amid $21B Options Expiry, High Volatility Looms for BTC Forecast.<br>
+-> Ethereum Plunges Below $4K on ETF Outflows Institutional Adoption Shifts to Solana as Altcoin Rally Fades.<br>
+-> Rex-Osprey Debuts First Ethereum Staking ETF Unlocking Yields Could Drive ETH Price Surge in Q4.<br>
+-> Whales Dump 147K BTC in 30 Days Bitcoin Forecast Eyes $100K Test, But ETF Inflows Signal Rebound.
+
+<br><br>
+<b>Market Overview:</b><br>
+As of September 26, 2025, the crypto market is navigating choppy waters amid macroeconomic headwinds like U.S. government shutdown fears and a stronger dollar, with total capitalization dipping to $3.96 trillion, 0.37% daily decline but still up 70.5% year-over-year. Bitcoin price today stands firm at around $109,600, consolidating after a 3.3% drop, supported by ETF inflows despite $103 million in outflows yesterday. Ethereum trades near $3,955, down 5.7% amid leveraged liquidations exceeding $1.7 billion, testing key supports as altcoin performance lags with Solana slipping below $200. Crypto market trends reflect caution, with trading volume at $178.5 billion signaling redistribution rather than panic, bolstered by institutional accumulation like MicroStrategy's recent BTC buys. Fed rate cut expectations and regulatory clarity under the Trump administration offer upside potential, though altcoin performance remains fragile amid DXY strength above 97. Overall, the sector eyes a rebound if BTC holds $109,000 support, potentially targeting $120,000 by month-end.
+
+<br><br>
+<b>Market Sentiment:</b><br>
+Crypto market sentiment today leans fearful at 44 on the Crypto Fear & Greed Index, reflecting exhaustion from $1.7 billion in liquidations and ETF outflows, down from neutral levels last week. For BTC, key support at $109,000–$111,400 holds amid whale selling, with resistance at $113,000–$114,000; analysts predict a Bitcoin price prediction rebound to $120,000 by September's end if Fed cuts materialize. ETH faces $3,800–$3,900 support after slipping below $4,000, with $4,200 resistance capping upside oversold RSI signals potential bounce to $4,200+ on staking ETF launches. Broader sentiment favors accumulation, with X posts highlighting institutional buys during dips, though volatility from $21 billion options expiry today tempers optimism.
+
+<br><br>
+<b>Regulatory Roundup:</b><br>
+U.S. regulators advanced crypto regulatory updates with the GENIUS Act signed into law, establishing federal oversight for stablecoins and digital assets to boost innovation while curbing risks marking a shift from enforcement to clarity. In Europe, nine major banks launched a MiCA-compliant euro-backed stablecoin, enhancing EU payments autonomy and comprising 90% of regional stablecoin market cap. Globally, the FSB reported 93% of members aligning with crypto-asset frameworks by 2025, including stablecoin rules, amid U.S.-UK taskforces harmonizing digital asset policies.
+
+<br><br>
+Check charts powered by Trading view. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle sticks to predict price movement🚦
 
           </div>
         </div>
+ </section>
 
+ <section class="grid grid-cols-1 lg:grid-cols-5 gap-4">
         <div class="lg:col-span-3 bg-gray-800 p-4 rounded-2xl shadow flex flex-col">
           <!-- Responsive chart header -->
-          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-3">
+          <div class="flex flex-col sm:flex-col sm:items-center sm:justify-between gap-3 mb-3">
             <div class="flex flex-col sm:flex-row gap-3 sm:items-end w-full">
               <div>
-                <label class="text-xs text-gray-400">Symbol</label>
+                
                 <input id="symbolInput" class="bg-gray-900 text-white px-3 py-2 rounded w-full sm:w-36" placeholder="BTCUSDT" />
               </div>
               <div class="flex flex-col">
-                <label class="text-xs text-gray-400">Quick Picks</label>
+                
                 <div class="flex gap-2 flex-wrap items-center">
                   <button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="BTCUSDT">BTC</button>
                   <button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="ETHUSDT">ETH</button>
-                  <button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="BNBUSDT">BNB</button>
-                  <!-- Live price moved here -->
+                  <button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="XRPUSDT">XRP</button>
+		  <button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="BNBUSDT">BNB</button>
+		  <!--button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="SOLUSDT">SOL</button-->
+		  <!--button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="DOGEUSDT">DOGE</button-->
+		  		  
                   <div class="ml-4 flex flex-col text-left sm:text-right">
                     <div class="text-xs text-gray-400">Live price</div>
                     <div id="price" class="text-lg sm:text-xl font-semibold">—</div>
