@@ -5,37 +5,83 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact Us - TopCryptosNews</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9978786369623839"
+     crossorigin="anonymous"></script>
 </head>
-<body class="bg-gray-900 text-gray-100 min-h-screen">
-  <div class="max-w-3xl mx-auto p-6">
-    <h1 class="text-2xl font-bold mb-4">Contact Us</h1>
-    <p class="mb-4">If you have any questions, feedback, or business inquiries, please use the form below to reach us.</p>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col justify-between">
 
-    <!-- ✅ Use Formspree POST endpoint -->
-    <form action="https://formspree.io/f/mblaqqww" method="POST" class="space-y-4">
-      <div>
-        <label class="block text-sm mb-1">Your Name</label>
-        <input type="text" name="name" required class="w-full px-3 py-2 bg-gray-800 rounded" />
+  <!-- Header / Navigation -->
+  <header class="border-b border-gray-800 bg-gray-900 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-bold text-white tracking-wider">TopCryptosNews</span>
+      </a>
+      <nav class="flex items-center gap-4 sm:gap-6">
+        <a href="index.html" class="text-sm font-medium text-gray-300 hover:text-white transition">Home</a>
+        <a href="about.html" class="text-sm font-medium text-gray-300 hover:text-white transition">About</a>
+        <a href="contact.html" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto px-4 py-8 flex-grow w-full">
+    <div class="bg-gray-800 p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-700">
+      <h1 class="text-3xl font-extrabold text-white mb-4">Contact Us</h1>
+      <p class="text-gray-300 mb-6 leading-relaxed">
+        If you have any questions, feedback, suggestions, or business inquiries, please use the secure form below to get in touch with our team. We read every message and aim to respond within 24–48 hours.
+      </p>
+
+      <!-- Formspree POST endpoint -->
+      <form action="https://formspree.io/f/mblaqqww" method="POST" class="space-y-6">
+        <div>
+          <label class="block text-sm font-semibold text-gray-300 mb-1">Your Name</label>
+          <input type="text" name="name" required class="w-full px-4 py-3 bg-gray-900 text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="John Doe" />
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-300 mb-1">Your Email</label>
+          <input type="email" name="email" required class="w-full px-4 py-3 bg-gray-900 text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="johndoe@example.com" />
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-300 mb-1">Message</label>
+          <textarea name="message" rows="5" required class="w-full px-4 py-3 bg-gray-900 text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="Write your message here..."></textarea>
+        </div>
+
+        <!-- Formspree hidden field -->
+        <input type="hidden" name="_subject" value="New Contact Form Submission" />
+
+        <button type="submit" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-white font-bold tracking-wide transition shadow-lg hover:shadow-blue-500/20">
+          Send Message
+        </button>
+      </form>
+
+      <div class="mt-8 pt-6 border-t border-gray-700 text-gray-400 text-sm">
+        Alternatively, you can email us directly at <a href="mailto:cognosser@gmail.com" class="text-blue-400 hover:underline">cognosser@gmail.com</a>.
       </div>
-      <div>
-        <label class="block text-sm mb-1">Your Email</label>
-        <input type="email" name="email" required class="w-full px-3 py-2 bg-gray-800 rounded" />
-      </div>
-      <div>
-        <label class="block text-sm mb-1">Message</label>
-        <textarea name="message" rows="4" required class="w-full px-3 py-2 bg-gray-800 rounded"></textarea>
-      </div>
+    </div>
+  </main>
 
-      <!-- Formspree requires this hidden field to avoid spam -->
-      <input type="hidden" name="_subject" value="New Contact Form Submission" />
-
-      <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold">
-        Send
-      </button>
-    </form>
-
-    <p class="mt-6 text-gray-400 text-sm">Alternatively, you can email directly to <a href="mailto:cognosser@gmail.com" class="text-blue-400">topcrytposnews admin</a>.</p>
+  <!-- Footer -->
+  <footer style="background:#111; color:#bbb; text-align:center; padding:20px; font-size:14px; border-t: 1px solid #222;">
+    <p>
+      Market data provided by 
+      <a href="https://www.binance.com" target="_blank" style="color:#4da6ff;">Binance API</a>.  
+      Charts powered by 
+      <a href="https://www.tradingview.com/" target="_blank" style="color:#4da6ff;">TradingView</a>.  
+      News aggregated from 
+      <a href="https://www.coingecko.com/en/news" target="_blank" style="color:#4da6ff;">CoinGecko</a>, 
+      <a href="https://news.bitcoin.com/" target="_blank" style="color:#4da6ff;">Bitcoin.com</a>, and 
+      <a href="https://www.coindesk.com/" target="_blank" style="color:#4da6ff;">CoinDesk</a>.
     </p>
-  </div>
+    <p class="my-2">
+      <a href="privacypolicy.html" class="hover:underline">Privacy Policy</a> | 
+      <a href="terms.html" class="hover:underline">Terms of Use</a> | 
+      <a href="contact.html" class="hover:underline">Contact</a> |
+      <a href="about.html" class="hover:underline">About Us</a>
+    </p>
+    <p>© 2025 <a href="https://topcryptosnews.com" style="color:#0f9dff; text-decoration:none;">topcryptosnews.com</a>. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
