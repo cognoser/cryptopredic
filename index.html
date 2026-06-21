@@ -375,31 +375,27 @@
         'https://www.coindesk.com/arc/outboundfeeds/rss/',
         'https://news.bitcoin.com/feed/',
         'https://cointelegraph.com/rss'
-        // ✅ Added Bitcoin.com RSS
       ];
 
       const items = [];
       for (const feed of feeds) {
         try {
-          const proxy = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(feed);
-          const resp = await fetch(proxy);
+          const apiURL = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed);
+          const resp = await fetch(apiURL);
           if (!resp.ok) continue;
-          const txt = await resp.text();
-          const parser = new DOMParser();
-          const xml = parser.parseFromString(txt, 'application/xml');
-          const xmlItems = Array.from(xml.querySelectorAll('item')).slice(0, 6);
-          for (const it of xmlItems) {
-            const title = it.querySelector('title') ? it.querySelector('title').textContent : 'No title';
-            const link = it.querySelector('link') ? it.querySelector('link').textContent : '#';
-            const desc = it.querySelector('description') ? it.querySelector('description').textContent : '';
+          const data = await resp.json();
+          if (data.status !== 'ok' || !data.items) continue;
+          const feedItems = data.items.slice(0, 6);
+          for (const it of feedItems) {
+            const title = it.title || 'No title';
+            const link = it.link || '#';
+            const desc = it.description || '';
             let img = null;
-            const media = it.getElementsByTagName('media:content');
-            if (media && media.length) img = media[0].getAttribute('url');
-            if (!img) {
-              const enc = it.querySelector('enclosure[url]');
-              if (enc) img = enc.getAttribute('url');
-            }
-            if (!img) {
+            if (it.thumbnail) {
+              img = it.thumbnail;
+            } else if (it.enclosure && it.enclosure.link) {
+              img = it.enclosure.link;
+            } else {
               const m = desc.match(/<img[^>]+src="([^">]+)"/i);
               if (m) img = m[1];
             }
