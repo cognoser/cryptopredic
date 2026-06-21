@@ -294,8 +294,8 @@
 
   <script>
     const DEFAULT_SYMBOL = 'BTCUSDT';
-    const BINANCE_REST_PRICE = (sym) => `https://api.binance.com/api/v3/ticker/24hr?symbol=${encodeURIComponent(sym)}`;
-    const BINANCE_KLINES = (sym, interval, limit) => `https://api.binance.com/api/v3/klines?symbol=${encodeURIComponent(sym)}&interval=${interval}&limit=${limit}`;
+    const BINANCE_REST_PRICE = (sym) => `https://api.binance.us/api/v3/ticker/24hr?symbol=${encodeURIComponent(sym)}`;
+    const BINANCE_KLINES = (sym, interval, limit) => `https://api.binance.us/api/v3/klines?symbol=${encodeURIComponent(sym)}&interval=${interval}&limit=${limit}`;
 
     function $qs(s) { return document.querySelector(s); }
 
