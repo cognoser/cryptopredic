@@ -269,57 +269,70 @@
   <script>
     const DEFAULT_SYMBOL = 'BTCUSDT';
 
-    // Map Binance-style symbols to CoinGecko coin IDs
-    const CG_ID_MAP = {
+    // ── CoinCap v2 (price) ── CORS-open, no API key needed ─────────────────
+    const CC_ID_MAP = {
       'BTCUSDT':  'bitcoin',
       'ETHUSDT':  'ethereum',
       'XRPUSDT':  'ripple',
-      'BNBUSDT':  'binancecoin',
+      'BNBUSDT':  'binance-coin',
       'SOLUSDT':  'solana',
       'DOGEUSDT': 'dogecoin',
       'ADAUSDT':  'cardano',
       'DOTUSDT':  'polkadot',
       'LINKUSDT': 'chainlink',
-      'AVAXUSDT': 'avalanche-2',
+      'AVAXUSDT': 'avalanche',
       'LTCUSDT':  'litecoin',
       'UNIUSDT':  'uniswap',
-      'ATOMUSDT':  'cosmos',
-      'MATICUSDT': 'matic-network',
+      'ATOMUSDT': 'cosmos',
+      'MATICUSDT':'polygon',
     };
-
-    function symbolToCgId(sym) {
-      const upper = sym.toUpperCase();
-      return CG_ID_MAP[upper] || upper.replace(/USDT$/i, '').toLowerCase();
+    function symbolToCcId(sym) {
+      return CC_ID_MAP[sym.toUpperCase()] || sym.replace(/USDT$/i,'').toLowerCase();
     }
+    const CC_PRICE = (sym) => `https://api.coincap.io/v2/assets/${symbolToCcId(sym)}`;
 
-    // Map Binance interval string to the best CoinGecko "days" parameter
-    function intervalToCgDays(interval) {
-      if (['1m','3m','5m','15m','30m'].includes(interval)) return 1;
-      if (['1h','2h','4h','6h','8h','12h'].includes(interval)) return 7;
-      if (['1d','3d'].includes(interval)) return 30;
-      return 90; // 1w, 1M
+    // ── Kraken public REST (OHLC) ── CORS-open, no API key needed ──────────
+    const KRAKEN_PAIR_MAP = {
+      'BTCUSDT':  'XBTUSD',
+      'ETHUSDT':  'ETHUSD',
+      'XRPUSDT':  'XRPUSD',
+      'SOLUSDT':  'SOLUSD',
+      'ADAUSDT':  'ADAUSD',
+      'LTCUSDT':  'LTCUSD',
+      'DOTUSDT':  'DOTUSD',
+      'LINKUSDT': 'LINKUSD',
+      'DOGEUSDT': 'DOGEUSD',
+      'UNIUSDT':  'UNIUSD',
+      'ATOMUSDT': 'ATOMUSD',
+      'AVAXUSDT': 'AVAXUSD',
+      'MATICUSDT':'MATICUSD',
+      'BNBUSDT':  'BNBUSD',
+    };
+    // Kraken valid intervals (minutes): 1,5,15,30,60,240,1440,10080,21600
+    function intervalToKrakenMins(interval) {
+      const m = {'1m':1,'3m':5,'5m':5,'15m':15,'30m':30,
+                 '1h':60,'2h':60,'4h':240,'6h':240,'8h':240,'12h':240,
+                 '1d':1440,'3d':1440,'1w':10080,'1M':21600};
+      return m[interval] || 5;
     }
-
-    // CoinGecko public endpoints (CORS-enabled, no API key required)
-    const CG_PRICE = (sym) =>
-      `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${symbolToCgId(sym)}&price_change_percentage=24h`;
-    const CG_OHLC = (sym, interval) =>
-      `https://api.coingecko.com/api/v3/coins/${symbolToCgId(sym)}/ohlc?vs_currency=usd&days=${intervalToCgDays(interval)}`;
+    function symbolToKrakenPair(sym) {
+      return KRAKEN_PAIR_MAP[sym.toUpperCase()] || sym.replace(/USDT$/i,'').toUpperCase() + 'USD';
+    }
 
     function $qs(s) { return document.querySelector(s); }
 
     async function fetchPrice(sym) {
       try {
-        const res = await fetch(CG_PRICE(sym));
+        const res = await fetch(CC_PRICE(sym));
         if (!res.ok) throw new Error('Price fetch failed');
-        const list = await res.json();
-        if (!list || !list.length) throw new Error('No data');
-        const data = list[0];
-        $qs('#price').textContent = parseFloat(data.current_price).toLocaleString();
-        const ch = parseFloat(data.price_change_percentage_24h);
+        const json = await res.json();
+        const data = json.data;
+        if (!data) throw new Error('No data');
+        $qs('#price').textContent = parseFloat(data.priceUsd).toLocaleString(undefined, {maximumFractionDigits: 2});
+        const ch = parseFloat(data.changePercent24Hr);
         const chEl = $qs('#change');
-        const vol = data.total_volume ? Number(data.total_volume).toLocaleString() : '—';
-        chEl.textContent = (ch >= 0 ? '+' : '') + ch.toFixed(2) + '%  ·  vol: ' + vol;
+        const volB = data.volumeUsd24Hr ? '$' + (Number(data.volumeUsd24Hr)/1e9).toFixed(2) + 'B' : '—';
+        chEl.textContent = (ch >= 0 ? '+' : '') + ch.toFixed(2) + '%  ·  vol: ' + volB;
         chEl.style.color = ch >= 0 ? '#34d399' : '#fb7185';
         $qs('#last-updated').textContent = '';
       } catch (err) {
@@ -635,13 +648,18 @@
     }
 
     async function analyzePrediction(symbol, interval, candleCount) {
-      const url = CG_OHLC(symbol, interval);
+      // Kraken OHLC: [time, open, high, low, close, vwap, volume, count]
+      // analyzePatterns reads k[1]=open, k[2]=high, k[3]=low, k[4]=close — identical indices
+      const pair = symbolToKrakenPair(symbol);
+      const mins = intervalToKrakenMins(interval);
+      const url = `https://api.kraken.com/0/public/OHLC?pair=${pair}&interval=${mins}`;
       const resp = await fetch(url);
       if (!resp.ok) throw new Error('Fetch failed');
-      const data = await resp.json();
-      // CoinGecko OHLC: [timestamp, open, high, low, close] — same indices 1-4 as Binance klines
-      // Slice the last `candleCount` candles so the count selector still works
-      const sliced = data.slice(-candleCount);
+      const json = await resp.json();
+      if (json.error && json.error.length) throw new Error(json.error[0]);
+      const resultKey = Object.keys(json.result).find(k => k !== 'last');
+      const rows = json.result[resultKey];
+      const sliced = rows.slice(-candleCount);
       return analyzePatterns(sliced);
     }
 
