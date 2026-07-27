@@ -280,15 +280,15 @@
 
     async function fetchPrice(sym) {
       try {
-        const res = await fetch(CC_PRICE(sym));
+        const symbolUpper = sym.toUpperCase();
+        const res = await fetch(`https://api.binance.com/api/v3/ticker/24hr?symbol=${symbolUpper}`);
         if (!res.ok) throw new Error('Price fetch failed');
-        const json = await res.json();
-        const data = json.data;
-        if (!data) throw new Error('No data');
-        $qs('#price').textContent = parseFloat(data.priceUsd).toLocaleString(undefined, {maximumFractionDigits: 2});
-        const ch = parseFloat(data.changePercent24Hr);
+        const data = await res.json();
+        
+        $qs('#price').textContent = parseFloat(data.lastPrice).toLocaleString(undefined, {maximumFractionDigits: 2});
+        const ch = parseFloat(data.priceChangePercent);
         const chEl = $qs('#change');
-        const volB = data.volumeUsd24Hr ? '$' + (Number(data.volumeUsd24Hr)/1e9).toFixed(2) + 'B' : '—';
+        const volB = data.quoteVolume ? '$' + (Number(data.quoteVolume)/1e9).toFixed(2) + 'B' : '—';
         chEl.textContent = (ch >= 0 ? '+' : '') + ch.toFixed(2) + '%  ·  vol: ' + volB;
         chEl.style.color = ch >= 0 ? '#34d399' : '#fb7185';
         $qs('#last-updated').textContent = '';

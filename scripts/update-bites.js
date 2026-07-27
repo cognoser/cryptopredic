@@ -140,8 +140,6 @@ Generate the daily update HTML content. Follow these exact instructions:
   <br><br>
   Check charts powered by Trading view for quick glance. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle stick pattern to predict price movement🚦<br><br>`;
   } else {
-    console.log('Sending request to Gemini API...');
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
     const payload = {
       contents: [
         {
@@ -155,29 +153,63 @@ Generate the daily update HTML content. Follow these exact instructions:
       }
     };
 
-    try {
-      const rawResponse = await fetchUrl(geminiUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(payload)
-      });
-      
-      const responseJson = JSON.parse(rawResponse);
-      if (
-        responseJson.candidates &&
-        responseJson.candidates[0] &&
-        responseJson.candidates[0].content &&
-        responseJson.candidates[0].content.parts &&
-        responseJson.candidates[0].content.parts[0]
-      ) {
-        generatedHtml = responseJson.candidates[0].content.parts[0].text.trim();
-      } else {
-        throw new Error(`Unexpected API response structure: ${JSON.stringify(responseJson)}`);
+    // We will try different endpoints/models to be extremely resilient
+    const attempts = [
+      {
+        url: `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+        label: 'v1/gemini-1.5-flash'
+      },
+      {
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+        label: 'v1beta/gemini-1.5-flash'
+      },
+      {
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
+        label: 'v1beta/gemini-pro'
       }
-    } catch (apiErr) {
-      console.error('Error calling Gemini API:', apiErr.message);
+    ];
+
+    let lastError = null;
+    for (const attempt of attempts) {
+      try {
+        console.log(`Trying Gemini API endpoint: ${attempt.label}...`);
+        const rawResponse = await fetchUrl(attempt.url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+        
+        const responseJson = JSON.parse(rawResponse);
+        if (
+          responseJson.candidates &&
+          responseJson.candidates[0] &&
+          responseJson.candidates[0].content &&
+          responseJson.candidates[0].content.parts &&
+          responseJson.candidates[0].content.parts[0]
+        ) {
+          generatedHtml = responseJson.candidates[0].content.parts[0].text.trim();
+          console.log(`Success using endpoint: ${attempt.label}!`);
+          break; // successfully generated
+        } else {
+          throw new Error(`Unexpected API response structure: ${JSON.stringify(responseJson)}`);
+        }
+      } catch (err) {
+        console.warn(`Attempt with ${attempt.label} failed:`, err.message);
+        lastError = err;
+      }
+    }
+
+    if (!generatedHtml) {
+      console.error('\n================================================================');
+      console.error('CRITICAL ERROR: All Gemini API endpoints failed.');
+      console.error('Last error:', lastError ? lastError.message : 'No error message');
+      console.error('\nPOSSIBLE RESOLUTIONS:');
+      console.error('1. Check if the "Generative Language API" is enabled in your Google Cloud Project.');
+      console.error('2. Ensure your API Key was created from Google AI Studio (https://aistudio.google.com/). API keys created from GCP console directly must have the "Generative Language API" explicitly enabled in the APIs Library.');
+      console.error('3. Verify that the GEMINI_API_KEY secret on GitHub has no leading/trailing spaces or quotes.');
+      console.error('================================================================\n');
       process.exit(1);
     }
   }
