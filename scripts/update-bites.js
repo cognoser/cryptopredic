@@ -156,16 +156,16 @@ Generate the daily update HTML content. Follow these exact instructions:
     // We will try different endpoints/models to be extremely resilient
     const attempts = [
       {
-        url: `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
-        label: 'v1/gemini-1.5-flash'
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+        label: 'v1beta/gemini-2.5-flash'
       },
       {
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
-        label: 'v1beta/gemini-1.5-flash'
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+        label: 'v1beta/gemini-2.0-flash'
       },
       {
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
-        label: 'v1beta/gemini-pro'
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${apiKey}`,
+        label: 'v1beta/gemini-2.0-flash-lite'
       }
     ];
 
