@@ -11,7 +11,7 @@ const FEEDS = [
   'https://cointelegraph.com/rss'
 ];
 
-// Helper to fetch content from URL (HTTP/HTTPS) using native fetch (Node 18+)
+// Helper to fetch content from URL (HTTP/HTTPS) using native fetch
 async function fetchUrl(url, options = {}) {
   const response = await fetch(url, options);
   if (!response.ok) {
@@ -35,7 +35,7 @@ function cleanText(text) {
     .trim();
 }
 
-// Simple XML RSS Parser using Regex (zero-dependency)
+// Simple XML RSS Parser using Regex
 function parseRSS(xmlText, maxItems = 4) {
   const items = [];
   const itemMatches = xmlText.match(/<item>[\s\S]*?<\/item>/gi) || [];
@@ -53,37 +53,6 @@ function parseRSS(xmlText, maxItems = 4) {
     }
   }
   return items;
-}
-
-// Fetch prices from Binance
-async function fetchCryptoPrices() {
-  try {
-    const url = 'https://api.binance.com/api/v3/ticker/24hr?symbols=%5B%22BTCUSDT%22,%22ETHUSDT%22,%22XRPUSDT%22,%22BNBUSDT%22,%22SOLUSDT%22%5D';
-    const rawData = await fetchUrl(url);
-    const parsed = JSON.parse(rawData);
-    if (!Array.isArray(parsed)) return [];
-    
-    const nameMap = {
-      'BTCUSDT': { name: 'Bitcoin', symbol: 'BTC' },
-      'ETHUSDT': { name: 'Ethereum', symbol: 'ETH' },
-      'BNBUSDT': { name: 'Binance Coin', symbol: 'BNB' },
-      'XRPUSDT': { name: 'Ripple', symbol: 'XRP' },
-      'SOLUSDT': { name: 'Solana', symbol: 'SOL' }
-    };
-    
-    return parsed.map(coin => {
-      const info = nameMap[coin.symbol] || { name: coin.symbol, symbol: coin.symbol.replace('USDT', '') };
-      return {
-        name: info.name,
-        symbol: info.symbol,
-        price: parseFloat(coin.lastPrice).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-        change: parseFloat(coin.priceChangePercent).toFixed(2)
-      };
-    });
-  } catch (error) {
-    console.error('Error fetching crypto prices:', error.message);
-    return [];
-  }
 }
 
 // Core execution
@@ -110,12 +79,6 @@ async function main() {
     }
   }
 
-  // 2. Fetch current prices
-  console.log('Fetching live crypto prices...');
-  const prices = await fetchCryptoPrices();
-  console.log(`Fetched prices for ${prices.length} assets.`);
-
-  // 3. Format context for Gemini
   const currentDateStr = new Date().toLocaleDateString('en-US', {
     weekday: 'long',
     year: 'numeric',
@@ -124,15 +87,11 @@ async function main() {
     timeZone: 'UTC'
   }) + ' (UTC)';
 
-  const pricesContext = prices.map(p => `${p.name} (${p.symbol}): $${p.price} (${p.change}% last 24h)`).join('\n');
   const newsContext = aggregatedNews.map((n, idx) => `Article ${idx+1}:\nTitle: ${n.title}\nDescription: ${n.description}`).join('\n\n');
 
   console.log('Formulating prompt for Google Gemini...');
   const prompt = `
 Context Date: ${currentDateStr}
-
-Live Crypto Prices:
-${pricesContext}
 
 Recent News Stories:
 ${newsContext}
@@ -149,7 +108,7 @@ Generate the daily update HTML content. Follow these exact instructions:
   -> <b>[Headline Topic 4]:</b> [1-2 sentences of professional context summarizing the news].<br>
   <br><br>
   <b>Market Overview:</b><br>
-  [Write a paragraph summarizing the current market conditions, referencing the live prices above. Format as a single paragraph without any subheaders].
+  [Write a paragraph summarizing the current market conditions and major trends based on the news stories. Format as a single paragraph without any subheaders].
   <br><br>
   <b>Market Sentiment:</b><br>
   [Write a paragraph summarizing current market sentiment based on recent news stories. Mention if fear, greed, caution, or optimism is dominating. Format as a single paragraph].
@@ -160,46 +119,42 @@ Generate the daily update HTML content. Follow these exact instructions:
   Check charts powered by Trading view for quick glance. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle stick pattern to predict price movement🚦<br><br>
 `;
 
-  // 4. Send request to Gemini API
-  // Using gemini-1.5-flash for reliability and speed
-  const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
-  const payload = {
-    contents: [
-      {
-        parts: [
-          { text: prompt }
-        ]
-      }
-    ],
-    generationConfig: {
-      temperature: 0.25
-    }
-  };
-
   let generatedHtml = '';
   if (process.env.MOCK === 'true') {
     console.log('MOCK MODE ENABLED: Generating mock update HTML...');
-    const btcPrice = prices.find(p => p.symbol === 'BTC')?.price || '64,800';
-    const ethPrice = prices.find(p => p.symbol === 'ETH')?.price || '1,760';
     const firstHeadline = aggregatedNews[0]?.title || 'Market Consolidation Continues';
     generatedHtml = `<b>Headlines:</b><br>
-  -> <b>Bitcoin Holds Steady:</b> BTC is currently trading near $${btcPrice} amid mixed spot ETF flow signals.<br>
-  -> <b>Ethereum Strength:</b> ETH shows stability around $${ethPrice} with positive on-chain activity.<br>
-  -> <b>Solana Leads Recovery:</b> SOL shows strong relative performance following network upgrades.<br>
+  -> <b>Bitcoin Stable:</b> BTC continues to show strength as institutional accumulation and spot ETF inflows steady the market.<br>
+  -> <b>Layer-2 Scalability:</b> Major Ethereum Layer-2 protocols report significant volume increases and protocol enhancements.<br>
+  -> <b>Market Indicators:</b> Analysts watch key technical patterns as the overall market undergoes healthy consolidation.<br>
   -> <b>Latest Market Digest:</b> ${firstHeadline}.<br>
   <br><br>
   <b>Market Overview:</b><br>
-  As of ${currentDateStr}, the crypto market shows modest consolidation. Bitcoin is trading near $${btcPrice} and Ethereum is hovering around $${ethPrice}. The overall volume remains healthy with selective rotation into top-tier altcoins.
+  As of ${currentDateStr}, the crypto market shows stability and consolidation. Top-tier altcoins are undergoing healthy corrections, and trading volumes remain elevated across major global exchanges.
   <br><br>
   <b>Market Sentiment:</b><br>
-  Market sentiment is currently cautious to neutral. Traders are closely watching ETF volumes and macroeconomic updates. There is selective optimism surrounding layer-2 scalability and DeFi ecosystems.
+  Market sentiment is currently cautious but constructive. Long-term indicators suggest strong institutional backing, and market participants are showing a balanced approach towards macro announcements.
   <br><br>
   <b>Regulatory Roundup:</b><br>
-  Regulatory discussions remain focused on stablecoin frameworks and clarity for digital commodities. Major jurisdictions are actively working on standardizing compliance rules for digital assets.
+  Regulatory updates remain centered around compliance, stablecoin frameworks, and institutional participation. Evolving regulatory standards are helping shape a more robust market landscape.
   <br><br>
   Check charts powered by Trading view for quick glance. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle stick pattern to predict price movement🚦<br><br>`;
   } else {
     console.log('Sending request to Gemini API...');
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+    const payload = {
+      contents: [
+        {
+          parts: [
+            { text: prompt }
+          ]
+        }
+      ],
+      generationConfig: {
+        temperature: 0.25
+      }
+    };
+
     try {
       const rawResponse = await fetchUrl(geminiUrl, {
         method: 'POST',
@@ -227,7 +182,7 @@ Generate the daily update HTML content. Follow these exact instructions:
     }
   }
 
-  // Double check that we didn't get a markdown wrapped block
+  // Clean markdown wrap if any
   if (generatedHtml.startsWith('```html')) {
     generatedHtml = generatedHtml.replace(/^```html\s*/, '').replace(/\s*```$/, '');
   } else if (generatedHtml.startsWith('```')) {
@@ -239,7 +194,7 @@ Generate the daily update HTML content. Follow these exact instructions:
     process.exit(1);
   }
 
-  // 5. Read index.html and replace placeholders
+  // Read index.html and replace placeholders
   console.log(`Reading index.html from: ${INDEX_HTML_PATH}`);
   let indexContent = fs.readFileSync(INDEX_HTML_PATH, 'utf8');
 
@@ -249,33 +204,11 @@ Generate the daily update HTML content. Follow these exact instructions:
     process.exit(1);
   }
 
-  // Verify timestamp placeholders exist
-  if (!indexContent.includes('<!-- TIMESTAMP_START -->') || !indexContent.includes('<!-- TIMESTAMP_END -->')) {
-    console.error('ERROR: Could not find TIMESTAMP placeholders in index.html.');
-    process.exit(1);
-  }
-
   // Replace bites content
   const bitesReplacement = `<!-- DAILY_UPDATE_START -->\n            ${generatedHtml}\n            <!-- DAILY_UPDATE_END -->`;
   indexContent = indexContent.replace(
     /<!-- DAILY_UPDATE_START -->[\s\S]*?<!-- DAILY_UPDATE_END -->/,
     bitesReplacement
-  );
-
-  // Replace timestamp
-  const dateFormatted = new Date().toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit',
-    timeZone: 'UTC'
-  }) + ' UTC';
-  
-  const timestampReplacement = `<!-- TIMESTAMP_START -->Last Updated: ${dateFormatted}<!-- TIMESTAMP_END -->`;
-  indexContent = indexContent.replace(
-    /<!-- TIMESTAMP_START -->[\s\S]*?<!-- TIMESTAMP_END -->/,
-    timestampReplacement
   );
 
   // Write changes back to index.html
