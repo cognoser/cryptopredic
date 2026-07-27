@@ -15,6 +15,8 @@ const FEEDS = [
 async function fetchUrl(url, options = {}) {
   const response = await fetch(url, options);
   if (!response.ok) {
+    const errorBody = await response.text();
+    console.error(`Response body: ${errorBody}`);
     throw new Error(`Failed to fetch ${url}: Status ${response.status}`);
   }
   return response.text();
