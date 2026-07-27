@@ -1,0 +1,42 @@
+name: Scheduled Crypto Bites Update
+
+on:
+  schedule:
+    # Runs at 00:00 and 12:00 UTC daily (twice a day)
+    - cron: '0 0,12 * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+
+# Grant permission to check out and push changes back to the repository
+permissions:
+  contents: write
+
+jobs:
+  update-website:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Update Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/update-bites.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add index.html
+          # Only commit and push if there are changes to index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "auto: update daily crypto bites and timestamp [skip ci]"
+            git push
+          else
+            echo "No changes detected in index.html, skipping push."
+          fi
