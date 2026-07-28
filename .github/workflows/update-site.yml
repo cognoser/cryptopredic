@@ -24,8 +24,6 @@ jobs:
           node-version: 20
 
       - name: Run Update Script
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/update-bites.js
 
       - name: Commit and Push Changes
