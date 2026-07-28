@@ -37,6 +37,15 @@ function cleanText(text) {
     .trim();
 }
 
+function sanitizeGeneratedHtml(html) {
+  if (!html) return '';
+  return html
+    .replace(/<script[\s\S]*?>[\s\S]*?<\/script>/gi, '')
+    .replace(/<iframe[\s\S]*?>[\s\S]*?<\/iframe>/gi, '')
+    .replace(/\son\w+=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, '')
+    .trim();
+}
+
 // Simple XML RSS Parser using Regex
 function parseRSS(xmlText, maxItems = 4) {
   const items = [];
@@ -118,7 +127,7 @@ Generate the daily update HTML content. Follow these exact instructions:
   <b>Regulatory Roundup:</b><br>
   [Write a paragraph summarizing any regulatory mentions or the general regulatory tone in the news. If none, write about general regulatory status of crypto. Format as a single paragraph].
   <br><br>
-  Check charts powered by Trading view for quick glance. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle stick pattern to predict price movement🚦<br><br>
+  Check charts powered by TradingView for a quick glance. Also try the predictor/analyzer tool 📊, which analyzes candlestick patterns to estimate price movement 🚦<br><br>
 `;
 
   let generatedHtml = '';
@@ -140,7 +149,7 @@ Generate the daily update HTML content. Follow these exact instructions:
   <b>Regulatory Roundup:</b><br>
   Regulatory updates remain centered around compliance, stablecoin frameworks, and institutional participation. Evolving regulatory standards are helping shape a more robust market landscape.
   <br><br>
-  Check charts powered by Trading view for quick glance. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle stick pattern to predict price movement🚦<br><br>`;
+  Check charts powered by TradingView for a quick glance. Also try the predictor/analyzer tool 📊, which analyzes candlestick patterns to estimate price movement 🚦<br><br>`;
   } else {
     const payload = {
       contents: [
@@ -225,6 +234,12 @@ Generate the daily update HTML content. Follow these exact instructions:
 
   if (!generatedHtml) {
     console.error('ERROR: Received empty text from Gemini.');
+    process.exit(1);
+  }
+
+  generatedHtml = sanitizeGeneratedHtml(generatedHtml);
+  if (!generatedHtml) {
+    console.error('ERROR: Generated HTML was empty after sanitization.');
     process.exit(1);
   }
 

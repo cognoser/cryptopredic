@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Top Cryptos Bites and News and Predictor based on Candle stick pattern analysis</title>
+  <title>TopCryptosNews - Crypto News, Charts, and Candlestick Predictor</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <meta name="description"
-    content="Daily crypto bites, Top crypto news, Crypto headlines, Live crypto prices, Candlestick charts and Predictor based on candle sticks analyse." />
+    content="Daily crypto bites, top crypto news, live crypto prices, candlestick charts, and a candlestick-pattern predictor." />
   <link href="tailwind.css" rel="stylesheet" />
   <style>
     .news-card img {
@@ -55,7 +55,7 @@
       <div class="flex items-center gap-4">
         <div class="text-right text-sm text-gray-400">
           <div id="last-updated">—</div>
-          <img src="tcn.jpg" alt="TopCryptoNews" class="w-1000 h-10 object-contain" />
+          <img src="tcn.jpg" alt="TopCryptosNews" class="h-10 w-auto object-contain" />
         </div>
       </div>
     </header>
@@ -73,16 +73,16 @@
   -> <b>Layer-2 Scalability:</b> Major Ethereum Layer-2 protocols report significant volume increases and protocol enhancements.<br>
   -> <b>Market Indicators:</b> Analysts watch key technical patterns as the overall market undergoes healthy consolidation.<br>
   -> <b>Latest Market Digest:</b> Live updates: Ether leads crypto higher. China's gold imports surge.<br>
-  <br><br>
+  <br>
   <b>Market Overview:</b><br>
   As of Monday, July 27, 2026 (UTC), the crypto market shows stability and consolidation. Top-tier altcoins are undergoing healthy corrections, and trading volumes remain elevated across major global exchanges.
-  <br><br>
+  <br>
   <b>Market Sentiment:</b><br>
   Market sentiment is currently cautious but constructive. Long-term indicators suggest strong institutional backing, and market participants are showing a balanced approach towards macro announcements.
-  <br><br>
+  <br>
   <b>Regulatory Roundup:</b><br>
   Regulatory updates remain centered around compliance, stablecoin frameworks, and institutional participation. Evolving regulatory standards are helping shape a more robust market landscape.
-  <br><br>
+  <br>
   Check charts powered by Trading view for quick glance. Also do not forget to try the predictor/analyzer tool 📊 which analyze candle stick pattern to predict price movement🚦<br><br>
             <!-- DAILY_UPDATE_END -->
           </div>
@@ -181,10 +181,9 @@
             class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold mb-3">Analyze</button>
           <div id="predictionResult" class="flex-grow overflow-auto text-sm prose prose-invert"></div>
 
-          <section id="candleDiagramSection" class="mt-auto">
-            <svg id="candleDiagram" width="0%" height="0" viewBox="0 0 0 0"></svg>
+          <section class="mt-auto">
             <p class="text-gray-400 text-xs italic mt-2">
-              Note: This tool works by analysing candle stick patterns and it may not always produce correct result.
+              Note: This tool analyzes candlestick patterns and may not always produce correct results.
               Do not take decisions based on this.
             </p>
           </section>
@@ -203,13 +202,13 @@
     <footer style="background:#111; color:#bbb; text-align:center; padding:20px; font-size:14px; margin-top:30px;">
       <p>
         Market data provided by
-        <a href="https://www.binance.com" target="_blank" style="color:#4da6ff;">Binance API</a>.
+        <a href="https://www.binance.com" target="_blank" rel="noopener noreferrer" style="color:#4da6ff;">Binance API</a>.
         Charts powered by
-        <a href="https://www.tradingview.com/" target="_blank" style="color:#4da6ff;">TradingView</a>.
+        <a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer" style="color:#4da6ff;">TradingView</a>.
         News aggregated from
-        <a href="https://www.coingecko.com/en/news" target="_blank" style="color:#4da6ff;">CoinGecko</a>,
-        <a href="https://news.bitcoin.com/" target="_blank" style="color:#4da6ff;">Bitcoin.com</a>, and
-        <a href="https://www.coindesk.com/" target="_blank" style="color:#4da6ff;">CoinDesk</a>.
+        <a href="https://www.coingecko.com/en/news" target="_blank" rel="noopener noreferrer" style="color:#4da6ff;">CoinGecko</a>,
+        <a href="https://news.bitcoin.com/" target="_blank" rel="noopener noreferrer" style="color:#4da6ff;">Bitcoin.com</a>, and
+        <a href="https://www.coindesk.com/" target="_blank" rel="noopener noreferrer" style="color:#4da6ff;">CoinDesk</a>.
       </p>
       <p>
         <a href="privacypolicy.html">Privacy Policy</a> |
@@ -225,28 +224,6 @@
 
   <script>
     const DEFAULT_SYMBOL = 'BTCUSDT';
-
-    // ── CoinCap v2 (price) ── CORS-open, no API key needed ─────────────────
-    const CC_ID_MAP = {
-      'BTCUSDT':  'bitcoin',
-      'ETHUSDT':  'ethereum',
-      'XRPUSDT':  'ripple',
-      'BNBUSDT':  'binance-coin',
-      'SOLUSDT':  'solana',
-      'DOGEUSDT': 'dogecoin',
-      'ADAUSDT':  'cardano',
-      'DOTUSDT':  'polkadot',
-      'LINKUSDT': 'chainlink',
-      'AVAXUSDT': 'avalanche',
-      'LTCUSDT':  'litecoin',
-      'UNIUSDT':  'uniswap',
-      'ATOMUSDT': 'cosmos',
-      'MATICUSDT':'polygon',
-    };
-    function symbolToCcId(sym) {
-      return CC_ID_MAP[sym.toUpperCase()] || sym.replace(/USDT$/i,'').toLowerCase();
-    }
-    const CC_PRICE = (sym) => `https://api.coincap.io/v2/assets/${symbolToCcId(sym)}`;
 
     // ── Kraken public REST (OHLC) ── CORS-open, no API key needed ──────────
     const KRAKEN_PAIR_MAP = {
@@ -291,12 +268,33 @@
         const volB = data.quoteVolume ? '$' + (Number(data.quoteVolume)/1e9).toFixed(2) + 'B' : '—';
         chEl.textContent = (ch >= 0 ? '+' : '') + ch.toFixed(2) + '%  ·  vol: ' + volB;
         chEl.style.color = ch >= 0 ? '#34d399' : '#fb7185';
-        $qs('#last-updated').textContent = '';
+        $qs('#last-updated').textContent = `Updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
       } catch (err) {
-        console.error(err);
+        console.warn('Price fetch failed', err);
         $qs('#price').textContent = '—';
         $qs('#change').textContent = 'Price unavailable';
       }
+    }
+
+    function loadTradingViewScript() {
+      if (window.TradingView) return Promise.resolve();
+
+      const existingScript = document.querySelector('script[src="https://s3.tradingview.com/tv.js"]');
+      if (existingScript) {
+        return new Promise((resolve, reject) => {
+          existingScript.addEventListener('load', resolve, { once: true });
+          existingScript.addEventListener('error', reject, { once: true });
+        });
+      }
+
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://s3.tradingview.com/tv.js';
+        script.onload = resolve;
+        script.onerror = reject;
+        document.body.appendChild(script);
+      });
     }
 
     function createTradingViewWidget(sym) {
@@ -307,13 +305,8 @@
       widget.id = 'tv-lightweight';
       container.appendChild(widget);
 
-      const existingScript = document.querySelector('script[src="https://s3.tradingview.com/tv.js"]');
-      if (existingScript) existingScript.remove();
-
-      const script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.src = 'https://s3.tradingview.com/tv.js';
-      script.onload = () => {
+      loadTradingViewScript()
+        .then(() => {
         try {
           new TradingView.widget({
             "width": "100%",
@@ -333,8 +326,10 @@
           console.error('TV widget error', e);
           container.innerHTML = '<div class="p-6 text-center text-sm text-red-400">Chart failed to load.</div>';
         }
-      };
-      document.body.appendChild(script);
+      })
+        .catch(() => {
+          container.innerHTML = '<div class="p-6 text-center text-sm text-red-400">Chart failed to load.</div>';
+        });
     }
 
     let allNewsItems = [];
@@ -409,14 +404,28 @@
         card.href = it.link;
         card.target = '_blank';
         card.rel = 'noopener noreferrer';
-        card.innerHTML = `
-      <div class="flex-1">
-        <div class="text-sm font-semibold mb-1">${escapeHtml(it.title)}</div>
-        <div class="text-gray-400 text-xs truncate-2">${escapeHtml(stripHtml(it.desc)).slice(0, 220)}</div>
-        <div class="text-xs text-gray-500 mt-2">${it.source}</div>
-      </div>
-      ${it.img ? `<div class="hidden sm:block"><img src="${it.img}" alt="" /></div>` : ''}
-    `;
+
+        const content = document.createElement('div');
+        content.className = 'flex-1';
+        content.innerHTML = `
+          <div class="text-sm font-semibold mb-1">${escapeHtml(it.title)}</div>
+          <div class="text-gray-400 text-xs truncate-2">${escapeHtml(stripHtml(it.desc)).slice(0, 220)}</div>
+          <div class="text-xs text-gray-500 mt-2">${escapeHtml(it.source)}</div>
+        `;
+        card.appendChild(content);
+
+        if (it.img && isSafeImageUrl(it.img)) {
+          const imageWrap = document.createElement('div');
+          imageWrap.className = 'hidden sm:block';
+          const image = document.createElement('img');
+          image.src = it.img;
+          image.alt = '';
+          image.loading = 'lazy';
+          image.referrerPolicy = 'no-referrer';
+          imageWrap.appendChild(image);
+          card.appendChild(imageWrap);
+        }
+
         list.appendChild(card);
       });
 
@@ -634,24 +643,24 @@
       }
 
       const sentimentColors = {
-        'Bullish': 'green',
-        'Bearish': 'red',
-        'Neutral': 'yellow',
-        'Slightly Bullish': 'lime',
-        'Slightly Bearish': 'orange'
+        'Bullish': 'text-green-400',
+        'Bearish': 'text-red-400',
+        'Neutral': 'text-yellow-400',
+        'Slightly Bullish': 'text-lime-400',
+        'Slightly Bearish': 'text-orange-400'
       };
 
-      const overallColor = sentimentColors[result.overallSentiment] || 'gray';
+      const overallColor = sentimentColors[result.overallSentiment] || 'text-gray-400';
 
       // All detected patterns in collapsible details
       const allPatternsHTML = result.patterns.map(p =>
         `<details class="mb-2 bg-gray-700 rounded p-2">
-      <summary class="font-semibold cursor-pointer">${p.name} - <span class="text-${sentimentColors[p.sentiment] || 'gray'}-400">${p.sentiment}</span></summary>
-      <p class="mt-1 text-xs text-gray-300">${p.description}</p>
+      <summary class="font-semibold cursor-pointer">${escapeHtml(p.name)} - <span class="${sentimentColors[p.sentiment] || 'text-gray-400'}">${escapeHtml(p.sentiment)}</span></summary>
+      <p class="mt-1 text-xs text-gray-300">${escapeHtml(p.description)}</p>
     </details>`).join('');
 
       container.innerHTML = `
-    <p><strong>Overall Prediction:</strong> <span class="text-${overallColor}-400">${result.overallSentiment}</span></p>
+    <p><strong>Overall Prediction:</strong> <span class="${overallColor}">${escapeHtml(result.overallSentiment)}</span></p>
     <p class="mb-2 text-xs text-gray-400"><em>${result.explanation}</em></p>
     <hr class="border-gray-600 mb-2"/>
     <details class="bg-gray-800 rounded p-2">
@@ -663,58 +672,22 @@
   `;
     }
 
-    // Candle diagram rendering function
-    function renderCandleDiagram(count) {
-      const svg = document.getElementById('candleDiagram');
-      svg.innerHTML = '';
-
-      const width = 1000;
-      const height = 70;
-      const candleWidth = Math.min(80, width / count - 4);
-      const spacing = 4;
-      const totalWidth = count * (candleWidth + spacing);
-
-      svg.setAttribute('viewBox', `0 0 ${totalWidth} ${height}`);
-
-      // Timeline line
-      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-      line.setAttribute('x1', '0');
-      line.setAttribute('y1', '50');
-      line.setAttribute('x2', totalWidth);
-      line.setAttribute('y2', '50');
-      line.setAttribute('stroke', '#4b5563');
-      line.setAttribute('stroke-width', '3');
-      svg.appendChild(line);
-
-      for (let i = 0; i < count; i++) {
-        const x = i * (candleWidth + spacing);
-        const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-        rect.setAttribute('x', x);
-        rect.setAttribute('y', 20);
-        rect.setAttribute('width', candleWidth);
-        rect.setAttribute('height', 40);
-        rect.setAttribute('fill', i === count - 1 ? '#34d399' : '#2563eb');
-        svg.appendChild(rect);
-
-        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        text.setAttribute('x', x + candleWidth / 2);
-        text.setAttribute('y', 65);
-        text.setAttribute('fill', i === count - 1 ? '#34d399' : '#9ca3af');
-        text.setAttribute('font-weight', i === count - 1 ? 'bold' : 'normal');
-        text.setAttribute('font-family', 'monospace');
-        text.setAttribute('font-size', '12');
-        text.setAttribute('text-anchor', 'middle');
-        text.textContent = `#${count - i}${i === count - 1 ? ' (Latest)' : ''}`;
-        svg.appendChild(text);
-      }
-    }
-
     // Escape HTML utility for safety
     function escapeHtml(str) {
       return String(str)
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function isSafeImageUrl(url) {
+      try {
+        return ['http:', 'https:'].includes(new URL(url, window.location.href).protocol);
+      } catch {
+        return false;
+      }
     }
 
     // --- Event handlers & startup ---
@@ -731,9 +704,6 @@
         }
       });
       const symbolInput = $qs('#symbolInput');
-      const priceEl = $qs('#price');
-      const changeEl = $qs('#change');
-      const lastUpdatedEl = $qs('#last-updated');
       const quickBtns = document.querySelectorAll('.quick-btn');
 
       // Predictor inputs
@@ -772,15 +742,6 @@
           $qs('#predictionResult').innerHTML = `<p class="text-red-500">Error fetching or analyzing pattern data.</p>`;
         }
       });
-
-      // Candle count change updates candle diagram
-      candleCountSelect.addEventListener('change', (e) => {
-        const val = parseInt(e.target.value, 10);
-        renderCandleDiagram(val);
-      });
-
-      // Initial render candle diagram with default 10
-      renderCandleDiagram(parseInt(candleCountSelect.value, 10));
 
       // Initial chart and price load
       function updateChart(sym) {

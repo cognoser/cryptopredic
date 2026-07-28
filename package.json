@@ -1,23 +1,29 @@
 {
   "name": "cryptopredic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Static TopCryptosNews website with live crypto news, charts, and candlestick analysis.",
+  "private": true,
   "scripts": {
     "build": "tailwindcss -i input.css -o tailwind.css --minify",
+    "update:bites": "node scripts/update-bites.js",
     "watch": "tailwindcss -i input.css -o tailwind.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cognoser/cryptopredic.git"
   },
-  "keywords": [],
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "news",
+    "charts"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/cognoser/cryptopredic/issues"
   },
-  "homepage": "https://github.com/cognoser/cryptopredic#readme",
+  "homepage": "https://topcryptosnews.com",
   "devDependencies": {
     "tailwindcss": "^3.4.19"
   }
