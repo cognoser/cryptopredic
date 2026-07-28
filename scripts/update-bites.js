@@ -11,6 +11,12 @@ const FEEDS = [
   'https://cointelegraph.com/rss'
 ];
 
+const MARKET_DATA_URLS = {
+  global: 'https://api.coingecko.com/api/v3/global',
+  prices: 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,binancecoin,ripple&vs_currencies=usd&include_24hr_change=true',
+  fearGreed: 'https://api.alternative.me/fng/?limit=1'
+};
+
 // Helper to fetch content from URL (HTTP/HTTPS) using native fetch
 async function fetchUrl(url, options = {}) {
   const response = await fetch(url, options);
@@ -20,6 +26,15 @@ async function fetchUrl(url, options = {}) {
     throw new Error(`Failed to fetch ${url}: Status ${response.status}`);
   }
   return response.text();
+}
+
+async function fetchJson(url) {
+  return JSON.parse(await fetchUrl(url, {
+    headers: {
+      'Accept': 'application/json',
+      'User-Agent': 'TopCryptosNewsBot/1.0'
+    }
+  }));
 }
 
 // Clean helper to strip HTML tags and CDATA wrappers
@@ -35,6 +50,19 @@ function cleanText(text) {
     .replace(/&#39;/g, "'")
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function formatUsd(value, digits = 2) {
+  if (!Number.isFinite(value)) return 'unavailable';
+  if (value >= 1e12) return `$${(value / 1e12).toFixed(digits)}T`;
+  if (value >= 1e9) return `$${(value / 1e9).toFixed(digits)}B`;
+  if (value >= 1e6) return `$${(value / 1e6).toFixed(digits)}M`;
+  return `$${value.toLocaleString('en-US', { maximumFractionDigits: digits })}`;
+}
+
+function formatPercent(value, digits = 2) {
+  if (!Number.isFinite(value)) return 'unavailable';
+  return `${value >= 0 ? '+' : ''}${value.toFixed(digits)}%`;
 }
 
 function sanitizeGeneratedHtml(html) {
@@ -64,6 +92,79 @@ function parseRSS(xmlText, maxItems = 4) {
     }
   }
   return items;
+}
+
+async function fetchMarketSnapshot() {
+  const snapshot = {
+    generatedAt: new Date().toISOString(),
+    global: null,
+    prices: null,
+    fearGreed: null
+  };
+
+  try {
+    const global = await fetchJson(MARKET_DATA_URLS.global);
+    const data = global.data || {};
+    snapshot.global = {
+      marketCapUsd: data.total_market_cap?.usd,
+      volumeUsd: data.total_volume?.usd,
+      btcDominance: data.market_cap_percentage?.btc,
+      ethDominance: data.market_cap_percentage?.eth,
+      activeCryptocurrencies: data.active_cryptocurrencies,
+      markets: data.markets
+    };
+  } catch (err) {
+    console.warn('Warning: Failed to fetch CoinGecko global market data:', err.message);
+  }
+
+  try {
+    snapshot.prices = await fetchJson(MARKET_DATA_URLS.prices);
+  } catch (err) {
+    console.warn('Warning: Failed to fetch CoinGecko price data:', err.message);
+  }
+
+  try {
+    const fearGreed = await fetchJson(MARKET_DATA_URLS.fearGreed);
+    snapshot.fearGreed = fearGreed.data?.[0] || null;
+  } catch (err) {
+    console.warn('Warning: Failed to fetch Fear & Greed data:', err.message);
+  }
+
+  return snapshot;
+}
+
+function buildMarketContext(snapshot) {
+  const lines = [];
+
+  if (snapshot.global) {
+    lines.push(`Total market cap: ${formatUsd(snapshot.global.marketCapUsd)}`);
+    lines.push(`24h market volume: ${formatUsd(snapshot.global.volumeUsd)}`);
+    lines.push(`BTC dominance: ${formatPercent(snapshot.global.btcDominance)}`);
+    lines.push(`ETH dominance: ${formatPercent(snapshot.global.ethDominance)}`);
+    lines.push(`Tracked crypto assets: ${snapshot.global.activeCryptocurrencies || 'unavailable'}`);
+    lines.push(`Tracked markets: ${snapshot.global.markets || 'unavailable'}`);
+  }
+
+  if (snapshot.prices) {
+    const labels = {
+      bitcoin: 'BTC',
+      ethereum: 'ETH',
+      solana: 'SOL',
+      binancecoin: 'BNB',
+      ripple: 'XRP'
+    };
+    for (const [id, label] of Object.entries(labels)) {
+      const item = snapshot.prices[id];
+      if (!item) continue;
+      lines.push(`${label}: ${formatUsd(item.usd)} (${formatPercent(item.usd_24h_change)} 24h)`);
+    }
+  }
+
+  if (snapshot.fearGreed) {
+    lines.push(`Crypto Fear & Greed Index: ${snapshot.fearGreed.value} (${snapshot.fearGreed.value_classification})`);
+  }
+
+  return lines.length ? lines.join('\n') : 'Market data unavailable. Use only the RSS news context and avoid precise unsupported numbers.';
 }
 
 // Core execution
@@ -98,6 +199,8 @@ async function main() {
     timeZone: 'UTC'
   }) + ' (UTC)';
 
+  const marketSnapshot = await fetchMarketSnapshot();
+  const marketContext = buildMarketContext(marketSnapshot);
   const newsContext = aggregatedNews.map((n, idx) => `Article ${idx+1}:\nTitle: ${n.title}\nDescription: ${n.description}`).join('\n\n');
 
   console.log('Formulating prompt for Google Gemini...');
@@ -107,27 +210,30 @@ Context Date: ${currentDateStr}
 Recent News Stories:
 ${newsContext}
 
+Live Market Snapshot:
+${marketContext}
+
 Generate the daily update HTML content. Follow these exact instructions:
 - Output should start directly with the Headlines. Do NOT wrap in markdown code blocks like \`\`\`html.
 - Output ONLY the HTML content.
 - Do NOT output any preamble, markdown formatting, or postamble.
+- Use the live market snapshot when it is available. Do not invent specific prices, ETF flow numbers, legal bill names, or dates that are not supported by the provided context.
+- Write in a professional market-news style similar to CoinDesk/CoinTelegraph summaries.
 - Format strictly as follows:
   <b>Headlines:</b><br>
-  -> <b>[Headline Topic 1]:</b> [1-2 sentences of professional context summarizing the news].<br>
-  -> <b>[Headline Topic 2]:</b> [1-2 sentences of professional context summarizing the news].<br>
-  -> <b>[Headline Topic 3]:</b> [1-2 sentences of professional context summarizing the news].<br>
-  -> <b>[Headline Topic 4]:</b> [1-2 sentences of professional context summarizing the news].<br>
-  <br><br>
+  -> <b>[Specific headline 1]:</b> [One detailed sentence tying the headline to market impact].<br>
+  -> <b>[Specific headline 2]:</b> [One detailed sentence tying the headline to market impact].<br>
+  -> <b>[Specific headline 3]:</b> [One detailed sentence tying the headline to market impact].<br>
+  -> <b>[Specific headline 4]:</b> [One detailed sentence tying the headline to market impact].<br>
+  <br>
   <b>Market Overview:</b><br>
-  [Write a paragraph summarizing the current market conditions and major trends based on the news stories. Format as a single paragraph without any subheaders].
+  [Write one substantial paragraph of 120-170 words. Include total market cap, 24h volume, BTC/ETH prices or 24h changes, BTC dominance, and the broader risk tone when available. Make it readable and avoid bullet points.]
   <br><br>
   <b>Market Sentiment:</b><br>
-  [Write a paragraph summarizing current market sentiment based on recent news stories. Mention if fear, greed, caution, or optimism is dominating. Format as a single paragraph].
+  [Write one substantial paragraph of 90-140 words. Include Fear & Greed classification/value when available, BTC support/resistance only if supported by news context, and explain whether traders appear fearful, cautious, optimistic, or risk-on.]
   <br><br>
   <b>Regulatory Roundup:</b><br>
-  [Write a paragraph summarizing any regulatory mentions or the general regulatory tone in the news. If none, write about general regulatory status of crypto. Format as a single paragraph].
-  <br><br>
-  Check charts powered by TradingView for a quick glance. Also try the predictor/analyzer tool 📊, which analyzes candlestick patterns to estimate price movement 🚦<br><br>
+  [Write one substantial paragraph of 90-140 words. Summarize regulatory items from the RSS context. If no specific regulatory news appears, say that no major fresh regulatory item was present in the fetched headlines and briefly describe the general compliance tone.]
 `;
 
   let generatedHtml = '';
@@ -148,8 +254,7 @@ Generate the daily update HTML content. Follow these exact instructions:
   <br><br>
   <b>Regulatory Roundup:</b><br>
   Regulatory updates remain centered around compliance, stablecoin frameworks, and institutional participation. Evolving regulatory standards are helping shape a more robust market landscape.
-  <br><br>
-  Check charts powered by TradingView for a quick glance. Also try the predictor/analyzer tool 📊, which analyzes candlestick patterns to estimate price movement 🚦<br><br>`;
+  <br><br>`;
   } else {
     const payload = {
       contents: [
