@@ -3,7 +3,7 @@ name: Scheduled Crypto Bites Update
 on:
   schedule:
     # Runs at 08:00, 13:00, 19:00 and 23:00 UTC daily (4 times a day)
-    - cron: '0 8,13,19,23 * * *'
+    - cron: '0 5,8,13,19,23 * * *'
   workflow_dispatch:
 
 permissions:
