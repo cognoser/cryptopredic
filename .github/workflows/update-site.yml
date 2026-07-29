@@ -4,9 +4,8 @@ on:
   schedule:
     # Runs at 08:00, 13:00, 19:00 and 23:00 UTC daily (4 times a day)
     - cron: '0 8,13,19,23 * * *'
-  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+  workflow_dispatch:
 
-# Grant permission to check out and push changes back to the repository
 permissions:
   contents: write
 
@@ -18,7 +17,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          token: ${{secrets.PAT_TOKEN}}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,14 +28,22 @@ jobs:
         run: node scripts/update-bites.js
 
       - name: Commit and Push Changes
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add index.html
-          # Only commit and push if there are changes to index.html
+
           if ! git diff --cached --quiet; then
-            git commit -m "auto: update daily crypto bites and timestamp [skip ci]"
+            git commit -m "auto: update daily crypto bites and timestamp"
             git push
+            echo "pushed=true" >> $GITHUB_OUTPUT
           else
             echo "No changes detected in index.html, skipping push."
+            echo "pushed=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Trigger Netlify Deploy
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          curl -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
