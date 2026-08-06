@@ -200,11 +200,17 @@ function pickHeadlineItems(items, limit = 4) {
   return selected;
 }
 
-function buildHeadlineSentence(item, snapshot) {
-  const desc = item.description || 'This update may influence short-term positioning across crypto markets.';
+function buildHeadlineSentence(item, snapshot, index) {
+  const desc = item.description || 'The story adds another detail to the day\'s market picture.';
   const trimmed = truncateText(desc, 180);
-  const tone = summarizeMarketTone(snapshot);
-  return `${trimmed} The update lands against ${tone}, so traders may treat it as part of the broader risk backdrop.`;
+  const openings = [
+    'The detail worth noting is',
+    'The practical takeaway is',
+    'For market watchers, the important part is',
+    'This matters because'
+  ];
+  const opening = openings[index % openings.length];
+  return `${opening}: ${trimmed}`;
 }
 
 function findRegulatoryItems(items) {
@@ -221,8 +227,8 @@ function buildDeterministicUpdate(items, snapshot, currentDateStr) {
   const regulatoryItems = findRegulatoryItems(items);
   const marketTone = summarizeMarketTone(snapshot);
 
-  const headlineHtml = headlines.map(item =>
-    `-> <b>${escapeHtml(item.title)}:</b> ${escapeHtml(buildHeadlineSentence(item, snapshot))}<br>`
+  const headlineHtml = headlines.map((item, index) =>
+    `-> <b>${escapeHtml(item.title)}:</b> ${escapeHtml(buildHeadlineSentence(item, snapshot, index))}<br>`
   ).join('\n');
 
   const marketOverview = [
