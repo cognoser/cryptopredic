@@ -54,7 +54,6 @@
       </div>
       <div class="flex items-center gap-4">
         <div class="text-right text-sm text-gray-400">
-          <div id="last-updated">—</div>
           <img src="tcn.jpg" alt="TopCryptosNews" class="h-10 w-auto object-contain" />
         </div>
       </div>
@@ -93,8 +92,8 @@ Regulatory attention remains active in the latest news flow. Tether expands toke
       <section class=" grid grid-cols-1 lg:grid-cols-5 gap-4">
         <div class="lg:col-span-3 bg-gray-800 p-4 rounded-2xl shadow flex flex-col">
           <!-- Responsive chart header -->
-          <div class="flex flex-col sm:flex-col sm:items-center sm:justify-between gap-3 mb-3">
-            <div class="flex flex-col sm:flex-row gap-3 sm:items-end w-full">
+            <div class="flex flex-col sm:flex-col sm:items-center sm:justify-between gap-3 mb-3">
+            <div class="flex flex-col sm:flex-row gap-3 sm:items-center w-full">
               <div>
 
                 <input id="symbolInput" class="bg-gray-900 text-white px-3 py-2 rounded w-full sm:w-36"
@@ -114,7 +113,7 @@ Regulatory attention remains active in the latest news flow. Tether expands toke
                   <!--button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="SOLUSDT">SOL</button-->
                   <!--button class="quick-btn px-2 py-1 sm:px-3 sm:py-2 bg-gray-700 rounded text-sm" data-symbol="DOGEUSDT">DOGE</button-->
 
-                  <div class="ml-4 flex flex-col text-left sm:text-right">
+                  <div class="ml-4 flex items-baseline gap-2 text-left sm:text-right">
                     <div class="text-xs text-gray-400">Live price</div>
                     <div id="price" class="text-lg sm:text-xl font-semibold">—</div>
                     <div id="change" class="text-xs sm:text-sm text-gray-400">—</div>
@@ -270,7 +269,6 @@ Regulatory attention remains active in the latest news flow. Tether expands toke
         const volB = data.quoteVolume ? '$' + (Number(data.quoteVolume)/1e9).toFixed(2) + 'B' : '—';
         chEl.textContent = (ch >= 0 ? '+' : '') + ch.toFixed(2) + '%  ·  vol: ' + volB;
         chEl.style.color = ch >= 0 ? '#34d399' : '#fb7185';
-        $qs('#last-updated').textContent = `Updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
       } catch (err) {
         console.warn('Price fetch failed', err);
         $qs('#price').textContent = '—';
