@@ -9,6 +9,7 @@
   <meta name="description"
     content="Daily crypto bites, top crypto news, live crypto prices, candlestick charts, and a candlestick-pattern predictor." />
   <link href="tailwind.css" rel="stylesheet" />
+  <link href="crypto-pages.css" rel="stylesheet" />
   <style>
     .news-card img {
       width: 120px;
@@ -48,15 +49,16 @@
 
 
   <div class="max-w-7xl mx-auto p-4">
-    <header class="flex items-center justify-between mb-4">
-      <div>
-        <h1 class="text-2xl font-bold">TopCryptosNews</h1>
-      </div>
-      <div class="flex items-center gap-4">
-        <div class="text-right text-sm text-gray-400">
-          <img src="tcn.jpg" alt="TopCryptosNews" class="h-10 w-auto object-contain" />
-        </div>
-      </div>
+    <header class="site-header mb-4">
+      <a href="index.html" class="text-2xl font-bold site-brand">TopCryptosNews</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="cryptocurrencies.html">Cryptos</a>
+        <a href="marketcap.html">Cryptos by Marketcap</a>
+        <a href="todays-article.html">Today's article</a>
+        <a href="candlesticks.html">Candlesticks</a>
+        <a href="insights.html">Guides</a>
+      </nav>
+      <img src="tcn.jpg" alt="TopCryptosNews" class="site-logo" />
     </header>
 
 
@@ -191,7 +193,21 @@ Regulatory attention remains active in the latest news flow. Crypto market maker
       </section>
 
       <section class="bg-gray-800 p-4 rounded-2xl shadow">
-        <h2 class="text-lg font-semibold mb-2">Latest Crypto News</h2>
+        <div class="flex items-center justify-between gap-3 mb-4">
+          <h2 class="text-lg font-semibold">Major Cryptocurrencies</h2>
+          <a href="cryptocurrencies.html" class="text-sm text-blue-300 hover:text-white">View all</a>
+        </div>
+        <div class="crypto-list home-crypto-list">
+          <a href="bitcoin.html" class="crypto-row"><div class="crypto-row-identity"><div class="coin-mark coin-btc" aria-label="Bitcoin symbol">&#8383;</div><h2>Bitcoin</h2><span>BTC</span></div><p>The original cryptocurrency and the market's most watched digital asset. Its proof-of-work network is designed for open settlement without a central operator. Traders often use BTC as the first signal of broader crypto risk appetite.</p></a>
+          <a href="ethereum.html" class="crypto-row"><div class="crypto-row-identity"><div class="coin-mark coin-eth" aria-label="Ethereum symbol">&#926;</div><h2>Ethereum</h2><span>ETH</span></div><p>A programmable blockchain for smart contracts, decentralized applications, stablecoins, and digital assets. ETH pays for activity on the network. Its ecosystem makes network demand and application safety important parts of the story.</p></a>
+          <a href="solana.html" class="crypto-row"><div class="crypto-row-identity"><div class="coin-mark coin-sol" aria-label="Solana symbol">&#8771;</div><h2>Solana</h2><span>SOL</span></div><p>A fast, low-cost network with applications across trading, payments, games, collectibles, and other consumer-focused projects. Its strengths are speed and active development, while reliability and ecosystem concentration remain worth watching.</p></a>
+          <a href="xrp.html" class="crypto-row"><div class="crypto-row-identity"><div class="coin-mark coin-xrp" aria-label="XRP symbol">&#10005;</div><h2>XRP</h2><span>XRP</span></div><p>The native asset of the XRP Ledger, a public network focused on fast settlement and transfers across markets. XRP discussions often combine payments, legal developments, exchange access, and questions about real-world adoption.</p></a>
+          <a href="bnb.html" class="crypto-row"><div class="crypto-row-identity"><div class="coin-mark coin-bnb" aria-label="BNB symbol">&#9670;</div><h2>BNB</h2><span>BNB</span></div><p>The token used across the BNB Chain ecosystem for fees and applications, with close links to the wider Binance ecosystem. Readers should evaluate the exchange, the blockchain, and the token as related but separate subjects.</p></a>
+        </div>
+      </section>
+
+      <section id="latest-news" class="bg-gray-800 p-4 rounded-2xl shadow">
+        <h2 class="text-lg font-semibold mb-2">Today's article</h2>
         <div id="newsList" class="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-96 overflow-auto">
           <p class="text-gray-400 text-sm col-span-full">Loading news...</p>
         </div>
@@ -213,9 +229,8 @@ Regulatory attention remains active in the latest news flow. Crypto market maker
       <p>
         <a href="privacypolicy.html">Privacy Policy</a> |
         <a href="terms.html">Terms of Use</a> |
-        <a href="contact.html">Contact</a>|
-        <a href="about.html">About Us</a> |
-        <a href="insights.html">Guides</a>
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About Us</a>
       </p>
 
       <p>© 2025 <a href="https://topcryptosnews.com"
@@ -756,6 +771,7 @@ Regulatory attention remains active in the latest news flow. Crypto market maker
     });
   </script>
 
+<script src="theme.js"></script>
 </body>
 
 </html>

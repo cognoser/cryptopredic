@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Top Cryptocurrencies by Market Cap - TopCryptosNews</title>
+  <meta name="description" content="A live table of the top 100 cryptocurrencies by market capitalization, with price, volume, and 24-hour movement." />
+  <link href="tailwind.css" rel="stylesheet" />
+  <link href="crypto-pages.css" rel="stylesheet" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9978786369623839" crossorigin="anonymous"></script>
+</head>
+<body class="crypto-page min-h-screen flex flex-col">
+  <header class="border-b border-gray-800 bg-gray-900 sticky top-0 z-50"><div class="crypto-shell py-3"><div class="site-header"><a href="index.html" class="text-xl font-bold text-white site-brand">TopCryptosNews</a><nav class="site-nav" aria-label="Primary navigation"><a href="cryptocurrencies.html">Cryptos</a><a href="marketcap.html">Cryptos by Marketcap</a><a href="index.html#latest-news">Cryptos news</a><a href="candlesticks.html">Candlesticks</a><a href="insights.html">Guides</a></nav><img src="tcn.jpg" alt="TopCryptosNews" class="site-logo" /></div></div></header>
+  <main class="crypto-shell py-8 flex-grow">
+    <section class="crypto-hero"><div class="coin-mark coin-btc">#</div><div><p class="text-blue-300 text-sm font-semibold">LIVE MARKET DATA</p><h1 class="text-2xl font-bold text-white mt-2">Top cryptocurrencies by market cap</h1><p class="text-gray-300 mt-3 leading-relaxed">This table ranks assets by total market value. Rankings and prices move throughout the day, so use the timestamp and source below when comparing entries.</p></div></section>
+    <section class="crypto-card mt-5 overflow-hidden"><div class="flex flex-wrap items-center justify-between gap-3 mb-4"><h2>Top 100 assets</h2><p id="marketcap-status" class="text-sm text-gray-400">Loading live data...</p></div><div class="overflow-x-auto"><table class="w-full text-left text-sm"><thead class="text-gray-400 border-b border-gray-700"><tr><th class="py-3 pr-4">Rank</th><th class="py-3 pr-4">Asset</th><th class="py-3 pr-4">Price</th><th class="py-3 pr-4">24h</th><th class="py-3">Market cap</th></tr></thead><tbody id="marketcap-table" class="divide-y divide-gray-700"><tr><td colspan="5" class="py-5 text-gray-400">Fetching market data...</td></tr></tbody></table></div><p class="crypto-source">Data source: <a href="https://www.coingecko.com/en/api" target="_blank" rel="noopener noreferrer">CoinGecko API</a>. Market capitalization is not a measure of quality or safety.</p></section>
+  </main>
+  <footer class="bg-gray-950 text-gray-400 text-center p-5 text-sm"><p><a href="privacypolicy.html" class="hover:underline">Privacy Policy</a> | <a href="terms.html" class="hover:underline">Terms of Use</a> | <a href="contact.html" class="hover:underline">Contact</a> | <a href="about.html" class="hover:underline">About Us</a></p><p class="mt-2">&copy; 2025 <a href="https://topcryptosnews.com" class="text-blue-400">topcryptosnews.com</a>. All rights reserved.</p></footer>
+  <script>
+    const money = value => Number.isFinite(value) ? '$' + value.toLocaleString(undefined, { maximumFractionDigits: value < 1 ? 6 : 2 }) : '—';
+    const compact = value => Number.isFinite(value) ? '$' + (value >= 1e12 ? (value / 1e12).toFixed(2) + 'T' : value >= 1e9 ? (value / 1e9).toFixed(2) + 'B' : (value / 1e6).toFixed(2) + 'M') : '—';
+    fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=24h')
+      .then(response => { if (!response.ok) throw new Error('Market data unavailable'); return response.json(); })
+      .then(coins => { document.querySelector('#marketcap-status').textContent = `Updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`; document.querySelector('#marketcap-table').innerHTML = coins.map(coin => { const change = Number(coin.price_change_percentage_24h); const color = change >= 0 ? 'text-emerald-400' : 'text-red-400'; return `<tr><td class="py-3 pr-4 text-gray-400">${coin.market_cap_rank}</td><td class="py-3 pr-4"><a class="flex items-center gap-2 text-white hover:text-blue-300" href="https://www.coingecko.com/en/coins/${coin.id}" target="_blank" rel="noopener noreferrer"><img src="${coin.image}" alt="" width="24" height="24" class="rounded-full" loading="lazy"><span>${coin.name} <span class="text-gray-500 uppercase">${coin.symbol}</span></span></a></td><td class="py-3 pr-4 text-gray-200">${money(coin.current_price)}</td><td class="py-3 pr-4 ${color}">${Number.isFinite(change) ? (change >= 0 ? '+' : '') + change.toFixed(2) + '%' : '—'}</td><td class="py-3 text-gray-200">${compact(coin.market_cap)}</td></tr>`; }).join(''); })
+      .catch(error => { document.querySelector('#marketcap-status').textContent = 'Unable to load live data'; document.querySelector('#marketcap-table').innerHTML = `<tr><td colspan="5" class="py-5 text-red-300">${error.message}. Please try again later.</td></tr>`; });
+  </script>
+<script src="theme.js"></script>
+</body>
+</html>
