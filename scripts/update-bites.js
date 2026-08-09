@@ -242,7 +242,7 @@ function buildDeterministicUpdate(items, snapshot, currentDateStr) {
   const marketTone = summarizeMarketTone(snapshot);
 
   const headlineHtml = headlines.map((item, index) =>
-    `-> <b>${escapeHtml(item.title)}:</b> ${escapeHtml(buildHeadlineSentence(item, snapshot, index))}<br>`
+    ` <b>${escapeHtml(item.title)}:</b> ${escapeHtml(buildHeadlineSentence(item, snapshot, index))}<br>`
   ).join('\n');
 
   const marketOverview = [
