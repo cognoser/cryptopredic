@@ -321,6 +321,21 @@
   margin: 1.25rem auto 0;
 }
 
+.article-edition + .article-edition {
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid #334155;
+}
+
+.article-edition-label {
+  margin: 0 0 .35rem;
+  color: #60a5fa !important;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
 .article-byline {
   margin: 0 0 1.2rem;
   color: #94a3b8;

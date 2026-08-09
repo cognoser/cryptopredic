@@ -2,8 +2,9 @@ name: Scheduled Crypto Bites Update
 
 on:
   schedule:
-    # Runs five times daily. GitHub Actions may delay scheduled jobs slightly.
-    - cron: '0 5,8,13,19,23 * * *'
+    # 08:30, 13:30, 18:30, and 23:30 Asia/Kolkata (03:00, 08:00, 13:00, 18:00 UTC).
+    # GitHub Actions may start scheduled jobs a little late.
+    - cron: '0 3,8,13,18 * * *'
   workflow_dispatch:
 
 permissions:

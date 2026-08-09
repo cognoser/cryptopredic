@@ -19,11 +19,14 @@
         <h1>Today's article</h1>
         <p class="article-deck">The market is calmer on the surface than it feels underneath. Bitcoin is holding near $65,000, ETF demand has returned for a few sessions, and traders are leaning harder on derivatives while they wait for a clearer macro and regulatory signal.</p>
       </div>
-      
+      <label class="article-date-picker" for="articleDate">Read another date
+        <input id="articleDate" type="date" value="2026-08-08" min="2026-08-08" max="2026-08-08" aria-label="Choose an article date" />
+      </label>
     </section>
 
     <div id="archiveStatus" class="archive-status" role="status" aria-live="polite"></div>
 
+    <!-- DAILY_ARTICLE_START -->
     <article class="daily-article">
       <p class="article-byline">Saturday, August 8, 2026 · Written for TopCryptosNews</p>
       <p class="article-lead">A full, newsletter-style roundup of today's crypto coverage. Below are consolidated summaries of market moves, fund flows, regulatory developments, stablecoin and tokenization updates, chain and Layer-2 notes, security items, and a focused watchlist. No TL;DR headers — just the complete rundown in one continuous briefing.</p>
@@ -120,6 +123,7 @@
         <p class="article-disclaimer">This article is for information and education. Crypto markets can move sharply, and nothing here is a recommendation to buy or sell an asset.</p>
       </section>
     </article>
+    <!-- DAILY_ARTICLE_END -->
   </main>
 
   <footer class="bg-gray-950 text-gray-400 text-center p-5 text-sm"><p><a href="privacypolicy.html" class="hover:underline">Privacy Policy</a> | <a href="terms.html" class="hover:underline">Terms of Use</a> | <a href="contact.html" class="hover:underline">Contact</a> | <a href="about.html" class="hover:underline">About Us</a></p><p class="mt-2">&copy; 2025 <a href="https://topcryptosnews.com" class="text-blue-400">topcryptosnews.com</a>. All rights reserved.</p></footer>
@@ -128,19 +132,9 @@
     const dateInput = document.getElementById('articleDate');
     const archiveStatus = document.getElementById('archiveStatus');
     const currentArticle = document.body.dataset.articleDate;
-    dateInput.addEventListener('change', async () => {
-      if (!dateInput.value || dateInput.value === currentArticle) {
-        archiveStatus.textContent = '';
-        return;
-      }
-      const archivePath = `articles/${dateInput.value}.html`;
-      try {
-        const response = await fetch(archivePath, { method: 'HEAD' });
-        if (response.ok) window.location.href = archivePath;
-        else archiveStatus.textContent = 'That date has not been published yet.';
-      } catch (error) {
-        archiveStatus.textContent = 'That date has not been published yet.';
-      }
+    dateInput.addEventListener('change', () => {
+      if (!dateInput.value || dateInput.value === currentArticle) return;
+      window.location.href = `articles/${dateInput.value}.html`;
     });
   </script>
 </body>
