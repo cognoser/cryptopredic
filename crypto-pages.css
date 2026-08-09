@@ -346,14 +346,16 @@
   margin-top: 2.1rem;
 }
 
-  .daily-article h2 {
+  .daily-article h2,
+  .daily-article h3 {
     margin: 2.1rem 0 .7rem;
     color: #fff;
     font-size: 1.45rem;
     line-height: 1.25;
   }
 
-  .daily-article > h2:first-child { margin-top: 0; }
+  .daily-article > h2:first-child,
+  .daily-article > h3:first-child { margin-top: 0; }
 
 .daily-article p,
 .daily-article li {
@@ -395,7 +397,8 @@
 body[data-theme="light"] .article-intro,
 body[data-theme="light"] .article-sources { border-color: #cbd5e1; }
 body[data-theme="light"] .article-intro h1,
-body[data-theme="light"] .daily-article h2 { color: #172033; }
+body[data-theme="light"] .daily-article h2,
+body[data-theme="light"] .daily-article h3 { color: #172033; }
 body[data-theme="light"] .article-deck,
 body[data-theme="light"] .daily-article p,
 body[data-theme="light"] .daily-article li { color: #475569; }

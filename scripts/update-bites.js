@@ -87,6 +87,12 @@ function sanitizeGeneratedHtml(html) {
     .trim();
 }
 
+function isCompleteBitesUpdate(html) {
+  const requiredSections = ['Headlines', 'Market Overview', 'Market Sentiment', 'Regulatory Roundup'];
+  return requiredSections.every(section => new RegExp(section, 'i').test(html))
+    && (html.match(/<br\s*\/?>(?:\s*)?->/gi) || []).length >= 4;
+}
+
 function escapeHtml(text) {
   return String(text || '')
     .replace(/&/g, '&amp;')
@@ -309,13 +315,16 @@ async function main() {
     'site:x.com crypto market sentiment today'
   ]);
   const research = providerResearchNotes([...aggregatedNews.map(item => ({ ...item, source: 'RSS feed' })), ...webItems], 18);
-  const bitesPrompt = `Write a concise, factual crypto bites update as clean HTML only. Use exactly four headlines, then sections named Market Overview, Market Sentiment, and Regulatory Roundup. Use the supplied research and market snapshot only. Do not invent facts, prices, analyst opinions, or X posts. If no X results are supplied, do not claim X was searched. Keep the tone conversational and original.\n\nResearch:\n${research}\n\nMarket snapshot:\n${JSON.stringify(marketSnapshot)}\n\nDate: ${currentDateStr}`;
+  const bitesPrompt = `Write a concise, factual crypto bites update as clean HTML only. Follow this exact structure: start with <b>Headlines:</b><br>, then provide exactly four lines in this format: -> <b>Headline:</b> a useful 1-2 sentence explanation with the key context and why it matters.<br>. After the four lines, include sections named Market Overview, Market Sentiment, and Regulatory Roundup, each with a complete paragraph. Do not return four standalone headings and do not omit the explanations beneath them. Use the supplied research and market snapshot only. Do not invent facts, prices, analyst opinions, or X posts. If no X results are supplied, do not claim X was searched. Keep the tone conversational and original.\n\nResearch:\n${research}\n\nMarket snapshot:\n${JSON.stringify(marketSnapshot)}\n\nDate: ${currentDateStr}`;
   let generatedHtml = '';
   if (process.env.GROQ_API_KEY) {
     try { generatedHtml = sanitizeGeneratedHtml(await generateWithGroq(bitesPrompt, { maxTokens: 1600, temperature: 0.45 })); }
     catch (error) { console.warn(`Groq bites generation unavailable; using source-based fallback: ${error.message}`); }
   }
-  if (generatedHtml.length < 300) generatedHtml = buildDeterministicUpdate(aggregatedNews, marketSnapshot, currentDateStr);
+  if (generatedHtml.length < 300 || !isCompleteBitesUpdate(generatedHtml)) {
+    console.warn('Generated Crypto Bites content was incomplete; using the contextual fallback.');
+    generatedHtml = buildDeterministicUpdate(aggregatedNews, marketSnapshot, currentDateStr);
+  }
 
   if (!generatedHtml) {
     console.error('ERROR: Generated empty daily update HTML.');
