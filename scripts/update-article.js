@@ -264,21 +264,29 @@ async function main() {
     return;
   }
   let fragment = '';
-  if (process.env.MODEL_RESPONSE_FILE && fs.existsSync(process.env.MODEL_RESPONSE_FILE)) {
+  let generationProvider = 'source-based fallback';
+  if (process.env.GROQ_API_KEY) {
+    try {
+      fragment = cleanGeneratedFragment(await generateWithGroq(prompt, { maxTokens: 5000 }));
+      generationProvider = 'Groq';
+    } catch (error) { console.warn(`Groq generation unavailable; trying GitHub Models or source-based fallback: ${error.message}`); }
+  }
+  if (!fragment && process.env.MODEL_RESPONSE_FILE && fs.existsSync(process.env.MODEL_RESPONSE_FILE)) {
     fragment = cleanGeneratedFragment(fs.readFileSync(process.env.MODEL_RESPONSE_FILE, 'utf8'));
-  } else if (process.env.GROQ_API_KEY) {
-    try { fragment = cleanGeneratedFragment(await generateWithGroq(prompt, { maxTokens: 3500 })); }
-    catch (error) { console.warn(`Groq generation unavailable; using source-based fallback: ${error.message}`); }
-  } else if (process.env.USE_GITHUB_MODELS === 'true') {
+    generationProvider = 'GitHub Models';
+  } else if (!fragment && process.env.USE_GITHUB_MODELS === 'true') {
     try { fragment = cleanGeneratedFragment(await generateWithGithubModel(prompt)); }
     catch (error) { console.warn(`Model generation unavailable; using source-based fallback: ${error.message}`); }
-  } else {
-    console.log('GitHub Models disabled for scheduled publishing; using source-based fallback.');
+    if (fragment) generationProvider = 'GitHub Models';
   }
-  if (fragment.length < 1200) fragment = fallbackFragment(uniqueItems, snapshot);
+  if (fragment.split(/\s+/).filter(Boolean).length < 700) {
+    console.warn('Generated article was too short; using source-based fallback.');
+    fragment = fallbackFragment(uniqueItems, snapshot);
+    generationProvider = 'source-based fallback';
+  }
 
   const displayDate = new Date(`${today}T00:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
-  const editionData = { date: today, edition, displayDate, fragment, items: researchItems };
+  const editionData = { date: today, edition, displayDate, generationProvider, fragment, items: researchItems };
   fs.writeFileSync(path.join(ARTICLES_DIR, `${today}-${edition}.json`), `${JSON.stringify(editionData, null, 2)}\n`, 'utf8');
   const existingDates = fs.existsSync(MANIFEST_PATH) ? JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8')) : [];
   const dates = [...new Set([today, ...existingDates])].sort().reverse().slice(0, 365);

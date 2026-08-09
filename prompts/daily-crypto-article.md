@@ -82,6 +82,10 @@ The fragment must contain:
 
 Target 1,800 to 2,600 words. Use paragraphs that explain why each fact matters instead of stacking headlines. Include a short source list supplied by the publishing script rather than inventing citations. Do not include a “TL;DR” section. Do not use a headline inside the fragment because the page supplies the title and date.
 
+Target 1,500 to 2,200 words. This must read as one connected daily newsletter, not as a collection of rewritten RSS headlines. Start with the day’s central market story, then connect price action to the specific news, policy, macro, fund-flow, and risk developments that support or challenge that reading. Use transitions between sections and explain why each development matters to an ordinary reader. Do not give every source equal space: select the developments that changed the day’s conversation and briefly explain why less important headlines were left out. Before finishing, check that the article contains several substantial paragraphs, concrete dates or times for time-sensitive events, comparisons between BTC, ETH, and the wider market where supported, and a clear distinction between confirmed reporting and interpretation. Do not pad the article with generic market language or repeat the same point.
+
+The final word-count instruction is 1,500 to 2,200 words; treat any earlier word-count target in this prompt as superseded.
+
 ## Transparency and sources
 
 Linking sources is recommended for this site. It helps readers verify claims, shows where numbers came from, and makes the newsletter more trustworthy. Put direct links in the generated source list and mention the source naturally in the prose for important figures. A source link does not make copied or lightly rewritten material original; the value must come from the site's own selection, explanation, comparison, and context. Never hide uncertainty behind a long source list.
