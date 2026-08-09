@@ -86,7 +86,6 @@ function sanitizeGeneratedHtml(html) {
     .replace(/\son\w+=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, '')
     .replace(/(?:\s*<br\s*\/?>(?:\s*)){2,}/gi, '<br>')
     .replace(/(?:<br>\s*)*(<b>\s*(?:Market Overview|Market Sentiment|Regulatory Roundup)\s*:?[\s\S]*?<\/b>)/gi, '<br><br>$1')
-    .replace(/(<b>\s*(?:Market Overview|Market Sentiment|Regulatory Roundup)\s*:?[\s\S]*?<\/b>)(?!\s*<br>)/gi, '$1<br>')
     .trim();
 }
 

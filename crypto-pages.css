@@ -402,10 +402,7 @@
 
 #daily-update > b:first-child { margin-top: 0; }
 
-#daily-update br + b {
-  display: block;
-  margin-top: 0;
-}
+#daily-update br + b { margin-top: 0; }
 
 body[data-theme="light"] #daily-update h1,
 body[data-theme="light"] #daily-update h2,
