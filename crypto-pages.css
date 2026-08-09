@@ -363,6 +363,54 @@
   line-height: 1.8;
 }
 
+/* Keep generated Crypto Bites readable when a model returns mixed heading tags. */
+#daily-update {
+  display: block;
+  min-width: 0;
+}
+
+#daily-update h1,
+#daily-update h2,
+#daily-update h3,
+#daily-update h4 {
+  margin: 1.35rem 0 .55rem;
+  color: #f8fafc;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#daily-update h1:first-child,
+#daily-update h2:first-child,
+#daily-update h3:first-child,
+#daily-update h4:first-child,
+#daily-update > b:first-child { margin-top: 0; }
+
+#daily-update p {
+  margin: .7rem 0;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+#daily-update > b {
+  display: inline-block;
+  margin-top: 1.35rem;
+  color: #f8fafc;
+  line-height: 1.4;
+}
+
+#daily-update > b:first-child { margin-top: 0; }
+
+#daily-update br + b { margin-top: 1.35rem; }
+
+body[data-theme="light"] #daily-update h1,
+body[data-theme="light"] #daily-update h2,
+body[data-theme="light"] #daily-update h3,
+body[data-theme="light"] #daily-update h4,
+body[data-theme="light"] #daily-update > b { color: #172033; }
+
+body[data-theme="light"] #daily-update p { color: #475569; }
+
 .article-lead {
   color: #e2e8f0 !important;
   font-size: 1.15rem;
