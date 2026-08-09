@@ -45,5 +45,5 @@ jobs:
           fi
 
       - name: Trigger Netlify deploy
-        if: steps.commit.outputs.pushed == 'true' && secrets.NETLIFY_BUILD_HOOK != ''
+        if: steps.commit.outputs.pushed == 'true'
         run: curl --fail --silent --show-error -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
