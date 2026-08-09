@@ -346,12 +346,14 @@
   margin-top: 2.1rem;
 }
 
-.daily-article h2 {
-  margin: 0 0 .7rem;
-  color: #fff;
-  font-size: 1.45rem;
-  line-height: 1.25;
-}
+  .daily-article h2 {
+    margin: 2.1rem 0 .7rem;
+    color: #fff;
+    font-size: 1.45rem;
+    line-height: 1.25;
+  }
+
+  .daily-article > h2:first-child { margin-top: 0; }
 
 .daily-article p,
 .daily-article li {

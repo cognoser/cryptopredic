@@ -11,7 +11,9 @@ const { generateWithGroq, researchNotes: providerResearchNotes, searchWeb } = re
 const FEEDS = [
   'https://www.coindesk.com/arc/outboundfeeds/rss/',
   'https://news.bitcoin.com/feed/',
-  'https://cointelegraph.com/rss'
+  'https://cointelegraph.com/rss',
+  'https://decrypt.co/feed',
+  'https://www.theblock.co/rss.xml'
 ];
 
 const MARKET_DATA_URLS = {
@@ -181,7 +183,28 @@ async function generateWithGithubModel(prompt) {
 }
 
 function sourceList(items) {
-  const links = deduplicate(items).slice(0, 10).map(item => `<li><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a> <span class="source-name">(${escapeHtml(item.source)})</span></li>`);
+  const uniqueItems = deduplicate(items);
+  const selected = [];
+  const hosts = new Set();
+  const sourceName = item => {
+    try { return new URL(item.link).hostname.replace(/^www\./i, ''); }
+    catch { return item.source || 'source'; }
+  };
+  for (const item of uniqueItems) {
+    const host = sourceName(item);
+    if (!hosts.has(host)) {
+      hosts.add(host);
+      selected.push(item);
+    }
+    if (selected.length >= 10) break;
+  }
+  if (selected.length < 10) {
+    for (const item of uniqueItems) {
+      if (!selected.includes(item)) selected.push(item);
+      if (selected.length >= 10) break;
+    }
+  }
+  const links = selected.map(item => `<li><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a> <span class="source-name">(${escapeHtml(sourceName(item))})</span></li>`);
   return `<section class="article-sources"><h2>Sources and further reading</h2><ul>${links.join('')}</ul><p class="article-disclaimer">This article is for information and education. Crypto markets can move sharply, and nothing here is a recommendation to buy or sell an asset.</p></section>`;
 }
 

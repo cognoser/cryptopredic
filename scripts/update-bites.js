@@ -9,7 +9,9 @@ const { generateWithGroq, researchNotes: providerResearchNotes, searchWeb } = re
 const FEEDS = [
   'https://www.coindesk.com/arc/outboundfeeds/rss/',
   'https://news.bitcoin.com/feed/',
-  'https://cointelegraph.com/rss'
+  'https://cointelegraph.com/rss',
+  'https://decrypt.co/feed',
+  'https://www.theblock.co/rss.xml'
 ];
 
 const MARKET_DATA_URLS = {
