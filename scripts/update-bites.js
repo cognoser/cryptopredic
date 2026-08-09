@@ -84,6 +84,7 @@ function sanitizeGeneratedHtml(html) {
     .replace(/<script[\s\S]*?>[\s\S]*?<\/script>/gi, '')
     .replace(/<iframe[\s\S]*?>[\s\S]*?<\/iframe>/gi, '')
     .replace(/\son\w+=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, '')
+    .replace(/(?:\s*<br\s*\/?>(?:\s*)){2,}/gi, '<br>')
     .trim();
 }
 
@@ -268,15 +269,14 @@ function buildDeterministicUpdate(items, snapshot, currentDateStr) {
 
   return `<b>Headlines:</b><br>
 ${headlineHtml}
-<br>
 <b>Market Overview:</b><br>
 ${escapeHtml(marketOverview)}
 
-<br><br>
+<br>
 <b>Market Sentiment:</b><br>
 ${escapeHtml(marketSentiment)}
 
-<br><br>
+<br>
 <b>Regulatory Roundup:</b><br>
 ${escapeHtml(regulatoryRoundup)}
 <br><br>`;

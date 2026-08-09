@@ -367,6 +367,7 @@
 #daily-update {
   display: block;
   min-width: 0;
+  line-height: 1.55;
 }
 
 #daily-update h1,
@@ -387,21 +388,21 @@
 #daily-update > b:first-child { margin-top: 0; }
 
 #daily-update p {
-  margin: .7rem 0;
+  margin: 0;
   color: #cbd5e1;
   line-height: 1.7;
 }
 
 #daily-update > b {
   display: inline-block;
-  margin-top: 1.35rem;
+  margin-top: 0;
   color: #f8fafc;
   line-height: 1.4;
 }
 
 #daily-update > b:first-child { margin-top: 0; }
 
-#daily-update br + b { margin-top: 1.35rem; }
+#daily-update br + b { margin-top: 0; }
 
 body[data-theme="light"] #daily-update h1,
 body[data-theme="light"] #daily-update h2,
