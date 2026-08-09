@@ -85,6 +85,7 @@ function sanitizeGeneratedHtml(html) {
     .replace(/<iframe[\s\S]*?>[\s\S]*?<\/iframe>/gi, '')
     .replace(/\son\w+=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, '')
     .replace(/(?:\s*<br\s*\/?>(?:\s*)){2,}/gi, '<br>')
+    .replace(/(?:<br>\s*)*(<b>\s*(?:Market Overview|Market Sentiment|Regulatory Roundup)\s*:?[\s\S]*?<\/b>)/gi, '<br>$1')
     .trim();
 }
 
