@@ -1,0 +1,463 @@
+{
+  "date": "2026-08-09",
+  "edition": "morning",
+  "displayDate": "Sunday, August 9, 2026",
+  "fragment": "<p class=\"article-lead\">The day's crypto news is a mixture of market positioning, fund flows, policy updates, and company decisions. The headlines below are worth reading for the detail behind them, not just the reaction on a price chart.</p>\n    <section><h2>What is moving the conversation</h2><p><strong>Controversial Bitcoin fork BIP-110 mines two blocks, then stops.</strong> The breakaway chain inherited bitcoin’s mining difficulty with only a tiny share of hashpower, leaving blocks hours apart while both chains still accept the same transactions. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins.</strong> The proposal has scant support from bitcoin miners and influential commentators have also voiced their opposition. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Hardware wallet sales in Russia more than double as new crypto rules near.</strong> Wildberries’ average price for hardware wallets fell 13% to 7,900 rubles, and M.Video broadened its range of products, though neither retailer identified the driving force behind the renewed demand. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Brazil&#39;s central bank orders exchanges to delay large crypto transfers abroad.</strong> The rule applies to transfers above $10,000 and smaller transactions flagged as risky by exchanges. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Trillions in institutional money to flow into bitcoin, says Bitwise&#39;s Matt Hougan.</strong> The digital asset manager&#39;s CIO says large capital pools control up to $200 trillion globally, and just a 1% shift toward bitcoin could unlock massive long-term growth. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF.</strong> The $1.9 trillion asset manager says excluding established memecoins on principle would undermine its active approach to crypto investing. Readers should check the original report before treating the headline as a confirmed change in the market.</p></section>\n    <section><h2>Market context</h2><p>Bitcoin is around $64,795 with a -0.23% 24-hour move, while Ether is around $1,915.15 with a -0.03% move. Those figures are a snapshot, not a forecast. The useful question is whether the move is supported by spot demand, volume, and a clear change in the news.</p><p>When the market is quiet, leverage and liquidity can matter as much as direction. A small headline can move price quickly when traders are positioned too closely on one side.</p></section>\n    <section><h2>What to watch next</h2><ul class=\"article-watchlist\"><li>New ETF creations and redemptions.</li><li>Futures open interest and funding rates.</li><li>Fresh regulatory text or official statements.</li><li>Security warnings, outages, or custody changes.</li><li>Whether the reported developments become live products rather than announcements.</li></ul></section>\n    <p class=\"article-closing\">The fairest reading today is cautious attention. There are real developments in the industry, but none should be stretched into a guaranteed market direction.</p>",
+  "items": [
+    {
+      "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
+      "description": "The breakaway chain inherited bitcoin’s mining difficulty with only a tiny share of hashpower, leaving blocks hours apart while both chains still accept the same transactions.",
+      "link": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
+      "pubDate": "Sun, 09 Aug 2026 05:08:20 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
+      "description": "The proposal has scant support from bitcoin miners and influential commentators have also voiced their opposition.",
+      "link": "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
+      "pubDate": "Sat, 08 Aug 2026 20:06:47 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Hardware wallet sales in Russia more than double as new crypto rules near",
+      "description": "Wildberries’ average price for hardware wallets fell 13% to 7,900 rubles, and M.Video broadened its range of products, though neither retailer identified the driving force behind the renewed demand.",
+      "link": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
+      "pubDate": "Sat, 08 Aug 2026 17:48:02 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+      "description": "The rule applies to transfers above $10,000 and smaller transactions flagged as risky by exchanges.",
+      "link": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
+      "pubDate": "Sat, 08 Aug 2026 15:25:38 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
+      "description": "The digital asset manager's CIO says large capital pools control up to $200 trillion globally, and just a 1% shift toward bitcoin could unlock massive long-term growth.",
+      "link": "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
+      "pubDate": "Sat, 08 Aug 2026 14:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+      "description": "The $1.9 trillion asset manager says excluding established memecoins on principle would undermine its active approach to crypto investing.",
+      "link": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
+      "pubDate": "Sat, 08 Aug 2026 13:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+      "description": "The majority leader opened the multi-stage process the Senate follows when trying to get a bill over its 60-vote hurdle, so it's still got a shot in September.",
+      "link": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
+      "pubDate": "Sat, 08 Aug 2026 09:07:24 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "description": "BTCPay told users running LND to update immediately or take servers offline after attackers stole credentials that can control Lightning wallets and move funds.",
+      "link": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
+      "pubDate": "Sat, 08 Aug 2026 07:46:04 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "description": "A new XRPL amendment proposal would let institutions encrypt token balances and transfer amounts while still giving issuers, auditors and regulators selective access.",
+      "link": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
+      "pubDate": "Sat, 08 Aug 2026 03:30:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+      "description": "If a minority chain appears this weekend, buyers could replay signed fork-coin sales on bitcoin itself, making doing nothing the safest move until the chains can be separated.",
+      "link": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
+      "pubDate": "Sat, 08 Aug 2026 02:30:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+      "description": "The Truth Social parent company is refocusing on media and its pending merger with a fusion energy firm, as the digital asset treasury boom has lost its steam.",
+      "link": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
+      "pubDate": "Fri, 07 Aug 2026 21:13:21 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
+      "description": "Mateen purchased more than 306,000 shares across two days following the company's quarterly earnings, lifting his stake to more than 492,000 shares.",
+      "link": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
+      "pubDate": "Fri, 07 Aug 2026 20:20:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "description": "The Treasury's OFAC targeted Shelbit and Aban Tether as Washington continues its effort to cut Tehran's access to crypto and foreign currency.",
+      "link": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "pubDate": "Fri, 07 Aug 2026 18:42:44 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "BitMEX sale collapsed as buyers balked at founder ownership and shrinking business",
+      "description": "Potential buyers, including Exodus, passed on BitMEX amid concerns over founder ownership and its shrinking business, according to a source familiar.",
+      "link": "https://www.coindesk.com/business/2026/07/31/bitmex-sale-collapsed-as-buyers-balked-at-founder-ownership-and-shrinking-business",
+      "pubDate": "Fri, 07 Aug 2026 16:53:56 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bybit sues North Korea and Lazarus Group over $1.5 billion hack, secures asset freeze",
+      "description": "The exchange has secured a preliminary injunction freezing stolen assets.",
+      "link": "https://www.coindesk.com/policy/2026/08/07/bybit-sues-north-korea-and-lazarus-group-over-usd1-5-billion-hack-secures-asset-freeze",
+      "pubDate": "Fri, 07 Aug 2026 16:32:41 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
+      "description": "The OKX executive says Democrats have little incentive to hand Republicans a crypto victory before the midterms.",
+      "link": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
+      "pubDate": "Fri, 07 Aug 2026 15:22:44 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "How a five-second trick let traders drain millions from Polymarket",
+      "description": "After months of public warnings from onchain analysts, the prediction market is moving to time-weighted prices to make artificial price pushes too costly.",
+      "link": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
+      "pubDate": "Fri, 07 Aug 2026 15:09:07 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "A part of FTX survived, and it’s the case for the CLARITY Act",
+      "description": "When FTX collapsed, the parts of it bound by law survived. Mainstream finance is now converging with digital assets, and the law built to protect it the same way is the one the Senate did not pass this week, argues Bullish's Randi Abernethy.",
+      "link": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
+      "pubDate": "Fri, 07 Aug 2026 14:30:25 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
+      "description": "The FSB said at least 20 individuals were arrested in connection with a ring that scammed an undetermined number of Russian citizens.",
+      "link": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
+      "pubDate": "Fri, 07 Aug 2026 14:04:47 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
+      "description": "The chances of a Federal Reserve rate hike at its next meeting in September have slipped below 50% in the aftermath of the report.",
+      "link": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
+      "pubDate": "Fri, 07 Aug 2026 12:31:51 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "After a Clarity Act funeral, the crypto world would keep turning",
+      "description": "With the U.S. crypto bill missing a crucial window before the Senate hangs its closed-for-summer sign, the alternatives are getting more attention.",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
+      "pubDate": "Fri, 07 Aug 2026 12:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+      "description": "BIP-110 has attracted only a sliver of miner support, yet its user-activated design means the proposal continues toward its activation date and (most likely) beyond.",
+      "link": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
+      "pubDate": "Fri, 07 Aug 2026 11:45:49 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin’s volatility has nearly disappeared. The risk hasn’t.",
+      "description": "Your day-ahead look for Aug. 7, 2026",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
+      "pubDate": "Fri, 07 Aug 2026 11:42:20 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
+      "description": "Brent crude has meanwhile moved to over $83 a barrel after Yemen’s Iran-linked Houthis attacked Saudi Arabia, further escalating tensions in the Middle East.",
+      "link": "https://www.coindesk.com/markets/2026/08/07/cmt",
+      "pubDate": "Fri, 07 Aug 2026 10:36:14 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
+      "description": "Roughly 200,000 bitcoin have moved from long-term holder wallets in the past week, suggesting a possible shift in custody rather than conventional selling",
+      "link": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
+      "pubDate": "Fri, 07 Aug 2026 09:24:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Stolen Bitcoin at Center of Kidnapping Plot, 3 Face 20 Years",
+      "description": "Federal prosecutors charged three St. Louis men over a plan to storm a Connecticut home and force a transfer of bitcoin tied to a theft worth hundreds of millions. Each faces up to 20 years in prison. Grand Jury Returns Second Superseding Indictment in New Haven U.S. Attorney David X. Sullivan for the District of [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/stolen-bitcoin-at-center-of-kidnapping-plot-3-face-20-years/",
+      "pubDate": "Sun, 09 Aug 2026 05:30:32 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "67 Investors Paid $10M for NFT Tokens That Launched Worthless",
+      "description": "Federal prosecutors say Few and Far founder Taj Tarsha raised more than $10 million from 67 investors, then allegedly spent investor money on gambling, crypto, and personal expenses. The NFT project’s FAR token later plunged more than 99%. Founder Indicted Over $10 Million NFT Marketplace Raise The U.S. Department of Justice (DOJ) announced Aug. 5 [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/67-investors-paid-10m-for-nft-tokens-that-launched-worthless/",
+      "pubDate": "Sun, 09 Aug 2026 03:30:36 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Ripple Says EU Crypto Expansion Is Ready to Scale After MiCA Win",
+      "description": "Ripple says the regulatory groundwork for its European crypto business is now in place, shifting its focus from winning approvals to scaling. The push follows full MiCA authorization as Europe tightens rules for crypto service providers. Ripple Declares Europe Ready for Its Next Phase Ripple said in an Aug. 5, 2026, insight that the regulatory [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/ripple-says-eu-crypto-expansion-is-ready-to-scale-after-mica-win/",
+      "pubDate": "Sun, 09 Aug 2026 01:30:40 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Bitcoin&#8217;s Splintered BIP-110 Fork Falls Behind by 18 Blocks",
+      "description": "At 7:56 p.m. EDT on Saturday, Following Bitcoin’s chain split at block height 961632, BIP-110-aligned mining pool Roughnecks managed to squeeze out a second block at height 961633, while the main chain has already left it in the dust at 961651. After two years of bitter bickering, Bitcoin has blown past the BIP-110 signaling line [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/bitcoins-splintered-bip-110-fork-falls-behind-by-18-blocks/",
+      "pubDate": "Sun, 09 Aug 2026 00:45:08 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Michael Saylor Identifies the Next Billion-Dollar Finance Opportunity",
+      "description": "Michael Saylor has identified what he believes could become the next billion-dollar opportunity in finance. The Strategy executive chairman advised entrepreneurs and investors to examine an emerging market that could reshape how companies and investors access capital. Saylor Points Investors Toward a Billion-Dollar Finance Opportunity Strategy Inc. (Nasdaq: MSTR) Executive Chairman Michael Saylor shared his [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/michael-saylor-identifies-the-next-billion-dollar-finance-opportunity/",
+      "pubDate": "Sat, 08 Aug 2026 23:50:37 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "CLARITY Act Heads Toward Sept. 15 Senate Vote as Crypto Bill Advances",
+      "description": "The U.S. Senate is positioning the Digital Asset Market Clarity Act for a potential Sept. 15 procedural vote, moving the major crypto market structure bill closer to floor consideration. CLARITY Act Faces Sept. 15 Senate Procedural Test Digital asset legislation will return to the center of the Senate agenda as lawmakers prepare for a key [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/clarity-act-heads-toward-sept-15-senate-vote-as-crypto-bill-advances/",
+      "pubDate": "Sat, 08 Aug 2026 23:05:06 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Ethereum Whale Capitulates After 3 Years, Losses Top $19 Million",
+      "description": "An ethereum whale who bought in during 2022 and 2023 capitulated on August 8, selling at a loss now exceeding $19 million, the same day a separate fresh wallet received $87.28 million in bitcoin from Galaxy Digital. Three Years, One Capitulation Onchain sleuths flagged the exit, tracking a wallet that had held its Ethereum position [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/ethereum-whale-19-million-loss-galaxy-digital-bitcoin-transfer/",
+      "pubDate": "Sat, 08 Aug 2026 22:29:00 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Crypto Weekly: ADA and Privacy Coins Outperform While XRP Slides",
+      "description": "The aggregate crypto market cap rose from under $2.2 trillion to $2.9 trillion during the first week of August 2026. Bitcoin gained over 3% to peak above $65,300, pushing its market cap past $1.3 trillion while Cardano logged a second week of double-digit gains. Bitcoin Reclaims $65,000 Despite CLARITY Act Setback The first week of [&#8230;]",
+      "link": "https://news.bitcoin.com/market-updates/crypto-weekly-ada-and-privacy-coins-outperform-while-xrp-slides/",
+      "pubDate": "Sat, 08 Aug 2026 21:46:40 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "BIP-110 Splits Bitcoin as Rival Miners Clash at Block 961632",
+      "description": "Onchain data confirms the BIP-110 activation period is live, and Bitcoin’s blockchain has fractured into two versions. Stats show Bitcoin block 961632 was mined by mining heavyweight Antpool, while BIP-110 supporter Roughnecks produced a rival version of block 961632. Rival Miners Split Bitcoin at Block 961632 Several monitoring sites, including forkwatch.tv and the web portal [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/bip-110-splits-bitcoin-as-rival-miners-clash-at-block-961632/",
+      "pubDate": "Sat, 08 Aug 2026 20:58:03 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "France Pushes Bill to Share Crypto Tax Data With 48 Nations",
+      "description": "A new bill, presented by Jean-Noël Barrot, Minister for Europe and Foreign Affairs, would expand the exchange of cryptocurrency activity data with 48 nations to curb tax evasion. The bill would allow the automatic exchange of this data with countries outside the EU. France Seeks Automatic Exchange of Crypto Data With New Bill France is [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/france-pushes-bill-to-share-crypto-tax-data-with-48-nations/",
+      "pubDate": "Sat, 08 Aug 2026 19:52:56 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "BTCPay restricts remote Lightning access after attackers steal funds",
+      "description": "Foundation and Citadel21 reported drained Lightning nodes, but the total amount stolen and number of affected operators remain unknown.",
+      "link": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sun, 09 Aug 2026 05:46:07 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin’s BIP-110 enters mandatory signaling with miner support below 3%",
+      "description": "The deployment milestone tests whether enforcing nodes can sustain the change amid limited miner signaling and discussion of a hard-fork fallback.",
+      "link": "https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 21:17:08 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 17:19:56 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US spot Bitcoin ETFs post best week since April with $1B inflows",
+      "description": "The spot Bitcoin exchange-traded funds registered their third-strongest showing since October as institutional demand showed signs of renewed momentum.",
+      "link": "https://cointelegraph.com/news/us-bitcoin-etfs-best-weekly-inflows-april-coldcard-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 16:20:17 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US Senate to vote on advancing CLARITY Act in September after Thune files cloture",
+      "description": "The procedural move puts crypto market structure legislation back on track as lawmakers continue negotiations over ethics and stablecoin provisions.",
+      "link": "https://cointelegraph.com/news/us-senate-clarity-act-september-vote-thune-cloture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 15:08:06 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin will never fall below $60K again: Nansen founder",
+      "description": "Crypto is growing up thanks to trading in real world assets, and Bitcoin will never dip below $60K again, says Nansen founder founder Alex Svanevik.",
+      "link": "https://cointelegraph.com/magazine/bitcoin-will-never-fall-below-60k-again-nansen-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 13:30:00 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "description": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
+      "link": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 06:21:08 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US court backs Bybit’s bid to trace funds from $1.5B North Korea hack",
+      "description": "Expedited discovery allows the exchange to seek account identities, balances and transaction histories from platforms with US operations.",
+      "link": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 08 Aug 2026 04:11:53 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Donald Trump’s media company to terminate Crypto.com deal",
+      "description": "The president’s company will unwind an agreement with Crypto.com to create a multibillion-dollar CRO treasury and reportedly not integrate prediction markets onto Truth Social.",
+      "link": "https://cointelegraph.com/news/donald-trump-media-company-crypto-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 21:39:36 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
+      "description": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.",
+      "link": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 20:02:20 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Circle expands USDC to OKX ecosystem with X Layer launch",
+      "description": "The rollout gives X Layer users access to Circle-issued USDC and crosschain transfers as the stablecoin expands across major blockchain ecosystems.",
+      "link": "https://cointelegraph.com/news/circle-native-usdc-okx-x-layer-cctp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 17:36:45 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Reform UK chair calls for probe into SBF-linked donation: Report",
+      "description": "As the chairman of the Reform UK calls for an investigation into a FTX-linked political donation, the party’s leader prepares to face voters amid his own crypto-related scandal.",
+      "link": "https://cointelegraph.com/news/reform-uk-probe-ftx-sam-bankman-fried-donation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 17:03:50 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
+      "description": "Bitcoin hit month-to-date highs above $65,000 as risk-assets gained on low US nonfarm payrolls data.",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-tags-653k-august-high-as-low-us-jobs-numbers-cool-fed-rate-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 15:23:15 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Crypto Biz: Crypto’s biggest business is starting to look a lot like banking",
+      "description": "Crypto business is converging with banking as stablecoin reserves, tokenized funds, Treasury income and balance sheet management become key profit drivers.",
+      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 15:07:49 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Fierce backlash to Ethereum’s EIP-8363 staking proposal",
+      "description": "Ethereum’s proposed EIP-8363 staking overhaul aims to reduce issuance, but critics say it could hurt DeFi, decentralization and institutional adoption.",
+      "link": "https://cointelegraph.com/magazine/fierce-backlash-to-ethereums-latest-staking-proposal-eip-8363?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 13:30:00 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoiners turn to dice throws as self-custody setups are re-evaluated",
+      "description": "Dice entropy may become the new gold standard after the Coldcard hack",
+      "link": "https://cointelegraph.com/features/bitcoiners-turn-to-dice-throws-as-self-custody-setups-are-re-evaluated?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 13:00:01 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Russia cracks down on 9 crypto exchanges in Moscow City",
+      "description": "Russia has shut down nine unregistered crypto exchanges in Moscow, with the FSB alleging they helped move scam proceeds abroad through Ukrainian call centers.",
+      "link": "https://cointelegraph.com/news/russia-shuts-down-crypto-exchanges-moscow-city?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 12:28:41 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "CEX perpetual futures volume falls to $4T, lowest since late 2023",
+      "description": "Perpetual futures trading volume on crypto exchanges fell to its lowest level in 31 months, while perpetual trading on decentralized platforms neared a one-year low.",
+      "link": "https://cointelegraph.com/news/cex-futures-volume-falls-4t-july-lowest-level-2023?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 12:13:40 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Binance Bitcoin volume ratio hits record as futures outweigh spot eight times over",
+      "description": "Binance saw a record divergence between daily spot and futures trading volumes, with the latter reaching nearly $58 billion.",
+      "link": "https://cointelegraph.com/markets/binance-bitcoin-volume-ratio-hits-record-as-futures-outweigh-spot-eight-times-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 11:05:01 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "CleanSpark misses Wall Street revenue estimates as shares sink",
+      "description": "CleanSpark’s shares fell 5.5% on Thursday after the Bitcoin miner reported $138 million in quarterly revenue, narrowly missing Wall Street’s consensus estimate.",
+      "link": "https://cointelegraph.com/news/cleanspark-wall-street-revenue-estimates-shares-sink?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 09:25:56 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Stripe-owned Bridge joins EU MiCA register after Luxembourg approval",
+      "description": "Stripe-owned Bridge has entered the EU MiCA register following Luxembourg approval, joining regulated providers under the bloc’s crypto framework.",
+      "link": "https://cointelegraph.com/news/bridge-mica-stablecoin-issuer-esma-register?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 09:14:17 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "CLARITY Act delay gives Asian financial hubs an opening: First Digital CEO",
+      "description": "Industry figures warned that continued legislative limbo could slow institutional adoption, revive regulation by enforcement and push innovation offshore.",
+      "link": "https://cointelegraph.com/news/clarity-act-delay-asian-crypto-hubs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 09:01:14 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Coldcard exploit pushes July losses to $247M as second-worst month of 2026",
+      "description": "The Coldcard exploit, which caused more than $100 million in losses, helped push July crypto thefts to $247 million, making it the second-worst month of 2026.",
+      "link": "https://cointelegraph.com/news/coldcard-exploit-july-second-worst-month-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 07:59:42 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Japan FSA asks crypto exchanges to impose withdrawal delays to fight scams",
+      "description": "Japanese authorities called for address registration, customer-specific limits and stronger authentication as part of a broader push to curb misuse of exchange accounts.",
+      "link": "https://cointelegraph.com/news/japan-fsa-crypto-exchanges-withdrawal-delays-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 05:24:38 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Proposed CLARITY ethics deal could save Trump millions in taxes: Bloomberg",
+      "description": "The latest bipartisan ethics proposal would reportedly require Trump to divest crypto businesses while allowing him to defer capital gains taxes on those sales.",
+      "link": "https://cointelegraph.com/news/proposed-clarity-ethics-deal-could-save-trump-millions-in-taxes-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 05:04:22 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitget explores licensed crypto presence in Bhutan",
+      "description": "Crypto exchange Bitget has signed an agreement with Gelephu Mindfulness City Authority to pursue a regulated local presence.",
+      "link": "https://cointelegraph.com/news/bitget-explores-licensed-crypto-presence-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 03:22:26 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US Senate pushes CLARITY Act vote to September",
+      "description": "Senate Majority Leader John Thune confirmed that the chamber was “punting” the vote until September.",
+      "link": "https://cointelegraph.com/news/us-senate-pushes-clarity-act-vote-to-september-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 02:49:53 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "MARA swings to Q2 loss as Bitcoin’s slump masks higher output",
+      "description": "Bitcoin miner MARA posted its highest quarterly Bitcoin production in over a year, but was overshadowed by a 28% decline in the average price of Bitcoin.",
+      "link": "https://cointelegraph.com/markets/mara-swings-to-q2-loss-as-bitcoins-slump-masks-higher-output?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 02:17:07 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Crypto market maker Wintermute launches US broker-dealer",
+      "description": "Wintermute said the registration allows the firm to position itself for the growth of tokenized securities in the US.",
+      "link": "https://cointelegraph.com/news/crypto-market-maker-wintermute-launches-us-broker-dealer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 07 Aug 2026 00:09:47 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Following primary loss, crypto PACs invest $1.5M in 3 US state races",
+      "description": "The Defend American Jobs and Protect Progress PACs reported spending more than $1.5 million on media for four House and Senate races ahead of Aug. 18 primary elections.",
+      "link": "https://cointelegraph.com/news/crypto-pac-florida-alaska-wyoming-primary-races?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 06 Aug 2026 21:11:19 +0000",
+      "source": "cointelegraph.com"
+    }
+  ]
+}
