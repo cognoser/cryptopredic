@@ -21,7 +21,7 @@
         <p class="article-deck">The market is calmer on the surface than it feels underneath. Bitcoin is holding near $65,000, ETF demand has returned for a few sessions, and traders are leaning harder on derivatives while they wait for a clearer macro and regulatory signal.</p>
       </div>
       <label class="article-date-picker" for="articleDate">Read another date
-        <input id="articleDate" type="date" value="2026-08-08" min="2026-08-08" max="2026-08-08" aria-label="Choose an article date" />
+        <input id="articleDate" type="date" value="2026-08-08" min="2026-08-08" max="2026-08-09" aria-label="Choose an article date" />
       </label>
     </section>
 
@@ -135,7 +135,9 @@
     const currentArticle = document.body.dataset.articleDate;
     dateInput.addEventListener('change', () => {
       if (!dateInput.value || dateInput.value === currentArticle) return;
-      window.location.href = `articles/${dateInput.value}.html`;
+      window.location.href = dateInput.value === '2026-08-09'
+        ? '../todays-article.html'
+        : `../articles/${dateInput.value}.html`;
     });
   </script>
 </body>
