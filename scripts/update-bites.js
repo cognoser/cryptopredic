@@ -91,7 +91,10 @@ function sanitizeGeneratedHtml(html) {
 
 function isCompleteBitesUpdate(html) {
   const requiredSections = ['Headlines', 'Market Overview', 'Market Sentiment', 'Regulatory Roundup'];
+  const labelsHaveLineBreaks = ['Market Overview', 'Market Sentiment', 'Regulatory Roundup']
+    .every(section => new RegExp(`<b>\\s*${section}\\s*:?[\\s\\S]*?<\\/b>\\s*<br>`, 'i').test(html));
   return requiredSections.every(section => new RegExp(section, 'i').test(html))
+    && labelsHaveLineBreaks
     && (html.match(/<br\s*\/?>(?:\s*)?->/gi) || []).length >= 4;
 }
 
