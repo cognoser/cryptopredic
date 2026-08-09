@@ -26,7 +26,7 @@ jobs:
       - name: Generate and archive today's article
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ARTICLE_MODEL: openai/gpt-4o-mini
+          ARTICLE_MODEL: openai/gpt-4.1-mini
         run: node scripts/update-article.js
 
       - name: Commit and push article archive

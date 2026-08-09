@@ -150,24 +150,33 @@ function fallbackFragment(items, snapshot) {
 
 async function generateWithGithubModel(prompt) {
   if (!process.env.GITHUB_TOKEN) return '';
-  const response = await fetch('https://models.github.ai/inference/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/vnd.github+json',
-      'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`,
-      'X-GitHub-Api-Version': '2022-11-28',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      model: process.env.ARTICLE_MODEL || 'openai/gpt-4o-mini',
-      temperature: 0.65,
-      max_tokens: 3500,
-      messages: [{ role: 'user', content: prompt }]
-    })
-  });
-  if (!response.ok) throw new Error(`GitHub Models returned ${response.status}: ${await response.text()}`);
-  const data = await response.json();
-  return data.choices?.[0]?.message?.content || '';
+  const configuredModel = process.env.ARTICLE_MODEL || 'openai/gpt-4.1-mini';
+  const models = [...new Set([configuredModel, 'openai/gpt-4.1'])];
+  let lastError = 'No model response.';
+  for (const model of models) {
+    const response = await fetch('https://models.github.ai/inference/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/vnd.github+json',
+        'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`,
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model,
+        temperature: 0.65,
+        max_tokens: 3500,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (response.ok) {
+      const data = await response.json();
+      return data.choices?.[0]?.message?.content || '';
+    }
+    lastError = `GitHub Models (${model}) returned ${response.status}: ${await response.text()}`;
+    console.warn(lastError);
+  }
+  throw new Error(lastError);
 }
 
 function sourceList(items) {
