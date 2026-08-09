@@ -21,7 +21,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Prepare article research prompt
         env:
@@ -37,7 +37,7 @@ jobs:
         with:
           prompt-file: .tmp/article-prompt.txt
           model: openai/gpt-4.1
-          max-completion-tokens: 3500
+          max-tokens: 3500
 
       - name: Save model response
         env:
