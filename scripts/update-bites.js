@@ -3,6 +3,7 @@ const path = require('path');
 
 // Target file
 const INDEX_HTML_PATH = path.join(__dirname, '..', 'index.html');
+const { generateWithGroq, researchNotes: providerResearchNotes, searchWeb } = require('./ai-providers');
 
 // RSS Feeds to fetch news from
 const FEEDS = [
@@ -300,7 +301,19 @@ async function main() {
   }) + ' (UTC)';
 
   const marketSnapshot = await fetchMarketSnapshot();
-  let generatedHtml = buildDeterministicUpdate(aggregatedNews, marketSnapshot, currentDateStr);
+  const webItems = await searchWeb([
+    'latest Bitcoin Ethereum crypto news market today',
+    'crypto regulation ETF institutional flows today',
+    'site:x.com crypto market sentiment today'
+  ]);
+  const research = providerResearchNotes([...aggregatedNews.map(item => ({ ...item, source: 'RSS feed' })), ...webItems], 18);
+  const bitesPrompt = `Write a concise, factual crypto bites update as clean HTML only. Use exactly four headlines, then sections named Market Overview, Market Sentiment, and Regulatory Roundup. Use the supplied research and market snapshot only. Do not invent facts, prices, analyst opinions, or X posts. If no X results are supplied, do not claim X was searched. Keep the tone conversational and original.\n\nResearch:\n${research}\n\nMarket snapshot:\n${JSON.stringify(marketSnapshot)}\n\nDate: ${currentDateStr}`;
+  let generatedHtml = '';
+  if (process.env.GROQ_API_KEY) {
+    try { generatedHtml = sanitizeGeneratedHtml(await generateWithGroq(bitesPrompt, { maxTokens: 1600, temperature: 0.45 })); }
+    catch (error) { console.warn(`Groq bites generation unavailable; using source-based fallback: ${error.message}`); }
+  }
+  if (generatedHtml.length < 300) generatedHtml = buildDeterministicUpdate(aggregatedNews, marketSnapshot, currentDateStr);
 
   if (!generatedHtml) {
     console.error('ERROR: Generated empty daily update HTML.');

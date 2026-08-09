@@ -6,6 +6,7 @@ const ARTICLE_TEMPLATE = path.join(ROOT, 'todays-article.html');
 const PROMPT_PATH = path.join(ROOT, 'prompts', 'daily-crypto-article.md');
 const ARTICLES_DIR = path.join(ROOT, 'articles');
 const MANIFEST_PATH = path.join(ARTICLES_DIR, 'index.json');
+const { generateWithGroq, researchNotes: providerResearchNotes, searchWeb } = require('./ai-providers');
 
 const FEEDS = [
   'https://www.coindesk.com/arc/outboundfeeds/rss/',
@@ -216,22 +217,45 @@ async function main() {
     catch (error) { console.warn(`Feed unavailable: ${feed}: ${error.message}`); }
   }
   const uniqueItems = deduplicate(items);
+  const webItems = await searchWeb([
+    'latest crypto market news Bitcoin Ethereum ETF flows today',
+    'crypto regulation stablecoins ETFs legal developments today',
+    'crypto macro economy markets dollar rates geopolitics today',
+    'site:x.com crypto market sentiment Bitcoin Ethereum today'
+  ]);
+  const researchItems = deduplicate([...uniqueItems, ...webItems]);
   const edition = getEdition();
   const snapshot = await fetchSnapshot();
   const promptTemplate = fs.readFileSync(PROMPT_PATH, 'utf8');
   const xSourceNotes = process.env.X_SOURCE_NOTES || 'No X/Twitter source notes were supplied for this run. Do not claim that social posts were searched.';
   const prompt = promptTemplate
-    .replace('{{SOURCE_NOTES}}', sourceNotes(uniqueItems))
-    .replace('{{X_SOURCE_NOTES}}', xSourceNotes)
+    .replace('{{SOURCE_NOTES}}', providerResearchNotes(researchItems))
+    .replace('{{X_SOURCE_NOTES}}', process.env.X_SOURCE_NOTES || providerResearchNotes(webItems.filter(item => /(?:x\.com|twitter\.com)/i.test(item.link))) || 'No X/Twitter source notes were supplied for this run. Do not claim that social posts were searched.')
     .replace('{{MARKET_SNAPSHOT}}', snapshotText(snapshot))
     .concat(`\n\nEdition focus: This is the ${edition} edition. The morning edition should emphasize overnight developments and the Asia/Europe handoff; the evening edition should incorporate Europe/U.S. developments and explain what changed since the morning edition.`);
+  if (process.env.PREPARE_AI_PROMPT === 'true') {
+    const promptPath = process.env.AI_PROMPT_PATH || path.join(ROOT, '.tmp', 'article-prompt.txt');
+    fs.mkdirSync(path.dirname(promptPath), { recursive: true });
+    fs.writeFileSync(promptPath, prompt, 'utf8');
+    console.log(`Prepared article prompt: ${promptPath}`);
+    return;
+  }
   let fragment = '';
-  try { fragment = cleanGeneratedFragment(await generateWithGithubModel(prompt)); }
-  catch (error) { console.warn(`Model generation unavailable: ${error.message}`); }
+  if (process.env.MODEL_RESPONSE_FILE && fs.existsSync(process.env.MODEL_RESPONSE_FILE)) {
+    fragment = cleanGeneratedFragment(fs.readFileSync(process.env.MODEL_RESPONSE_FILE, 'utf8'));
+  } else if (process.env.GROQ_API_KEY) {
+    try { fragment = cleanGeneratedFragment(await generateWithGroq(prompt, { maxTokens: 3500 })); }
+    catch (error) { console.warn(`Groq generation unavailable; using source-based fallback: ${error.message}`); }
+  } else if (process.env.USE_GITHUB_MODELS === 'true') {
+    try { fragment = cleanGeneratedFragment(await generateWithGithubModel(prompt)); }
+    catch (error) { console.warn(`Model generation unavailable; using source-based fallback: ${error.message}`); }
+  } else {
+    console.log('GitHub Models disabled for scheduled publishing; using source-based fallback.');
+  }
   if (fragment.length < 1200) fragment = fallbackFragment(uniqueItems, snapshot);
 
   const displayDate = new Date(`${today}T00:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
-  const editionData = { date: today, edition, displayDate, fragment, items: uniqueItems };
+  const editionData = { date: today, edition, displayDate, fragment, items: researchItems };
   fs.writeFileSync(path.join(ARTICLES_DIR, `${today}-${edition}.json`), `${JSON.stringify(editionData, null, 2)}\n`, 'utf8');
   const existingDates = fs.existsSync(MANIFEST_PATH) ? JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8')) : [];
   const dates = [...new Set([today, ...existingDates])].sort().reverse().slice(0, 365);

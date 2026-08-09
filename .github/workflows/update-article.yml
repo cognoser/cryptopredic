@@ -23,10 +23,36 @@ jobs:
         with:
           node-version: 20
 
+      - name: Prepare article research prompt
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          PREPARE_AI_PROMPT: 'true'
+          AI_PROMPT_PATH: .tmp/article-prompt.txt
+        run: node scripts/update-article.js
+
+      - name: Generate article with GitHub Models
+        id: inference
+        continue-on-error: true
+        uses: actions/ai-inference@v1
+        with:
+          prompt-file: .tmp/article-prompt.txt
+          model: openai/gpt-4.1
+          max-completion-tokens: 3500
+
+      - name: Save model response
+        env:
+          AI_RESPONSE: ${{ steps.inference.outputs.response }}
+        run: |
+          if [ -n "$AI_RESPONSE" ]; then
+            printf '%s' "$AI_RESPONSE" > .tmp/article-response.txt
+          fi
+
       - name: Generate and archive today's article
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ARTICLE_MODEL: openai/gpt-4.1-mini
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          MODEL_RESPONSE_FILE: .tmp/article-response.txt
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: llama-3.3-70b-versatile
         run: node scripts/update-article.js
 
       - name: Commit and push article archive
