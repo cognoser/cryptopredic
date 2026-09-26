@@ -1,0 +1,982 @@
+{
+  "date": "2026-09-26",
+  "edition": "evening",
+  "displayDate": "Saturday, September 26, 2026",
+  "generationProvider": "source-based fallback",
+  "fragment": "<p class=\"article-lead\">The day's crypto news is a mixture of market positioning, fund flows, policy updates, and company decisions. The headlines below are worth reading for the detail behind them, not just the reaction on a price chart.</p>\n    <section><h2>What is moving the conversation</h2><p><strong>Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange.</strong> Kraken parent Payward is unifying trading, payments, asset management and institutional services on common rails, co-CEO Arjun Sethi said. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Binance deal gives Circle a boost in stablecoin race with Tether, analysts say.</strong> The five-year deal could strengthen USDC’s reach in emerging markets, though Tether’s liquidity advantage remains hard to dislodge, analysts told CoinDesk. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze.</strong> Two wallets have been almost emptied and a third is being drained, with about $75 million remaining across the five original holding accounts. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin could soon get Zcash-style &#39;shielded&#39; privacy without changing its rules.</strong> Researchers have mapped out private bitcoin-denominated transfers that run alongside Bitcoin, but the system still lacks a finished way to lock up real BTC and release it again. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Solana’s 150-millisecond settlement upgrade reaches second public test network.</strong> Alpenglow is running on both public test networks, giving application teams a place to check their software before the live blockchain switches. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets.</strong> The feature would let users bundle up to eight transactions, including asset-and-payment transfers, but a brief drop below the network’s 80% support threshold restarted its two-week activation clock. Readers should check the original report before treating the headline as a confirmed change in the market.</p></section>\n    <section><h2>Market context</h2><p>Bitcoin is around $84,054 with a +0.16% 24-hour move, while Ether is around $2,687.16 with a -0.15% move. Those figures are a snapshot, not a forecast. The useful question is whether the move is supported by spot demand, volume, and a clear change in the news.</p><p>When the market is quiet, leverage and liquidity can matter as much as direction. A small headline can move price quickly when traders are positioned too closely on one side.</p></section>\n    <section><h2>What to watch next</h2><ul class=\"article-watchlist\"><li>New ETF creations and redemptions.</li><li>Futures open interest and funding rates.</li><li>Fresh regulatory text or official statements.</li><li>Security warnings, outages, or custody changes.</li><li>Whether the reported developments become live products rather than announcements.</li></ul></section>\n    <p class=\"article-closing\">The fairest reading today is cautious attention. There are real developments in the industry, but none should be stretched into a guaranteed market direction.</p>",
+  "items": [
+    {
+      "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+      "description": "Kraken parent Payward is unifying trading, payments, asset management and institutional services on common rails, co-CEO Arjun Sethi said.",
+      "link": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
+      "pubDate": "Sat, 26 Sep 2026 14:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+      "description": "The five-year deal could strengthen USDC’s reach in emerging markets, though Tether’s liquidity advantage remains hard to dislodge, analysts told CoinDesk.",
+      "link": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+      "pubDate": "Sat, 26 Sep 2026 13:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+      "description": "Two wallets have been almost emptied and a third is being drained, with about $75 million remaining across the five original holding accounts.",
+      "link": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze",
+      "pubDate": "Sat, 26 Sep 2026 12:56:41 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+      "description": "Researchers have mapped out private bitcoin-denominated transfers that run alongside Bitcoin, but the system still lacks a finished way to lock up real BTC and release it again.",
+      "link": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+      "pubDate": "Sat, 26 Sep 2026 12:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
+      "description": "Alpenglow is running on both public test networks, giving application teams a place to check their software before the live blockchain switches.",
+      "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
+      "pubDate": "Sat, 26 Sep 2026 05:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets",
+      "description": "The feature would let users bundle up to eight transactions, including asset-and-payment transfers, but a brief drop below the network’s 80% support threshold restarted its two-week activation clock.",
+      "link": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets",
+      "pubDate": "Sat, 26 Sep 2026 04:30:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+      "description": "The long-anticipated exit of the commissioner sometimes known as Crypto Mom is Oct. 2, announced as the agency was sending out its latest crypto work.",
+      "link": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
+      "pubDate": "Fri, 25 Sep 2026 22:17:38 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
+      "description": "A Sixth Circuit Court of Appeals panel ruled that prediction markets' sports-related events contracts are not swaps, and therefore aren't subject to federal regulatory oversight.",
+      "link": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations",
+      "pubDate": "Fri, 25 Sep 2026 21:17:30 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
+      "description": "The trade group will be run again by its original CEO, Kristin Smith, when Summer Mersinger leaves at the end of a long congressional tussle.",
+      "link": "https://www.coindesk.com/policy/2026/09/25/blockchain-association-sees-leadership-shift-shortly-after-crypto-clarity-act-fizzles",
+      "pubDate": "Fri, 25 Sep 2026 20:01:05 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+      "description": "The stablecoin issuer blacklisted a wallet holding about $318,000 in USDT and USDC. Most of the stolen funds sit in ether, which can't be frozen.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+      "pubDate": "Fri, 25 Sep 2026 14:41:53 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Tokenization is moving faster than Washington",
+      "description": "Regulatory clarity is not simply a legal or political issue, argues former New York Governor Andrew Cuomo. It is an economic one.",
+      "link": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
+      "pubDate": "Fri, 25 Sep 2026 14:37:32 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+      "description": "While Tether's stated ceiling places its maximum exposure under $64 million, the incident underscores lingering counterparty risks in fiat gateway networks.",
+      "link": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
+      "pubDate": "Fri, 25 Sep 2026 14:32:48 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Strategy proposes daily dividends to bring STRC back toward $100",
+      "description": "STRC has remained below $100 since May, despite a 12% dividend rate and roughly $1 billion in preferred share buybacks.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/strategy-proposes-daily-dividends-to-bring-strc-back-toward-usd100",
+      "pubDate": "Fri, 25 Sep 2026 14:22:07 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
+      "description": "Bond volatility is at its highest since March, while the bitcoin VIX, BVIV and Wall Street's VIX remain near its yearly low.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
+      "pubDate": "Fri, 25 Sep 2026 11:54:28 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+      "description": "Your day-ahead look for Sept. 25, 2026",
+      "link": "https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops",
+      "pubDate": "Fri, 25 Sep 2026 11:29:04 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+      "description": "Quant jumped 39% over 24 hours and 93 of 100 CoinDesk 100 constituents rose, with the altcoin season index at its highest in more than three months.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/altcoins-rally-across-the-board-as-bitcoin-consolidates-near-usd84-000",
+      "pubDate": "Fri, 25 Sep 2026 09:59:45 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit",
+      "description": "At one point in July, ETFs were down $5.8 billion in net outflows for the year. Now, that’s turned into $800 million in net inflows.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
+      "pubDate": "Fri, 25 Sep 2026 09:13:01 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "KelpDAO sues LayerZero for the largest exploit 2026 has seen so far",
+      "description": "The cross-chain lending protocol accused LayerZero and its co-founder Brian Pellegrino of failing to disclose weaknesses in their protocol, which led to the $292 million hack.",
+      "link": "https://www.coindesk.com/business/2026/09/25/kelpdao-sues-layerzero-for-the-largest-exploit-2026-has-seen-so-far",
+      "pubDate": "Fri, 25 Sep 2026 08:58:03 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress",
+      "description": "Separate reports from Axios and CBS suggest some positive movement in U.S.-Iran negotiations.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
+      "pubDate": "Fri, 25 Sep 2026 07:09:11 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitget's $352 million hack happened via spoofed transfers, not private keys, CEO Gracy Chen says",
+      "description": "Bitget lost $351.6 million after attackers compromised a wallet backend, spoofed transaction data, Chen said on X.",
+      "link": "https://www.coindesk.com/markets/2026/09/25/bitget-s-usd351-million-hack-happened-via-spoofed-transfers-not-private-keys-ceo-gray-chen-says",
+      "pubDate": "Fri, 25 Sep 2026 04:29:34 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+      "description": "The state wants to block Polymarket from operating without a gambling license and recover allegedly illegal gains.",
+      "link": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
+      "pubDate": "Thu, 24 Sep 2026 22:41:44 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+      "description": "The Fed proposed rules on putting last year's GENIUS Act into place with regulations, including those governing stablecoin yield programs.",
+      "link": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+      "pubDate": "Thu, 24 Sep 2026 22:28:49 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+      "description": "Bitget CEO Gracy Chen announced the hack shortly after independent researchers flagged unusual wallet movements.",
+      "link": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
+      "pubDate": "Thu, 24 Sep 2026 21:59:32 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
+      "description": "The company has vehemently denied that it was shopping for buyers. Allman’s estate declined to comment.",
+      "link": "https://www.coindesk.com/business/2026/09/23/someone-was-trying-to-sell-ondo-finance-after-founder-nathan-allman-s-death",
+      "pubDate": "Thu, 24 Sep 2026 20:13:25 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bullish, Alpaca, Apex Fintech and DriveWealth form coalition to push issuer-backed tokenized stocks",
+      "description": "The group aims to link onchain shares to official shareholder records following the U.S. SEC's innovation exemption for tokenized stock trading.",
+      "link": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
+      "pubDate": "Thu, 24 Sep 2026 20:05:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Jack Dorsey’s Block Brings Lightning Network to x402",
+      "description": "For decades, the internet ignored HTTP status code 402, a built-in checkout lane for the web that nobody used. Now, artificial intelligence (AI) agents need to spend money thousands of times a day without humans clicking a button. To solve this, Block plugged the Lightning Network directly into the x402 payment standard. The internet always [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/jack-dorseys-block-brings-lightning-network-to-x402/",
+      "pubDate": "Sat, 26 Sep 2026 16:38:32 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "SEC Staff Clarifies How Crypto Promises Affect Securities Treatment",
+      "description": "What a crypto issuer promises buyers can affect whether a non-security token is offered as part of an investment contract, SEC staff says. New answers address marketing, network development, buybacks, staking receipts, and trading platforms. What Issuers Tell Token Buyers Token buyers may encounter different securities treatment depending on the promises accompanying an offer, even [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/sec-staff-clarifies-how-crypto-promises-affect-securities-treatment/",
+      "pubDate": "Sat, 26 Sep 2026 15:30:06 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Ethereum, Solana and Zcash Face Wild Year-End Price Predictions",
+      "description": "Three cryptocurrencies, three very different bets and millions of dollars riding on what happens before New Year&#8217;s Day. Prediction markets on Polymarket and Kalshi are pricing a 69% chance that ethereum touches $3,000, a 60% chance that solana reaches $140 and a 41% chance that zcash hits $2,000. But traders are considerably less certain these [&#8230;]",
+      "link": "https://news.bitcoin.com/price-predictions/ethereum-solana-and-zcash-face-wild-year-end-price-predictions/",
+      "pubDate": "Sat, 26 Sep 2026 14:30:56 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Bitcoin Price Still 33% Below Its Peak High as Bulls Plot a Comeback",
+      "description": "At 8:30 a.m. Eastern time, bitcoin&#8217;s price stood at $84,162 on Saturday, Sept. 26, 2026, down 0.51% over 24 hours, as the leading crypto asset continued consolidating following its retreat from $87,374. The daily technical picture remains positive, supported by 13 bullish moving average (MA) readings, although declining trading volume and a neutral oscillator profile [&#8230;]",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-still-33-below-its-peak-high-as-bulls-plot-a-comeback/",
+      "pubDate": "Sat, 26 Sep 2026 13:00:10 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Musk&#8217;s Grok Is Out-Trading ChatGPT 40 to 1 Among Coinbase AI Agents",
+      "description": "Elon Musk&#8217;s Grok placed 59.5% of all AI agent trading volume on Coinbase in the week leading up to Sept. 21, nearly 40 times ChatGPT&#8217;s meager 1.5% share. The Scoreboard Coinbase doesn&#8217;t usually publish which chatbots its customers trade through, but this week it made a seeming exception. The exchange&#8217;s developer account shared a chart [&#8230;]",
+      "link": "https://news.bitcoin.com/exchanges/grok-coinbase-agentic-trading-chatgpt-share/",
+      "pubDate": "Sat, 26 Sep 2026 11:30:48 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Bitget Saga: Hacker Just Refueled on Binance as Withdrawals Reopen Monday",
+      "description": "A wallet tied to Bitget&#8217;s $387.5 million hacker pulled about $1.23 million in ether out of Binance, two days before the exchange reopens bitcoin withdrawals on Monday. The Refuel, Step by Step The attacker who drained Bitget on Sept. 24 is still moving money, and some of it came via a rival exchange. Blockchain sleuth [&#8230;]",
+      "link": "https://news.bitcoin.com/exchanges/bitget-hacker-binance-withdrawals-reopen-bitcoin-first/",
+      "pubDate": "Sat, 26 Sep 2026 09:30:38 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Kalshi Says XRP Price Can Hit $1.70 in September",
+      "description": "Kalshi&#8217;s September XRP market is flashing a $1.70 forecast, yet the $1.70 contract trades at just 32 cents with XRP near $1.55 and five days left. 1.7 on the Screen, 32 on the Ticket The number came from Kalshi&#8217;s September XRP market, which shows a 1.7 forecast, up 0.1 on the day. That said, the [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/xrp-kalshi-odds-1-70-september-contract-32-percent/",
+      "pubDate": "Sat, 26 Sep 2026 08:00:17 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Bitcoin ATM Scam Takes $4,900 After Fake Jury Duty Threat",
+      "description": "A Georgia woman deposited $4,900 into a Bitcoin ATM after being told she had missed jury duty and needed to pay to avoid arrest. Her case follows a pattern of scams in which callers turn a supposed court obligation into an urgent cryptocurrency payment. A Jury Duty Claim Led to a Bitcoin ATM A woman [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/bitcoin-atm-scam-takes-4900-after-fake-jury-duty-threat/",
+      "pubDate": "Sat, 26 Sep 2026 06:30:01 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "&#8216;Casino Secrets&#8217; Hacker Beats Malta Regulator as Leak Site Goes Down",
+      "description": "A Berlin court has ruled against the Malta Gaming Authority in its bid to stop German researcher Lilith Wittmann from linking it to organized crime, according to her account. Wittmann said she may also keep using documents taken from the regulator&#8217;s systems, but may not access them again. &#160; What the Berlin Court Decided, and [&#8230;]",
+      "link": "https://news.bitcoin.com/igaming/casino-secrets-hacker-beats-malta-regulator-leak-site-down/",
+      "pubDate": "Sat, 26 Sep 2026 05:30:05 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Cybercriminal Directed $2.6M Crypto Heist From Prison: Prosecutors",
+      "description": "A cybercriminal and organized crime boss masterminded a plot to steal over $2.6 million in cryptocurrency while incarcerated at Edinburgh’s Saughton prison, prosecutors said this week. Plotting Behind Bars A cybercriminal operating from inside a Scottish prison directed an organized crime gang in a series of home invasion attempts targeting millions of dollars in cryptocurrency, [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/cybercriminal-directed-2-6m-crypto-heist-from-prison-prosecutors/",
+      "pubDate": "Sat, 26 Sep 2026 04:50:56 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Kalshi loses appeal, setting up potential Supreme Court case",
+      "description": "The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
+      "link": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 26 Sep 2026 13:21:12 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 26 Sep 2026 12:17:00 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "SEC Commissioner Hester Peirce to leave post on Oct. 2",
+      "description": "Peirce, known as “Crypto Mom,” served on the SEC for about eight years, including as director of the Crypto Task Force.",
+      "link": "https://cointelegraph.com/news/sec-commissioner-hester-peirce-to-leave-post-on-oct-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 26 Sep 2026 09:02:22 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "CFTC sues Cash FX, alleges $950M crypto-linked forex scheme",
+      "description": "The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds.",
+      "link": "https://cointelegraph.com/news/cftc-sues-cash-fx-alleges-950m-crypto-linked-forex-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 26 Sep 2026 06:59:29 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "OG.com seeks CFTC approval for single-stock perpetual futures",
+      "description": "OG.com, recently spun out of Crypto.com, joins Coinbase, Kalshi and Kraken parent Payward in seeking approval to bring perpetual futures to individual US stocks.",
+      "link": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 20:37:21 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
+      "description": "Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
+      "link": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 20:26:40 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+      "description": "US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
+      "link": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 18:56:53 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
+      "description": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
+      "link": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 18:33:49 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitget clarifies $388M in assets affected by security breach",
+      "description": "The Bitget breach announced on Thursday affected about $35 million more than previously reported, based on an analysis of assets on Zcash and TRON.",
+      "link": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 17:17:45 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+      "description": "Strategy’s proposal would move STRC and its three other preferred stocks to daily dividend payments, following a similar move by Bitcoin treasury firm Strive.",
+      "link": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 16:34:16 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Crypto Biz: Wall Street and crypto fight for the same turf",
+      "description": "Stablecoins and tokenized assets are pushing banks, exchanges and crypto companies into the same markets, from payments to stocks and ETFs.",
+      "link": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 15:49:34 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Exchanges reporting crypto gains to IRS becomes tax nightmare",
+      "description": "The IRS can now see your crypto gains, but has no idea about the cost-basis. That’s proving to be a big headache for some cryptocurrency investors.",
+      "link": "https://cointelegraph.com/magazine/exchanges-reporting-crypto-gains-to-irs-becomes-tax-nightmare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 13:30:00 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "CoinMarketCap buys CoinGlass to expand crypto derivatives data",
+      "description": "CoinGlass will retain its brand and team, while its website, app, free tools, API and pricing will remain unchanged following the acquisition.",
+      "link": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 12:44:30 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "SlowMist has yet to confirm crypto theft from iPhone Safari attack",
+      "description": "The analyzed Safari sample targets iOS 18.4–18.6.2 using previously patched flaws, while its effectiveness on iOS 26.5 remains unverified.",
+      "link": "https://cointelegraph.com/news/no-confirmed-crypto-theft-iphone-safari-attack-slowmist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 12:19:34 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "IBIT options price trading more calmly after Bitcoin rebound",
+      "description": "IBIT’s expected volatility sits near the bottom of its 12-month range, according to Saxo Bank’s analysis of options data from Sept. 23.",
+      "link": "https://cointelegraph.com/markets/ibit-options-trading-bitcoins-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 11:11:33 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Magic Eden scare puts 3,832 NFTs in whitehat protective custody",
+      "description": "Yuga Labs’ 0xQuit said the NFTs are safe and will be returned once the risk passes, while holders were urged to revoke NFT permissions.",
+      "link": "https://cointelegraph.com/news/magic-eden-nft-whitehat-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 09:48:53 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+      "description": "KelpDAO says LayerZero endorsed its bridge setup before the attack, while CEO Bryan Pellegrino has dismissed the lawsuit as meritless.",
+      "link": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 08:51:17 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+      "description": "US spot Bitcoin ETFs drew $191 million Thursday as daily inflows slowed for a third day, lifting year-to-date net flows to $787 million.",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-six-day-streak-2-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 07:41:36 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Samourai Wallet co-founder faces transfer after 30-day jail ordeal",
+      "description": "Keonne Rodriguez says he and 70 others face another move after their treatment program was deactivated. His previous transfer took 30 days.",
+      "link": "https://cointelegraph.com/news/samourai-wallet-co-founder-30-day-prison-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 07:28:18 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Australian PM warns of AI’s ‘furious pace’ after agent breached government site",
+      "description": "Anthony Albanese said governments must help shape AI’s development, after revealing earlier that an OpenAI agent accessed non-public files on an Australian Medicare data portal.",
+      "link": "https://cointelegraph.com/news/australia-pm-warns-of-ais-furious-pace-after-agent-breached-government-site?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 05:06:22 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Researchers propose Zcash-style private Bitcoin transfers without a soft fork",
+      "description": "Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about anonymity and quantum resistance.",
+      "link": "https://cointelegraph.com/news/shielded-bitcoin-zcash-style-privacy-no-soft-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 04:41:06 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
+      "description": "Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce.",
+      "link": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 02:00:54 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+      "description": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+      "link": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 25 Sep 2026 00:32:46 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
+      "description": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+      "link": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 23:27:17 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
+      "description": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+      "link": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 22:10:09 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitget confirms $352M security breach, suspends withdrawals",
+      "description": "Bitget said unauthorized transfers affected a limited number of hot wallets, while cold wallets and most platform assets remained unaffected.",
+      "link": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 21:47:17 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+      "description": "Although the CFTC chair did not say the failed vote on the CLARITY Act was behind new rules for authorized crypto entities, he said the move was “to provide regulatory clarity.“",
+      "link": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 21:42:51 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+      "description": "US Treasury yields hit a 19-year high on Thursday, pressuring risk assets as Bitcoin held near $84,000 and ONDO became top performer among altcoins.",
+      "link": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 20:32:16 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "DoubleZero brings dedicated fiber market data to Hyperliquid traders",
+      "description": "DoubleZero launched a dedicated fiber market data feed for Hyperliquid, giving professional trading firms faster access to its full order book.",
+      "link": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 20:04:07 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Crypto treasury model loses its edge as stock premiums fade: DWF",
+      "description": "Most DATs now trade below the value of their crypto holdings, weakening a financing model that once helped companies expand their balance sheets.",
+      "link": "https://cointelegraph.com/news/crypto-treasury-firms-below-nav-sequans-bitcoin-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 24 Sep 2026 17:14:35 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+      "description": "Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.",
+      "link": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+      "pubDate": "Sat, 26 Sep 2026 17:01:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+      "description": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
+      "link": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
+      "pubDate": "Sat, 26 Sep 2026 16:06:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+      "description": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the leaderboards.",
+      "link": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+      "pubDate": "Sat, 26 Sep 2026 15:01:05 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+      "description": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+      "link": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
+      "pubDate": "Sat, 26 Sep 2026 13:01:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
+      "description": "Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.",
+      "link": "https://decrypt.co/379380/us-prosecutors-84-million-bank-tether-and-bitfinex",
+      "pubDate": "Fri, 25 Sep 2026 21:25:35 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
+      "description": "Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attacks.",
+      "link": "https://decrypt.co/379369/ai-agents-hacked-test-environment-cheat-darktrace",
+      "pubDate": "Fri, 25 Sep 2026 19:45:39 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Google Built an AI That Hunts Its Own Security Bugs",
+      "description": "Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
+      "link": "https://decrypt.co/379364/google-built-ai-hunts-security-bugs",
+      "pubDate": "Fri, 25 Sep 2026 19:16:04 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
+      "description": "The two stablecoin issuers blacklisted a wallet labeled &#34;Bitget Exploiter 8,&#34; locking about $318,000 in USDC and USDT—but the attacker swapped most funds into unfreezable ETH before they could act.",
+      "link": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
+      "pubDate": "Fri, 25 Sep 2026 18:42:51 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+      "description": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
+      "link": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
+      "pubDate": "Fri, 25 Sep 2026 17:46:05 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+      "description": "An attacker faked internal transfer requests to drain $387.5 million from Bitget's hot and warm wallets, and the exchange's CEO says the fingerprints look like Pyongyang's.",
+      "link": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
+      "pubDate": "Fri, 25 Sep 2026 17:08:57 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+      "description": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs.",
+      "link": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
+      "pubDate": "Fri, 25 Sep 2026 16:17:19 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+      "description": "Pullback or reversal? Here's what the charts suggest for BTC.",
+      "link": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+      "pubDate": "Fri, 25 Sep 2026 16:06:23 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
+      "description": "STRF, STRC, STRK and STRD would accrue dividends on weekends and holidays, in a move Strategy says will dampen volatility.",
+      "link": "https://decrypt.co/379309/strategy-wants-its-preferred-stock-dividends-to-accrue-365-days-a-year",
+      "pubDate": "Fri, 25 Sep 2026 13:22:00 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Morgan Stanley Joins NEXTPredict as Prediction Markets Bet on 'More Institutional' Play",
+      "description": "The bulk of prediction market trades are still sports bets, while valuations are predicated on rising institutional interest.",
+      "link": "https://decrypt.co/379218/morgan-stanley-joins-nextpredict-as-prediction-markets-bet-on-more-institutional-play",
+      "pubDate": "Fri, 25 Sep 2026 13:16:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Morning Minute: BlackRock Leans Deeper Into Tokenization with Ondo",
+      "description": "The biggest financial institutions in the world are bringing more products onchain, and the pace is accelerating.",
+      "link": "https://decrypt.co/379292/morning-minute-blackrock-leans-deeper-into-tokenization-with-ondo",
+      "pubDate": "Fri, 25 Sep 2026 13:04:06 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
+      "description": "Two entries in his annual disclosure put the holding somewhere between $16,000 and $65,000, alongside more than $1 million in cash.",
+      "link": "https://decrypt.co/379290/defense-secretary-pete-hegseth-holds-bitcoin-in-a-coinbase-wallet-filing-shows",
+      "pubDate": "Fri, 25 Sep 2026 12:01:15 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "KelpDAO Developer Sues LayerZero Over $292M Bridge Exploit",
+      "description": "Evercrest says LayerZero approved the single-verifier configuration in writing multiple times, then warned a different developer about it.",
+      "link": "https://decrypt.co/379288/kelpdao-developer-sues-layerzero-over-292m-bridge-exploit",
+      "pubDate": "Fri, 25 Sep 2026 11:09:52 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Researchers Publish 'Zcash-Style' Design for Private Bitcoin Transfers",
+      "description": "The Shielded Bitcoin spec hides senders, receivers and amounts, but leaves how BTC enters and exits the system to a later paper.",
+      "link": "https://decrypt.co/379280/researchers-publish-zcash-style-design-for-private-bitcoin-transfers",
+      "pubDate": "Fri, 25 Sep 2026 09:50:01 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+      "description": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to issue stablecoins.",
+      "link": "https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital",
+      "pubDate": "Thu, 24 Sep 2026 21:56:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+      "description": "A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
+      "link": "https://decrypt.co/379275/bitget-hack-183-million-crypto-exchange-wallets",
+      "pubDate": "Thu, 24 Sep 2026 21:15:38 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+      "description": "A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
+      "link": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
+      "pubDate": "Thu, 24 Sep 2026 20:01:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+      "description": "Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
+      "link": "https://decrypt.co/379253/meta-ai-toy-muse-charm-keychain-watches-listens",
+      "pubDate": "Thu, 24 Sep 2026 19:16:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "AI Can Now Doxx Your Anonymous Accounts? Here's What’s Going On",
+      "description": "A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says.",
+      "link": "https://decrypt.co/379228/ai-can-now-doxx-your-anonymous-accounts-heres-whats-going-on",
+      "pubDate": "Thu, 24 Sep 2026 18:31:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
+      "description": "Attorney General Letitia James and Governor Kathy Hochul allege the prediction market operates without a license and exposes New Yorkers to gambling harms.",
+      "link": "https://decrypt.co/379244/new-york-ban-polymarket-lawsuit",
+      "pubDate": "Thu, 24 Sep 2026 17:51:31 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
+      "description": "In one of her final speeches as commissioner, Peirce argued that regulators' &#34;data haystacks&#34; endanger the people they aim to protect—as recent KYC leaks expose crypto holders to phishing and physical attacks.",
+      "link": "https://decrypt.co/379217/sec-peirce-end-kyc-panopticon-zero-knowledge-proofs",
+      "pubDate": "Thu, 24 Sep 2026 17:31:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "US Aims to Turn Stablecoins Into a Weapon for Dollar Dominance",
+      "description": "Washington may fund private stablecoin ventures abroad to protect the dollar's reserve status and prop up Treasury demand.",
+      "link": "https://decrypt.co/379219/us-stablecoins-weapon-dollar-dominance",
+      "pubDate": "Thu, 24 Sep 2026 16:55:43 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
+      "description": "Bitcoin has slipped back below $85,000 after tagging an eight-month high near $87,400 last week, with rising odds of an October Fed hike taking some air out of the rally.",
+      "link": "https://decrypt.co/379189/bitcoins-breakout-cools-fed-rate-hike-bets-climb",
+      "pubDate": "Thu, 24 Sep 2026 16:01:01 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "£10K Reward Offered After UK Couple Attacked in Crypto Home Invasion",
+      "description": "Police believe the robbery was planned and targeted, with instructions relayed to the three attackers by a fourth man on a video call.",
+      "link": "https://decrypt.co/379186/10k-reward-offered-after-uk-couple-attacked-in-crypto-home-invasion",
+      "pubDate": "Thu, 24 Sep 2026 15:08:26 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Solana Foundation Hires Binance's Former Global CMO for Institutional Push",
+      "description": "Rachel Conlan arrives as chief strategy officer and Polygon Labs' Jamal Raees takes over payments, both recruited from elsewhere in crypto.",
+      "link": "https://decrypt.co/379179/solana-foundation-hires-binances-former-global-cmo-for-institutional-push",
+      "pubDate": "Thu, 24 Sep 2026 13:03:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Decrypt Media and FOMO Hour’s Thought Leader Farokh Sarmad to Take Main Stage at NEXTPredict NY Conference",
+      "description": "Premier Partnership will livestream the Main Stage through Decrypt Media and bring Rug Radio and FOMO HOUR programming onsite.",
+      "link": "https://decrypt.co/379042/decrypt-media-and-fomo-hours-thought-leader-farokh-sarmad-to-take-main-stage-at-nextpredict-ny-conference",
+      "pubDate": "Thu, 24 Sep 2026 13:01:16 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Elliptic Wants Every Cop to Read a Crypto Wallet in Seconds—With AI",
+      "description": "Elliptic’s new AI-assisted tool, called Pulse, lets any officer input a wallet address or transaction hash and get a plain-language summary in seconds, aiming to bring crypto tracing beyond specialized units.",
+      "link": "https://decrypt.co/379113/elliptic-crypto-wallet-ai-pulse",
+      "pubDate": "Thu, 24 Sep 2026 13:01:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Morning Minute: Selig Says ‘It’s Go Time’ for CFTC Crypto Rules",
+      "description": "The CFTC has been extremely busy ever since the Clarity Act failed its vote, and it appears they’re ready to accelerate.",
+      "link": "https://decrypt.co/379169/morning-minute-selig-says-its-go-time-for-cftc-crypto-rules",
+      "pubDate": "Thu, 24 Sep 2026 11:56:11 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Q-Day Could Arrive Before Quantum Computers Are Commercially Useful, EU Warns",
+      "description": "The threat could arrive before quantum computers are commercially useful, and member states have until the end of 2026 to plan for it.",
+      "link": "https://decrypt.co/379167/q-day-could-arrive-before-quantum-computers-are-commercially-useful-eu-warns",
+      "pubDate": "Thu, 24 Sep 2026 11:05:19 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Brooklyn Man Who Bragged About $16M Coinbase Scam Gets Up to 12 Years",
+      "description": "He posed as support staff, emptied about 100 accounts, then lost $6 million of the proceeds gambling, according to his own messages.",
+      "link": "https://decrypt.co/379153/brooklyn-man-who-bragged-about-16m-coinbase-scam-gets-up-to-12-years",
+      "pubDate": "Thu, 24 Sep 2026 09:00:46 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Kalshi loses appeal over Ohio and Tennessee sports betting laws, widening circuit split",
+      "description": "A federal appeals court ruled on Friday that Kalshi has not adequately shown its sports event contracts are swaps under the Commodity Exchange Act.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937",
+      "pubDate": "Sat, 26 Sep 2026 15:17:34 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "SEC crypto FAQ addresses token buybacks, network upgrades and promises of profit",
+      "description": "Promoting a network’s current uses generally would not create an expectation of profit, SEC staff said.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914",
+      "pubDate": "Fri, 25 Sep 2026 20:32:40 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Blockchain Association CEO Summer Mersinger to step down, Kristin Smith to return as interim CEO",
+      "description": "The Blockchain Association is switching up its leadership with CEO Summer Mersinger set to step down next month.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-25-blockchain-association-ceo-summer-mersinger-tstep-down-kristin-smith-interim-ceo-416913",
+      "pubDate": "Fri, 25 Sep 2026 19:48:07 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Man charged in $16 million crypto ‘massive pig butchering’ scam",
+      "description": "A man was charged for his role in defrauding someone of millions of dollars' worth of crypto in a \"massive pig butchering\" scam.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-25-man-charged-in-16-million-crypto-massive-pig-butchering-scam-416895",
+      "pubDate": "Fri, 25 Sep 2026 17:48:16 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Magic Eden legacy approvals leave $5.7 million in NFTs exposed to exploit before rescue",
+      "description": "Magic Eden legacy approvals exposed $5.7 million in NFTs to an exploit before whitehats rescued 23,155 tokens.",
+      "link": "https://www.theblock.co/news/web3/2026-09-25-magic-eden-legacy-approvals-leave-5-7-million-in-nfts-exposed-to-exploit-before-rescue-416874",
+      "pubDate": "Fri, 25 Sep 2026 14:09:15 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Aave V4 on Base adds Coinbase tokenized stocks as collateral for USDC loans",
+      "description": "Aave V4 added Apple, Nvidia, Tesla, and four more tokenized stocks as collateral for USDC loans for non-U.S. users.",
+      "link": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372",
+      "pubDate": "Fri, 25 Sep 2026 14:00:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Strategy proposes daily dividends for STRC, STRD, STRF and STRK preferred stocks",
+      "description": "Strategy is seeking shareholder approval to pay daily dividends across its four U.S.-listed preferred stocks.",
+      "link": "https://www.theblock.co/news/business/2026-09-25-strategy-proposes-daily-dividends-for-strc-strd-strf-and-strk-preferred-stocks-416869",
+      "pubDate": "Fri, 25 Sep 2026 13:48:57 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Ethena expands USDe backing strategy into bStocks and equity perpetuals on Binance",
+      "description": "Ethena is adding Binance bStocks and equity perpetuals to the basis trade used for USDe's backing strategy.",
+      "link": "https://www.theblock.co/news/deals/2026-09-25-ethena-expands-usde-backing-strategy-into-bstocks-and-equity-perpetuals-on-binance-416367",
+      "pubDate": "Fri, 25 Sep 2026 11:00:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "KelpDAO sues LayerZero, claims it endorsed setup used in $292 million rsETH exploit",
+      "description": "KelpDAO sued LayerZero and Bryan Pellegrino over the April 18 rsETH exploit, alleging the bridge setup was endorsed in writing.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-25-kelpdao-sues-layerzero-claims-it-endorsed-setup-used-in-292-million-rseth-exploit-416361",
+      "pubDate": "Fri, 25 Sep 2026 09:13:08 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Bitget confirms $387.5 million security breach affecting exchange hot wallets",
+      "description": "Bitget said private keys were not compromised and that losses from the incident will be covered by its User Protection Fund.",
+      "link": "https://www.theblock.co/news/markets/2026-09-24-more-than-170-million-in-crypto-moves-from-bitget-wallets-unidentified-address-416345",
+      "pubDate": "Thu, 24 Sep 2026 21:20:47 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Fed proposes reserve limits, capital standards for stablecoin issuers under GENIUS Act",
+      "description": "The Federal Reserve proposed new measures for stablecoin issuers, including reserve-asset limits and standardized capital requirements.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-24-fed-proposes-reserve-limits-capital-standards-stablecoin-issuers-genius-act-416336",
+      "pubDate": "Thu, 24 Sep 2026 20:19:46 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+      "description": "SkyAI’s board survived a shareholder protest, but its proposed equity pay plan fell by a wide margin.",
+      "link": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
+      "pubDate": "Thu, 24 Sep 2026 19:17:47 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "ARK Invest brings $1.3 billion venture fund onchain through Securitize",
+      "description": "ARK Invest is bringing its $1.3B ARK Venture Fund (ARKVX), which holds OpenAI, Anthropic and Stripe, onchain via Securitize on Ethereum.",
+      "link": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
+      "pubDate": "Thu, 24 Sep 2026 18:37:22 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "JPMorgan says bitcoin crossing $85,000 production cost could ease miner selling pressure",
+      "description": "JPMorgan analysts said bitcoin's move above its estimated $85,000 production cost could ease miner selling if sustained.",
+      "link": "https://www.theblock.co/news/markets/2026-09-24-jpmorgan-bitcoin-production-cost-miners-relief-416283",
+      "pubDate": "Thu, 24 Sep 2026 18:22:39 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "New York moves to block Polymarket from the state, alleging it’s running an illegal gambling operation",
+      "description": "New York has sued Polymarket, accusing it of operating an illegal gambling operation and asking a court to block it from operating.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-24-new-york-block-polymarket-alleging-illegal-gambling-operation-416279",
+      "pubDate": "Thu, 24 Sep 2026 16:25:05 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Ondo launches onchain portfolio tokens based on BlackRock-developed strategies",
+      "description": "Ondo has launched three onchain portfolio tokens based on model portfolio strategies developed by BlackRock.",
+      "link": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260",
+      "pubDate": "Thu, 24 Sep 2026 14:27:45 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Solana Foundation taps Binance, Polygon vets to drive institutional adoption and payments",
+      "description": "Solana Foundation appointed Rachel Conlan as chief strategy officer and former Polygon Labs exec Jamal Raees as GM of payments.",
+      "link": "https://www.theblock.co/news/ecosystems/2026-09-24-solana-foundation-taps-binance-polygon-vets-to-drive-institutional-adoption-and-payments-416254",
+      "pubDate": "Thu, 24 Sep 2026 13:00:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "HIFI raises $37 million Series A to expand tokenized capital markets infrastructure",
+      "description": "HIFI raised $37 million in Series A funding led by Left Lane Capital to scale tokenized settlement infrastructure.",
+      "link": "https://www.theblock.co/news/business/2026-09-24-hifi-raises-37-million-series-a-to-expand-tokenized-capital-markets-infrastructure-416242",
+      "pubDate": "Thu, 24 Sep 2026 12:00:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "IBM connects Digital Asset Haven to Swift blockchain ledger for tokenized deposit transactions",
+      "description": "IBM Digital Asset Haven clients can now connect to Swift's shared ledger and instruct tokenized deposit transactions.",
+      "link": "https://www.theblock.co/news/business/2026-09-24-ibm-connects-digital-asset-haven-to-swift-blockchain-ledger-for-tokenized-deposit-transactions-416237",
+      "pubDate": "Thu, 24 Sep 2026 10:00:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Brooklyn man gets up to 12 years over $16 million Coinbase social engineering scheme",
+      "description": "A court sentenced 23-year-old Ronald Spektor to four to 12 years in prison for a $15.9 million Coinbase phishing scheme.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-24-brooklyn-man-12-years-scheme-416231",
+      "pubDate": "Thu, 24 Sep 2026 08:21:32 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Crypto ETF List & Market Overview: Live Spot ETF Flows",
+      "link": "https://www.coinglass.com/etf",
+      "description": "Download APP\n\nOpen InterestFunding Rate\nLegendWatchlist\n\nSearch\n\n/\n\n# Crypto ETF Market Overview\n\nTrack real-time crypto ETF inflows, outflows, total AUM and institutional activity across Bitcoin, Ethereum, XRP and Solana ETFs.\n\nLast update: --\n\nCrypto ETF Fund Flow Flash: Latest Trading Day -, the crypto ETF market showed a Outflow trend, totaling a net Outflow of -$0.\n\nKey Driver: undefined showed the strongest performance with a daily inflow of +$0. [...] Period Trend: Over the past 5 trading days, crypto ETFs saw total Outflow of -$0. This indicates that in the current market environment, institutional sentiment is leaning toward Risk-off.\n\nTrading Note: During ETF market close, it is recommended to combine the Coinbase Premium Index and other derivative indicators to gauge market direction.\n\nCrypto ETF Net Inflow\n\n-$-\n\nTotal Crypto ETF AUM\n\n$-\n\nNumber of Active Crypto ETFs\n\n-\n\nActive ETF Issuers\n\n-\n\nBitcoin ETF Net Flows\n\n-$-",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "iShares Leads $917M Crypto Inflow Week as Bitcoin and Ethereum Funds Rally - ETF Action",
+      "link": "https://www.etfaction.com/ishares-leads-917m-crypto-inflow-week-as-bitcoin-and-ethereum-funds-rally",
+      "description": "| Ticker | Fund Name | 5-Day Flow |\n --- \n| Inflows |\n| IBIT | iShares Bitcoin Trust ETF | $541M |\n| ETHA | iShares Ethereum Trust ETF | $162M |\n| ETHB | iShares Staked Ethereum Trust ETF | $108M |\n| BTC | Grayscale Bitcoin Mini Trust ETF | $89M |\n| ZCSH | Grayscale Zcash Trust | $45M |\n| Outflows |\n| GBTC | Grayscale Bitcoin Trust ETF | -$48M |\n| HODL | VanEck Bitcoin ETF | -$46M |\n| ETHE | Grayscale Ethereum Staking ETF | -$37M |\n| FBTC | Fidelity Wise Origin Bitcoin Fund | -$37M | [...] ## Analyzing the Weekly Flows\n\nInvestors allocated a substantial $917M in net new capital to cryptocurrency ETFs over the week. Bitcoin-focused products were the primary destination for these flows, attracting $579M. Ethereum funds also saw significant demand, gathering $228M in new assets. Altcoin and Multicoin categories contributed smaller but still positive inflows, completing a strong week across the channel.\n\n### Category Flows Summary [...] | Brand | Fund Count | AUM | AUM Market Share |\n ---  --- |\n| iShares | 3 | $69.38B | 58.01% |\n| Grayscale | 12 | $19.70B | 16.48% |\n| Fidelity | 3 | $14.99B | 12.53% |\n| Bitwise | 11 | $5.57B | 4.66% |\n| 21Shares | 12 | $2.92B | 2.44% |\n\n### Top & Bottom 3 Issuers by 5-Day Flow\n\n| Brand | 5-Day Flow |\n --- |\n| Inflows |\n| iShares | $811M |\n| Grayscale | $80M |\n| ProShares | $42M |\n| Outflows |\n| Fidelity | -$70M |\n| VanEck | -$44M |\n| REX-Osprey | -$7M |",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Wall Street Money is Flowing into Ethereum ETFs and Out ...",
+      "link": "https://beincrypto.com/ethereum-etf-flows-beat-bitcoin-hyperliquid",
+      "description": "According to SoSoValue data, Ethereum ETFs recorded weekly inflows of $84 million, $105 million, and $103.9 million across the past three weeks. The pace stayed firm rather than fading. Bitcoin ETFs, by contrast, saw their streak shrink from $197 million to $75.6 million to $33.79 million. [...] 2103 contributions\n\n# Wall Street Money is Flowing into Ethereum ETFs and Out of Hyperliquid\n\nWall Street Money is Flowing into Ethereum ETFs and Out of Hyperliquid\nauthor avatar\neditor avatar\nDogecoin\nXRP\nEthereum\nBitcoin\nHyperliquid\nSolana\nChainlink\n\nEthereum (ETH) exchange-traded funds pulled in $103.9 million in the week ending July 24, the most of any spot crypto ETF and a third straight positive week for the product. [...] Disclaimer\n\nBeInCrypto is committed to unbiased, transparent reporting. This news article aims to provide accurate, timely information. However, readers are advised to verify facts independently and consult with a professional before making any decisions based on this content. Please note that our Terms and Conditions, Privacy Policy, and Disclaimers have been updated.\n\nBitcoin ETFs Post $606 Million Inflow, Biggest Since May 1\n\n## Most read",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Bitcoin and Ethereum ETFs Flip Positive After 8 Weeks: Will Price React?",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-ethereum-etfs-flip-positive-143950669.html",
+      "description": "However, daily flows stayed volatile. Bitcoin ETFs lost $95.30 million on July 9 and $84.86 million on July 8, after US strikes on Iran.\n\nWhether the streak holds now depends on macro and geopolitical conditions. President Donald Trump said the US and Iran agreed to continue talks but declared last month's ceasefire over.\n\nThat standoff makes the Middle East the key variable for crypto in the days ahead.\n\nSubscribe to our YouTube channel to watch leaders and journalists provide expert insights [...] The turn capped a punishing run for both products. Bitcoin ETFs had shed money every week since May 15, with redemptions peaking at $1.79 billion in the week ending June 26.\n\nEthereum funds followed the same path. Their heaviest week also fell on June 26, when $273.34 million exited the funds.\n\nWith the latest recovery, Bitcoin net assets climbed to $77.42 billion by July 10, while Ethereum assets recovered to $9.59 billion. [...] According to SoSoValue data, Bitcoin funds pulled $197.40 million, and Ethereum funds added $84.42 million. The twin reversal followed a stretch that had drained billions from the products since mid-May.\n\nFollow us on X to get the latest news as it happens\n\nBitcoin ETF Flows\n\nBitcoin ETF Flows. Source: SoSoValue\n\n \n\n## A Reversal After Two Months of Redemptions",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Bitcoin ETF Dashboard: Latest BTC Spot ETF Daily Data and Charts of Inflow and Outflow",
+      "link": "https://sosovalue.com/assets/etf/us-btc-spot",
+      "description": "In addition to our in-depth Bitcoin ETF analysis, our platform is expanding its focus to encompass potential Ethereum ETFs. We will cover key Ethereum ETFs like VanEck Ethereum ETF, ARK 21Shares Ethereum ETF, Hashdex Nasdaq Ethereum ETF, Grayscale Ethereum Trust Conversion (ETHE), Invesco Galaxy Ethereum ETF, iShares Ethereum Trust, and Fidelity Ethereum Fund. This addition enriches our insights into the Ethereum ETF investment landscape, offering updated news and a schedule of important events [...] The SoSoValue ETF Dashboard is a comprehensive online tool for investors, offering detailed data on Bitcoin and potential Ethereum ETFs, including real-time and historical insights and news on metrics like net inflows/outflows and trading volumes. Our platform delivers a thorough analysis of cryptocurrency Exchange-Traded Fund (ETF) landscape, featuring a wide range of metrics including daily net inflows and outflows, cumulative total Net Inflow, trading volumes, and the total assets. It goes [...] of important events for these ETFs. Our aim is to provide a comprehensive view into both Bitcoin and Ethereum ETF markets, helping investors make informed decisions in the evolving cryptocurrency space.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "US Crypto Policy Tracker Regulatory Developments",
+      "link": "https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments",
+      "description": "On April 4, 2025, the SEC’s Division of Corporation Finance (the Staff) published a Statement on Stablecoins clarifying that in the Staff’s view the offer and sale of certain dollar-backed stablecoins does not involve an offer and sale of securities requiring registration under the US federal securities laws (the Stablecoin Statement). The Stablecoin Statement specifically addresses stablecoins that are designed to maintain a stable value relative to the US dollar (USD) on a one-for-one basis, [...] On December 16, 2025, the FDIC issued a notice of proposed rulemaking (the Proposal) to implement Section 5 of the Guiding and Establishing National Innovation for US Stablecoins Act (GENIUS Act). The GENIUS Act, enacted by Congress in July 2025, created a federal regulatory framework for stablecoins whereby a subsidiary of an insured depository institution could be approved to issue payment stablecoins.\n\nRead more on Latham’s Global Fintech & Digital Assets Blog. [...] On April 1, 2026, the Treasury issued a Notice of Proposed Rulemaking (NPRM), seeking public comment related to its implementation of the Guiding and Establishing National Innovation for US Stablecoins Act (the GENIUS Act), a comprehensive framework for the federal regulation of payment stablecoins enacted on July 18, 2025.\n\nRead more on Latham's Global Fintech & Digital Assets Blog.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto Regulation in 2026: What Changed and What's Ahead",
+      "link": "https://sumsub.com/blog/global-crypto-regulations",
+      "description": "Regulatory trends\n\nStablecoin legislation\n\nIn July 2025, President Donald Trump signed the GENIUS Act legislation into law, requiring stablecoins to be backed 1-to-1 by the US dollar or other low-risk assets. The United States has also enacted the Anti-CBDC Surveillance State Act, which prohibits Federal Reserve banks from establishing or issuing a US CBDC.\n\nSEC and CFTC crypto clarity [...] Hong Kong has introduced a dedicated stablecoin issuer licensing regime under the HKMA and FSTB. It proposes high-quality reserve-asset backing, segregation and custody requirements, independent audits, clear redemption rights, and governance standards. Algorithmic stablecoins and unbacked arrangements will face restrictions.\n\nETF & tokenized-asset guidelines [...] Stablecoin payment rules in the UK are still in development and have not yet come into force. The government has outlined a future framework in which stablecoins used for payments would be subject to requirements on backing, redemption, and issuer governance, with payment-system regulators gaining expanded supervisory powers over systemic arrangements. In 2025, the FCA also advanced these plans through Consultation Paper CP25/14, which proposes detailed rules for stablecoin issuance and",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Cryptocurrency Regulation: A Guide to U.S. & Global Policies",
+      "link": "https://www.britannica.com/money/cryptocurrency-regulation",
+      "description": "Cryptocurrency regulation in the United States has historically been fragmented, with federal agencies applying different interpretations based on the nature and use of each asset. That splintered approach began to change in 2025, when Congress passed legislation to establish a clearer framework for stablecoins and digital asset markets.\n\n## Bitcoin and Ethereum ETFs [...] Cryptocurrency regulation is no longer a theoretical debate—it’s an evolving framework that is beginning to take shape worldwide. In the United States, Congress made progress in 2025 toward establishing federal oversight of stablecoins and digital asset markets. One measure—the GENIUS Act—was signed into law. [...] In the U.S., landmark legislation enacted in July 2025 has begun defining the roles of federal agencies in regulating stablecoins and digital commodities. Although implementation is ongoing, these laws represent a shift away from case-by-case enforcement and toward a structured national policy.\n\n## How cryptocurrency is regulated in the U.S.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Cryptocurrency Regulation Tracker",
+      "link": "https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker",
+      "description": "US stablecoin legislation is imminent. In 2024, 80% of dollar-backed stablecoins flows were outside the US. In response, some emerging markets, including Hong Kong and Brazil, begun developing their own stablecoin regulations. [...] ### Spotlight on stablecoin regulation\n\nMany jurisdictions in the world are in the process of rolling out regulations for stablecoins, which are fiat-backed tokens. 99% of all stablecoins are pegged to the dollar. Click below to compare where the United States stands in comparison to the UK, EU and Japan, the latter two of which have already begun regulating stablecoins.\n\nClick on each country’s card to view more details.\n\n### The role of global governance institutions",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "U.S. Crypto Market Structure Reform: Is This the Bill That ...",
+      "link": "https://bitcoinfoundation.org/news/bitcoin/u-s-crypto-market-structure-reform-is-this-the-bill-that-will-redefine-bitcoin-etfs-and-crypto-exchanges-in-2026",
+      "description": "Here’s why 2026 could reshape U.S. crypto rules: institutions are already deep in. Not just dabbling – full entry via spot Bitcoin ETFs, Ethereum offerings, stablecoins, even digital versions of real-world assets. These pieces link directly to legacy financial systems. What still lacks is clear market structure laws. That gap defines the next phase.\n\n### From Enforcement-Based Regulation to Formal Legal Framework [...] Heavy rules might push smaller players out. Big firms handle checks, monitoring, and reports without much trouble – tiny ones struggle. When safety rises, rivalry tends to fade.\n\n## The Future of Crypto ETFs Under New Regulation\n\nETFs link digital coins to old-school money systems. When rules tighten up in the U.S., oversight gets clearer – less guessing on who holds assets, how prices form, what monitoring looks like, or whether buyers stay safe.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto Market facing downward pressure amid US ...",
+      "link": "https://www.crypto-finance.com/market-deep-dive-crypto-market-facing-downward-pressure-amid-us-government-and-mt-gox-moves-macro-data-and-geopolitical-tensions-in-the-middle-east",
+      "description": "Skip to the content\n\n\n\n EN\n DE\n\n \n\nPrevious article\n\n# Market Deep Dive: Crypto Market facing downward pressure amid US Government and Mt. Gox Moves, Macro Data and Geopolitical Tensions in the Middle East\n\n Hektor Hof\n\nMarkets today by TradingView [...] to USD 62,300 yesterday after weak US macro data releases. However, it rebounded to USD 65,600 during yesterday’s US after-hours following earnings reports from Apple and Coinbase; it is currently trading above USD 64,000. [...] After Trump’s speech at the Bitcoin Conference, BTC tested the USD 70,000 range on Monday but was rejected after the US government dampened bullishness by moving USD 2 billion worth of BTC to Coinbase Prime. On Wednesday, Arkham reported that over 34,800 BTC had been moved to BitGo addresses, which caused BTC to drop to just above USD 65,000 during the US session. Following the FOMC conclusion and rising Middle East tensions, BTC fell to USD 63,500 overnight, then further to USD 62,300",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Open 24/7: The Three Ways Geopolitics Moves Crypto",
+      "link": "https://www.youtube.com/watch?v=USuHjOgy7HU",
+      "description": "⏱️ Timestamps:\n⏳ 00:00 – Confidence, uncertainty, and why geopolitics moves markets\n⏳ 00:41 – Risk: Crypto usually reacts first due to 24/7 markets\n⏳ 01:13 – Macro Conditions: Crypto reacts to spillovers (trade, energy, inflation, tighter conditions)\n⏳ 01:35 – Policy & Access: Crypto on capital movement, liquidity, cross‑border rails\n⏳ 01:57 – Stablecoins on Geopolitical Uncertainty\n⏳ 02:15 – Bitcoin’s role during Geopolitical Uncertainty: hedge narrative vs. short‑term risk behavior [...] ### Description\n1,306 views\nPosted: 2026-04-17\nMarkets don’t just move on fundamentals—they move on confidence. When geopolitics shakes confidence, uncertainty spikes and 24/7 markets like crypto often react first. This educational explainer breaks down how markets reprice risk when traders are trying to figure out whether key routes stay open, whether access remains open, and whether financial conditions tighten or ease due to geopolitical concerns. [...] [0:54] The causes might be different, but they  all create uncertainty. When that happens,  \n[1:00] investors often start pricing in worst-case  scenarios and cutting exposure to volatile  \n[1:05] assets. Because crypto trades twenty-four seven,  it can be one of the first markets to get hit. \n[1:12] Second, through macro conditions. Geopolitical shocks can disrupt trade,   push up energy prices, and raise inflation  worries. That can tighten financial conditions",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Geopolitics and Crypto: How Does Politics Control the ...",
+      "link": "https://coincub.com/blog/geopolitics-and-crypto-how-does-politics-control-the-market",
+      "description": "Geopolitics shapes the magnitude and timing of moves within a macro regime that the Fed largely controls. A Bitcoin bull market during a rate-cutting cycle will absorb geopolitical shocks and recover quickly. The same shocks hitting during a period of “higher for longer” rates land much harder and recover much more slowly. [...] Every missile strike, every sanctions announcement, every ceasefire rumor and territorial shift now carries a dollar sign. Not in the old metaphorical sense of “geopolitics affects economies.” In the very literal, real-time, onchain sense: the price of Bitcoin moves the moment a news alert hits a phone screen. Polymarket odds shift by the hour as drone footage circulates on Telegram. A devalued currency in Tehran, Lagos, or Buenos Aires sends volume surging into stablecoin pairs before a [...] Crypto markets process global conflicts and geopolitical shocks in real time because the onchain economy never sleeps.\n Institutional capital and spot ETFs now absorb sudden volatility to prevent the catastrophic retail selloffs seen in previous market cycles.\n Wall Street hedge funds actively utilize decentralized prediction platforms like Polymarket as primary intelligence feeds to gauge geopolitical probabilities before traditional news breaks.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Research │ Crypto & Macro Market Analysis │ BIT",
+      "link": "https://www.bit.com/research",
+      "description": "the yen weakened anyway, to 157.65, after which reports of a BoJ rate check emerged. The US 10-year touched 5.0% on Friday. Damage to Saudi Arabia's East–West pipeline early in the week pushed WTI above $100 and Brent toward $104 before Omani loadings and rising inventories eased it back. Higher oil, higher inflation, higher rates, higher yields: each link held. Equities were flat on the surface and weak underneath. The S&P closed slightly lower, the Nasdaq slightly higher on Friday's chip and [...] yields continues to point to a reflationary backdrop. The market is currently pricing in 3.1 rate hikes over the next 24 months. If the Fed begins hiking in September, history suggests that rate cycles tend to involve several consecutive moves, raising the possibility of another hike in October, less than a week before the US midterm elections. Fed officials also remain divided over the policy path. Warsh has said inflation remains too high, while Fed Governor Waller prefers holding rates [...] After US debt crossed the psychologically significant $40 trillion threshold, Bitcoin began to rally. At the same time, the prospect of US Treasury yields approaching the psychological 5.0% level has emerged as another key market focus. Since July 24, Bitcoin is up 22%, and gold is up 9.4%, as hard assets gain momentum against the current macro backdrop. Meanwhile, the macro cycle is in the first stage of a cyclical reflation, a phase in which the US dollar tends to weaken and commodity prices",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "How cryptocurrencies accelerate geopolitical shifts",
+      "link": "https://www.omfif.org/2025/08/how-cryptocurrencies-accelerate-geopolitical-shifts",
+      "description": "In many western democracies, the emergence of digital assets coincides with a moment of greater political populism. The earliest ‘crypto-bros’ pushed a deliberate agenda to protect against government and corporate intrusion, and their anger dovetailed nicely with President Donald Trump’s case that the ‘Deep State’ is rigged. Together, they now embrace bitcoin as ‘digital gold’ as the dollar weakens, even as they block the Federal Reserve from developing a CBDC. [...] If cryptocurrencies chip away at the traditional prerogatives of all regulators, however, they pose special challenges to the regulators of the world’s dominant currency. Even as the Chinese government cracks down on cryptocurrencies at home, the digital renminbi is key to its agenda abroad to promote an alternative to the dollar. The European Central Bank has similar ambitions for its currency, in hopes that broad adoption of a digital euro will reduce borrowing costs and reinforce the [...] Monetary sovereignty is the polite term for undercutting Washington’s extensive use of financial sanctions against criminals and rogue governments. Russia, Iran and Venezuela have all experimented with their own digital currencies to avoid sanctions. The most promising effort, however, is Project mBridge, a prototype to settle payments in CBDCs and avoid dollar settlements altogether. China, Hong Kong, Thailand, the United Arab Emirates and Saudi Arabia are among its principal sponsors after",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto sentiment has tipped into extreme greed... ...",
+      "link": "https://x.com/BSCNews/status/2102148865625297195",
+      "description": "Total crypto market cap rose 6% in 24 hours to $2.94T. $BTC gained over 7% to around $86,700, and $ETH added 5.6% to ~$2,765.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Bitcoin, Ethereum, XRP Price Predictions Today: Why Is Crypto Falling? | Coin Gabbar (@coin_gabbar_) on X",
+      "link": "https://x.com/coin_gabbar_/article/2098012051193164129?lang=ar",
+      "description": "صورة غلاف المقالة\n\n# Bitcoin, Ethereum, XRP Price Predictions Today: Why Is Crypto Falling?\n\nCoin Gabbar\n\nCoin Gabbar@coin\\_gabbar\\_·\n\nThe crypto market took a step back today. The total market cap fell to $2.76 trillion, down 0.60% in the past 24 hours. Trading volume sits at $94.41 billion.\n\nBitcoin slipped to $78,062.80. Ethereum eased to $2,470.13. XRP dropped to $1.38. Most coins are red today, but the drop is mild, not a crash.\n\n### Why is Crypto Market Down Today? [...] Ethereum trades at $2,472.04 today, down 1.80%. The coin has been stuck between $2,400 and $2,550 for over a week now.\n\nRetail selling and a slowdown in demand from bigger buyers seem to be the main reasons for the sideways action.\n\nNear-term resistance sits around $2,520 to $2,530. That level has rejected price several times in recent weeks. Each retest without a sharp rejection tends to weaken resistance over time, which raises the odds of an eventual breakout. [...] Markets are now pricing in a 60.4% chance of a rate hike at the September 16 Fed meeting, up from 39.6% odds of no change.\n\nA month ago, the odds were close to a coin flip. Now, the market thinks a hike is more likely than not. Higher rates usually mean less money flowing into risk assets like crypto.\n\n### Is the crypto market in fear or greed right now?\n\nThe Fear & Greed Index shows a score of 69 today. That puts the market in Greed territory.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Anthony Scaramucci on X",
+      "link": "https://x.com/Scaramucci/status/2071626605177303146",
+      "description": "Crypto sentiment is at its worst level since the FTX collapse; Bitcoin went from $15K to $126K, Bitcoin, Ethereum, and the entire crypto market",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "CoinGecko",
+      "link": "https://x.com/coingecko/all",
+      "description": "Bitcoin fell below $70K. Today, it's back at 46 (Neutral) as Bitcoin trades around $81K. Bitcoin breaks above $87,000, its highest level since January. Crypto",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Bitcoin Fear and Greed Index (@BitcoinFear) ...",
+      "link": "https://x.com/BitcoinFear",
+      "description": "Bitcoin Fear and Greed Index is 69 - Greed $BTC Current price: $78,089 25. Sideways action? Share your prediction and reasoning below!",
+      "pubDate": "",
+      "source": "Tavily web search"
+    }
+  ]
+}
