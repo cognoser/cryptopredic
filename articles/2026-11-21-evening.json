@@ -1,0 +1,1003 @@
+{
+  "date": "2026-11-21",
+  "edition": "evening",
+  "displayDate": "Saturday, November 21, 2026",
+  "generationProvider": "source-based fallback",
+  "fragment": "<p class=\"article-lead\">The day's crypto news is a mixture of market positioning, fund flows, policy updates, and company decisions. The headlines below are worth reading for the detail behind them, not just the reaction on a price chart.</p>\n    <section><h2>What is moving the conversation</h2><p><strong>Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug.</strong> Bitcoin Core shipped fixes on Friday for a bug flagged by Loupe, an open-source scanner from Block’s Spiral that uses AI agents to examine bitcoin code. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>XRP falls 10% as long bets unwind and ETF assets slip below $1 billion.</strong> The token broke its previous November lows during Saturday&#39;s crypto selloff, with long positions accounting for most XRP liquidations and technical indicators showing further weakness. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin tanks below $57,000 for the first time in two years, and its not alone.</strong> BTC&#39;s sell-off deepened on Saturday, with prices hitting two-year lows under $57,000. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Kalshi races to get ahead of New York order that could shut down exchange.</strong> The U.S. prediction market firm asked a New York court to give the company a chance to argue against a pending restraining order stemming from a new court loss. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment.</strong> The firm is the latest to join in building blockchain-based stock markets under the agency’s five-year &quot;innovation exemption&quot; for tokenized trading. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play.</strong> Bitcoin is closing in on its $57,700 summer low as Delphi Digital strategist warns the Fed could make matters worse and STS Digital sees cash as the place to hide. Readers should check the original report before treating the headline as a confirmed change in the market.</p></section>\n    <section><h2>Market context</h2><p>Bitcoin is around $58,474 with a -5.24% 24-hour move, while Ether is around $1,664.13 with a -4.82% move. Those figures are a snapshot, not a forecast. The useful question is whether the move is supported by spot demand, volume, and a clear change in the news.</p><p>When the market is quiet, leverage and liquidity can matter as much as direction. A small headline can move price quickly when traders are positioned too closely on one side.</p></section>\n    <section><h2>What to watch next</h2><ul class=\"article-watchlist\"><li>New ETF creations and redemptions.</li><li>Futures open interest and funding rates.</li><li>Fresh regulatory text or official statements.</li><li>Security warnings, outages, or custody changes.</li><li>Whether the reported developments become live products rather than announcements.</li></ul></section>\n    <p class=\"article-closing\">The fairest reading today is cautious attention. There are real developments in the industry, but none should be stretched into a guaranteed market direction.</p>",
+  "items": [
+    {
+      "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+      "description": "Bitcoin Core shipped fixes on Friday for a bug flagged by Loupe, an open-source scanner from Block’s Spiral that uses AI agents to examine bitcoin code.",
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+      "pubDate": "Sat, 21 Nov 2026 06:16:42 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+      "description": "The token broke its previous November lows during Saturday's crypto selloff, with long positions accounting for most XRP liquidations and technical indicators showing further weakness.",
+      "link": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+      "pubDate": "Sat, 21 Nov 2026 05:59:19 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+      "description": "BTC's sell-off deepened on Saturday, with prices hitting two-year lows under $57,000.",
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+      "pubDate": "Sat, 21 Nov 2026 04:10:07 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Kalshi races to get ahead of New York order that could shut down exchange",
+      "description": "The U.S. prediction market firm asked a New York court to give the company a chance to argue against a pending restraining order stemming from a new court loss.",
+      "link": "https://www.coindesk.com/policy/2026/11/20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange",
+      "pubDate": "Fri, 20 Nov 2026 22:51:14 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
+      "description": "The firm is the latest to join in building blockchain-based stock markets under the agency’s five-year \"innovation exemption\" for tokenized trading.",
+      "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
+      "pubDate": "Fri, 20 Nov 2026 22:05:31 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+      "description": "Bitcoin is closing in on its $57,700 summer low as Delphi Digital strategist warns the Fed could make matters worse and STS Digital sees cash as the place to hide.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
+      "pubDate": "Fri, 20 Nov 2026 18:13:52 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street",
+      "description": "A former Point72 executive says AI could reshape Wall Street's data market, turning once-exclusive information into a source of revenue and financing.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/former-point72-head-of-proprietary-research-says-ai-could-turn-data-into-a-new-asset-class-for-wall-street",
+      "pubDate": "Fri, 20 Nov 2026 14:54:30 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
+      "description": "Hong Kong wants to bring crypto brokers, advisers, asset managers and custodians under its existing regulatory framework.",
+      "link": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians",
+      "pubDate": "Fri, 20 Nov 2026 14:38:30 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
+      "description": "The bill would ban bets on war, assassinations and military operations amid concerns that traders could profit from inside information, as has already occurred.",
+      "link": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+      "pubDate": "Fri, 20 Nov 2026 14:25:57 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+      "description": "BlackRock’s bitcoin ETF saw a record $541.1 million outflow as the U.S. tech selloff spread to Asia, sending South Korea’s Kospi down more than 5%.",
+      "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "pubDate": "Fri, 20 Nov 2026 13:35:33 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+      "description": "University of Liège researchers put a few dollars into deliberately vulnerable bitcoin addresses and watched rival bots race for the money within seconds.",
+      "link": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+      "pubDate": "Fri, 20 Nov 2026 13:30:22 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "ECB’s Lagarde warns Europe could lose control of growing tokenized asset market",
+      "description": "The ECB president called for common rules as the EU's new blockchain settlement system handled a 1 billion-euro ($1.1 billion) digital bond transaction.",
+      "link": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
+      "pubDate": "Fri, 20 Nov 2026 13:11:49 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
+      "description": "Your day-ahead look for Nov. 20, 2026",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging",
+      "pubDate": "Fri, 20 Nov 2026 12:15:08 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin drops for third straight day as Asian tech shares slide",
+      "description": "BlackRock’s spot bitcoin ETF recorded the largest single-day outflow since its introduction more than two years ago as investors continued to flee the sector.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
+      "pubDate": "Fri, 20 Nov 2026 11:42:02 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Coinbase targets first-half 2027 for its own prediction market contracts",
+      "description": "The move would reduce Coinbase's reliance on a partnership Kalshi, which brought in $200 million in annualized revenue in the third quarter.",
+      "link": "https://www.coindesk.com/business/2026/11/20/coinbase-targets-first-half-2027-for-its-own-prediction-market-contracts",
+      "pubDate": "Fri, 20 Nov 2026 10:48:04 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
+      "description": "Hyperliquid and other onchain exchanges can offer derivatives to U.S. traders if they obtain the required licenses or work with a registered exchange, the CFTC chairman said.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/cftc-tells-hyperliquid-and-crypto-rivals-no-special-rules-for-onchain-trading",
+      "pubDate": "Fri, 20 Nov 2026 10:02:03 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Cathie Wood's Ark Invest piled into Anthropic IPO, buying $90 million worth of shares",
+      "description": "ARK Invest snapped up $90 million in Anthropic stock across six funds during the AI maker’s historic Nasdaq debut while offloading Nvidia shares amid leadership turmoil.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/cathie-wood-s-ark-invest-piled-into-anthropic-ipo-buying-usd90-million-worth-of-shares",
+      "pubDate": "Fri, 20 Nov 2026 09:48:52 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
+      "description": "The sell-off hit Wagyu’s XMR1 token, separate from Monero and Hyperliquid’s XMR futures market.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million",
+      "pubDate": "Fri, 20 Nov 2026 08:04:40 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Here's what's crashing gold and likely weighing on bitcoin too",
+      "description": "Gold fell to its lowest level since September 2025 on Friday, and the same catalyst driving its decline is likely also weighing on bitcoin.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/here-s-what-s-crashing-gold-and-likely-weighing-on-bitcoin-too",
+      "pubDate": "Fri, 20 Nov 2026 06:12:15 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
+      "description": "About $1.7 billion traded through a Hyperliquid contract on the AI company’s shares in 24 hours, and the biggest position heading into Friday’s Nasdaq open is a $30 million short.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/crypto-traders-have-anthropic-trading-below-its-first-nasdaq-close-on-hyperliquid",
+      "pubDate": "Fri, 20 Nov 2026 06:08:28 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
+      "description": "PowerCompute had its lender sell 267 pledged bitcoin in September, wiping out most of its debt, and ended the month with about $650,000 in cash and a going-concern warning.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
+      "pubDate": "Fri, 20 Nov 2026 05:32:25 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
+      "description": "Wall Street piled into Bitcoin funds in the third quarter, ending a three-quarter selling streak, according to Galaxy Research. But the buying has given way to renewed selling this quarter.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
+      "pubDate": "Fri, 20 Nov 2026 05:20:51 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
+      "description": "Glamsterdam was originally targeted for December, but developers now say January is the earliest possible date as companies work to fix affected smart contracts.",
+      "link": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+      "pubDate": "Fri, 20 Nov 2026 04:58:08 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "description": "Coinbase Custody will continue serving all three funds after Gemini's contracts end in February.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
+      "pubDate": "Fri, 20 Nov 2026 04:28:52 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
+      "description": "Bitcoin remains under pressure after Anthropic's IPO as Nasdaq futures dip below their 200-day average.",
+      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt",
+      "pubDate": "Fri, 20 Nov 2026 03:32:30 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "IOSCO Warns of Quantum Risk to Blockchains as Bitcoin Devs Weigh Fixes",
+      "description": "In its latest quantum computing report, IOSCO estimates that blockchain networks, including bitcoin, could face challenges in achieving preparedness before a post-quantum computing world, as they require coordinated action to upgrade and change the elements driving these decentralized networks. IOSCO Alerts About Blockchain&#8217;s Challenges to Achieve &#8216;Crypto Agility&#8217; International organizations are now examining the risks [&#8230;]",
+      "link": "https://news.bitcoin.com/security/iosco-warns-quantum-risk-blockchains-bitcoin-devs-weigh-fixes/",
+      "pubDate": "Sat, 21 Nov 2026 11:30:53 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Nvidia&#8217;s $2.75 Trillion Wipeout Is Now Bigger Than The Whole Crypto Market",
+      "description": "Nvidia has shed about $2.75 trillion in market value since its Oct. 6 record close, more than the roughly $2.02 trillion that the entire crypto market is worth right now. One Stock, Bigger Than Crypto&#8217;s Losses Nvidia lost more value in 45 days than the entire crypto market is worth, with the chipmaker wiping out [&#8230;]",
+      "link": "https://news.bitcoin.com/finance/nvidias-2-75-trillion-wipeout-is-now-bigger-than-the-whole-crypto-market/",
+      "pubDate": "Sat, 21 Nov 2026 10:30:00 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
+      "description": "The largest long position in HYPE on Hyperliquid is now within roughly 9% of liquidation, and the trader behind it has fed $7 million in fresh USDC into the account since Friday to keep it alive. A $68M Winner Turns Into a Rescue Job Onchain analytics account Lookonchain flagged the position earlier today, highlighting: The [&#8230;]",
+      "link": "https://news.bitcoin.com/defi/biggest-hype-whale-adds-7m-dodge-liquidation-80m-long/",
+      "pubDate": "Sat, 21 Nov 2026 10:00:01 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Coinbase Backs CFTC Prediction Market Push Amid Senate Backlash",
+      "description": "Coinbase is urging the Commodity Futures Trading Commission to classify prediction market event contracts as swaps under federal law, arguing that a uniform regulatory framework would eliminate legal uncertainty, protect market liquidity, and encourage innovation. CFTC&#8217;s Prediction Market Push Sparks Political Backlash Cryptocurrency exchange Coinbase is urging regulators to adopt a rule explicitly classifying event-based [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/coinbase-backs-cftc-prediction-market-push-amid-senate-backlash/",
+      "pubDate": "Sat, 21 Nov 2026 09:30:59 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Saylor&#8217;s Strategy Flaunts $35B Reserves as Adam Back Buys the MSTR Dip",
+      "description": "Strategy revealed yesterday that its net reserve stands at $35 billion with all of its bitcoin unencumbered, the same day Blockstream CEO Adam Back said he was buying MSTR after the stock fell to its lowest close since February 2024. Strategy Draws a Line Against 2022 Strategy (Nasdaq: MSTR) posted the comparison on Friday evening [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/strategy-35-billion-net-reserve-adam-back-buys-mstr/",
+      "pubDate": "Sat, 21 Nov 2026 09:00:57 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "XRP Slips Below $0.90 For The First Time Since 2024 as ETFs Bleed",
+      "description": "XRP slipped below $0.90 on Nov. 21 and hit $0.87, its lowest level since November 2024, as U.S. spot XRP exchange-traded funds (ETFs) neared their worst month of outflows since launch. A Two-Year Low for XRP XRP is trading near $0.87 on Saturday, down over 10% over the past 24 hours. The last time XRP [&#8230;]",
+      "link": "https://news.bitcoin.com/crypto-news/xrp-price-below-90-cents-xrp-etfs-worst-month/",
+      "pubDate": "Sat, 21 Nov 2026 08:30:18 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Bitcoin Sinks Below $56K as Arthur Hayes Says Wait for the Bailout",
+      "description": "Bitcoin lost nearly 17% in a week and almost a third of its value in a month as the sell-off deepened. Arthur Hayes urged crypto traders to wait for a bailout before buying, even if it meant missing the bottom. Hayes Urges Patience as Bitcoin Extends Its Slide Selling continued in crypto markets over the [&#8230;]",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-sinks-below-56k-as-arthur-hayes-says-wait-for-the-bailout/",
+      "pubDate": "Sat, 21 Nov 2026 07:30:23 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Democrats Propose Cash Rewards for Exposing Prediction Market Insider Trading",
+      "description": "Two Democratic lawmakers have introduced legislation that would reward whistleblowers who expose insider trading on prediction markets, potentially awarding them millions of dollars for information leading to successful federal enforcement actions. Reps. Sean Casten of Illinois and Ted Lieu of California introduced the Policing Insider Trading in Prediction Markets Act of 2026 on Friday, Nov. [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/democrats-propose-cash-rewards-exposing-prediction-market-insider-trading/",
+      "pubDate": "Sat, 21 Nov 2026 05:30:01 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Fidelity Strategist Stays Bullish as Bitcoin Dips Below $58K — Here&#8217;s Why",
+      "description": "Bitcoin&#8217;s sell-off took it below the support level on a Fidelity strategist&#8217;s weekly chart. He remains bullish but warned that a fall well below the rising line would call his long-term outlook into question. How Far Below Support Would Bitcoin Have to Fall? Jurrien Timmer, Fidelity Investments&#8217; director of global macro, reaffirmed his bullish outlook [&#8230;]",
+      "link": "https://news.bitcoin.com/market-updates/fidelity-strategist-stays-bullish-as-bitcoin-dips-below-58k-heres-why/",
+      "pubDate": "Sat, 21 Nov 2026 03:30:08 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
+      "description": "Ether briefly fell below the support level Peter Schiff identified six days earlier before trading back above it by Friday evening. He warned that a broader crypto selloff over the weekend could push it back toward its 2022 low by Monday. Schiff Warns Ether Could Hit $1,000 by Monday Economist and gold advocate Peter Schiff [&#8230;]",
+      "link": "https://news.bitcoin.com/market-updates/peter-schiff-warns-of-weekend-crypto-crash-sending-eth-to-1k/",
+      "pubDate": "Sat, 21 Nov 2026 02:16:11 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 21 Nov 2026 11:18:52 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
+      "description": "Industry groups have until Dec. 11 to apply for the ECB’s first experimental exercises under its Appia initiative, with later submissions reviewed on a rolling basis.",
+      "link": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 21 Nov 2026 09:48:56 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
+      "description": "Whistleblowers could receive 10% to 30% of monetary sanctions in qualifying prediction market fraud cases exceeding $1 million in penalties.",
+      "link": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 21 Nov 2026 07:51:47 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
+      "description": "Hong Kong’s securities regulator says the proposal would strengthen investor protections, with the bill set for its first reading in the Legislative Council on Dec. 2.",
+      "link": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sat, 21 Nov 2026 05:40:35 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
+      "description": "Bitquery traced $13.5 million in suspicious sales of the wrapped Monero token, as its operator blamed a security breach and promised to reimburse affected traders.",
+      "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 19:37:27 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims",
+      "description": "Sky says its USDS stablecoin held its $1 value despite more than $2 billion in withdrawals, as it disputes a report linking the protocol to illicit activity.",
+      "link": "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 18:37:10 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
+      "description": "Bitcoin fell nearly 6% as US stocks declined, with the Nasdaq dropping more than 2% and Anthropic shares losing almost 10%.",
+      "link": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 16:55:51 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "US Senate advances prediction market restrictions with DEATH BETS Act",
+      "description": "The Senate-approved bill would ban prediction market contracts tied to war, assassination and death amid concerns over potential insider trading on military events.",
+      "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 15:55:22 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+      "description": "Bitcoin price strength felt pressure from falling US equities as traders reassessed AI prospects after Anthropic’s IPO.",
+      "link": "https://cointelegraph.com/markets/bitcoin-hits-new-20-week-low-anthropic-drops-87-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 15:52:06 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "DBS bets it can lose the deposit and keep the client",
+      "description": "The Singapore bank earned a record $208 million in transaction services fees in the third quarter — now it’s helping companies turn deposits into stablecoins they can spend without it.",
+      "link": "https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 15:32:30 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
+      "description": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
+      "link": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 13:21:39 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
+      "description": "OnChain Lens tracked nearly $600 million in ETH transfers over two days as the Binance hackers moved the stolen funds through fresh wallets and cross-chain protocols to obscure their trail.",
+      "link": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 11:31:41 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
+      "description": "VanEck plans to end Gemini’s custody agreements for three crypto ETFs in February 2027, while Coinbase will continue serving as a custodian for the funds.",
+      "link": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 10:54:38 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin nears repeat of chart pattern that preceded 2023’s $25K retest",
+      "description": "Bitcoin’s 21-day moving average fell below its 200-day average, and analyst Keith Alan expects a second bearish crossover by Sunday.",
+      "link": "https://cointelegraph.com/markets/bitcoin-first-death-cross-repeat-2023-bottom-25k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 10:29:10 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "BlackRock’s IBIT loses record $541M amid Anthropic market debut",
+      "description": "BlackRock’s IBIT posted its largest daily outflow on record, taking three-session outflows near $900 million as BTC dipped amid a broader market selloff.",
+      "link": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 08:18:42 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
+      "description": "The SEC says the operators showed investors fake certificates and pointed them to filings on the agency’s website as proof of regulatory approval.",
+      "link": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 08:03:34 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s",
+      "description": "Retail investors traded $772 million in Anthropic shares on Thursday, the most Vanda Research has recorded for a market debut since 2012.",
+      "link": "https://cointelegraph.com/markets/anthropic-ipo-spacex-retail-buying-first-day-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 06:24:41 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "description": "Asset managers added the equivalent of 49,229 Bitcoin to their US Bitcoin ETF holdings in the third quarter, reversing three quarters of net selling.",
+      "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Fri, 20 Nov 2026 03:33:22 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Ledger CTO Charles Guillemet to leave after nine years at company",
+      "description": "Guillemet helped establish Ledger’s Donjon security lab and says his departure has been planned for months.",
+      "link": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 23:44:02 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+      "description": "Binance obtains court orders freezing assets stolen in October’s hack. Hong Kong warns citizens about Hyperliquid, and Thai police arrest four foreigners linked to a crypto scam.",
+      "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 22:25:18 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "MoonPay seeks US bank charter for stablecoin, custody services",
+      "description": "MoonPay’s proposed national trust bank would offer stablecoin issuance and redemption, reserve management and digital asset custody under federal oversight.",
+      "link": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 21:01:42 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
+      "description": "Hyperliquid traders priced Anthropic futures within 1% of the stock’s Nasdaq opening price, as trading surged ahead of the AI company’s IPO.",
+      "link": "https://cointelegraph.com/markets/hyperliquid-anthropic-futures-nasdaq-opening-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 20:33:24 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
+      "description": "Former CFTC Commissioner and Democrat Kristin Johnson and ex-SEC aide Steven Levine appeared before lawmakers Thursday.",
+      "link": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 20:06:34 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
+      "description": "Ethereum developers are weighing changes to gas pricing proposals that could disrupt existing smart contracts, after contacting at least 50 affected companies.",
+      "link": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 18:20:49 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Why higher rates could slow Bitcoin buying at treasury firms",
+      "description": "A treasury company can have years of dividends covered and still struggle to sell new shares on terms that make another Bitcoin purchase worthwhile.",
+      "link": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 18:09:32 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+      "description": "Bitcoin dropped toward a third retest of $62,000 as Anthropic debuted on the Nasdaq, hitting highs of $115 per share before dropping below $100.",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 18:06:50 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Anthropic shares open at $111.50, 34.3% above $83 IPO price",
+      "description": "The Claude chatbot maker began trading under the ticker ANT, with the company’s valuation at around $2 trillion at the opening price.",
+      "link": "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 16:07:51 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Ethereum’s new DeFi security tool raises questions over censorship",
+      "description": "Phylax’s system lets decentralized protocols block potentially harmful transactions, but raises questions about potential censorship and Ethereum’s concentrated builder market.",
+      "link": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 13:30:00 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Hong Kong adds Hyperliquid to list of ‘suspicious’ crypto platforms",
+      "description": "Hong Kong’s securities regulator said Hyperliquid has no local license and may have promoted its trading services to investors in the city.",
+      "link": "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 12:44:06 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "GTA VI publisher racks up nearly 3x Nvidia’s tokenized stock volume",
+      "description": "Tokenized Take-Two shares drew $249.5 million in DEX volume Wednesday, nearly three times the $88.1 million for tokenized Nvidia shares.",
+      "link": "https://cointelegraph.com/news/gta-vi-launch-tokenized-ttwo-trade-triple-nvidia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Thu, 19 Nov 2026 12:33:46 +0000",
+      "source": "cointelegraph.com"
+    },
+    {
+      "title": "Claude Claims Historic Math Breakthrough One Day After Anthropic IPO",
+      "description": "Levent Alpöge claims Claude helped prove a 167-year-old math conjecture, but independent checks remain pending, and the release just after Anthropic’s IPO has prompted questions about its unusual publication timing.",
+      "link": "https://decrypt.co/383747/claude-historic-math-breakthrough-anthropic-ipo",
+      "pubDate": "Fri, 20 Nov 2026 21:36:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting",
+      "description": "Nvidia shares fell about 13% to a 52-week low after reports that SEC enforcement staff are examining potential accounting issues, adding to pressure on the chipmaker after Jensen Huang’s resignation.",
+      "link": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+      "pubDate": "Fri, 20 Nov 2026 20:36:54 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "SBF’s 'The Altruists' Plot Twist: FTX’s Anthropic Shares Would Be Worth $43 Billion",
+      "description": "Anthropic’s IPO made FTX’s liquidated AI bet a $43 billion what-if, just as Netflix premiered its Sam Bankman-Fried drama.",
+      "link": "https://decrypt.co/383739/sbf-altruists-ftx-anthropic-shares-worth-43-billion",
+      "pubDate": "Fri, 20 Nov 2026 19:36:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+      "description": "The firm bought 934,968 Anthropic shares across six ETFs on the Claude maker’s Nasdaq debut while trimming a combined $4.1 million from its Ethereum and Solana staking ETFs.",
+      "link": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
+      "pubDate": "Fri, 20 Nov 2026 18:46:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Google Gives Gemini Control of Mac Apps, But Its New AI Agent Comes With Risks",
+      "description": "Gemini's new Mac computer-use feature navigates apps, files, and websites in a separate window, but Google's own documentation warns about prompt injection.",
+      "link": "https://decrypt.co/383733/google-gives-gemini-control-mac-apps-ai-agent",
+      "pubDate": "Fri, 20 Nov 2026 18:16:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
+      "description": "Wagyu’s XMR1 token fell more than 99% after an attacker moved 5.2 million tokens out of its deployer account and sold a fraction of them for $13.5 million.",
+      "link": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
+      "pubDate": "Fri, 20 Nov 2026 17:41:45 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
+      "description": "Bitcoin broke below $60,000 Friday as crypto sentiment collapsed and AI-linked stocks sank after Anthropic’s IPO.",
+      "link": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest",
+      "pubDate": "Fri, 20 Nov 2026 16:35:59 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Senate Passes Bill Banning Prediction Market Bets on War, Terrorism and Death",
+      "description": "Sen. Adam Schiff's DEATH BETS Act would bar U.S.-regulated exchanges from listing contracts tied to war, assassinations or deaths.",
+      "link": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death",
+      "pubDate": "Fri, 20 Nov 2026 15:42:51 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Morning Minute: Anthropic IPO Pops, Sinks Markets",
+      "description": "A (brief) win for Anthropic's ANT stock on IPO day meant a loss for just about every other major asset class.",
+      "link": "https://decrypt.co/383691/morning-minute-anthropic-ipo-pops-sinks-markets",
+      "pubDate": "Fri, 20 Nov 2026 13:23:01 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "MoonPay Applies for National Trust Bank Charter to Grow Custody and Stablecoin Business",
+      "description": "The crypto payments firm joins a rush of crypto companies seeking federal trust charters, which face growing political scrutiny.",
+      "link": "https://decrypt.co/383688/moonpay-applies-for-national-trust-bank-charter-to-grow-custody-and-stablecoin-business",
+      "pubDate": "Fri, 20 Nov 2026 12:10:14 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
+      "description": "Thursday's ETF outflow was the funds' biggest in three weeks, as rising Treasury yields and Fed rate hike bets weigh on crypto.",
+      "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+      "pubDate": "Fri, 20 Nov 2026 11:50:51 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Coinbase Targets In-House Prediction Markets by First Half of 2027: Report",
+      "description": "The exchange offers event contracts through Kalshi, but running its own would give it more control and a bigger share of trading revenue.",
+      "link": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report",
+      "pubDate": "Fri, 20 Nov 2026 11:23:00 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
+      "description": "The UK crypto trade group broadly backed the regulator's proposed perimeter guidance, but warned that parts of it go further than the law.",
+      "link": "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default",
+      "pubDate": "Fri, 20 Nov 2026 10:07:46 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue—Even After a Hack",
+      "description": "Citibank’s updated terms put customers on the hook for outside AI agents, including leaked logins.",
+      "link": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack",
+      "pubDate": "Thu, 19 Nov 2026 22:36:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+      "description": "Anthropic shares opened 34% above their $83 IPO price before giving up much of the gain, while Nvidia, AMD and other AI stocks slid across Wall Street.",
+      "link": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price",
+      "pubDate": "Thu, 19 Nov 2026 21:12:06 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Meet SHRINCS: Bitcoin's Emerging Frontrunner for a Post-Quantum Signature",
+      "description": "A new post-quantum signature proposal aims to secure Bitcoin’s future, but balancing user safety and efficiency comes with hurdles.",
+      "link": "https://decrypt.co/383666/meet-shrincs-bitcoin-emerging-frontrunner-post-quantum-signature",
+      "pubDate": "Thu, 19 Nov 2026 20:46:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+      "description": "A ransomware group breached third-party vendors, not the companies’ own systems. Visa said no card data was affected while Mastercard cited a limited cardholder subset.",
+      "link": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data",
+      "pubDate": "Thu, 19 Nov 2026 20:15:32 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
+      "description": "Anthropic shares surged on their Nasdaq debut, but stocks slid and Bitcoin fell lower. Its daily chart shows deeply oversold momentum, a strong downtrend, and fragile support.",
+      "link": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo",
+      "pubDate": "Thu, 19 Nov 2026 19:08:24 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Protesters Arrested Outside Nasdaq as Activists Oppose Anthropic IPO Over AI Bubble Risks",
+      "description": "At least four people were arrested outside Nasdaq during Anthropic’s historic IPO, as protesters warned that AI valuations could leave retirement savers exposed to a potential market crash and broader economic losses.",
+      "link": "https://decrypt.co/383642/protesters-arrested-nasdaq-anthropic-ipo-ai-bubble-risks",
+      "pubDate": "Thu, 19 Nov 2026 17:55:38 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "What Are Perpetual Futures? How Crypto's Most Popular Derivative Works",
+      "description": "Perpetual futures let traders bet on prices with leverage and no expiry date. Here's how they work, and why they dominate crypto trading.",
+      "link": "https://decrypt.co/resources/what-are-perpetual-futures-how-cryptos-most-popular-derivative-works",
+      "pubDate": "Thu, 19 Nov 2026 17:28:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Anthropic Stock Opens 33% Above IPO Price as AI Stocks Rally",
+      "description": "The Claude maker's shares could debut at $110, pushing its valuation toward $2 trillion as enthusiasm for its historic IPO lifts the broader technology sector.",
+      "link": "https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price",
+      "pubDate": "Thu, 19 Nov 2026 16:55:10 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Anthropic Tops SpaceX's Initial IPO With $81 Billion Deal: Where the Money Went",
+      "description": "The Claude maker beat SpaceX's original share sale, though not its expanded final IPO. Here's who got the money and why the computing bill could be even bigger.",
+      "link": "https://decrypt.co/383623/anthropic-tops-spacex-initial-ipo-81-billion-deal-where-the-money-went",
+      "pubDate": "Thu, 19 Nov 2026 15:54:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Gen Z Embraces Crypto While Most Americans Call It a 'Side Quest'",
+      "description": "A SoFi and YouGov survey found that 21% of Gen Z adults own crypto, more than hold employer retirement plans, even as only 13% of all Americans own it and most remain skeptical.",
+      "link": "https://decrypt.co/383589/gen-z-embraces-crypto-most-americans-side-quest",
+      "pubDate": "Thu, 19 Nov 2026 14:01:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Quantum Upgrade Could Be 'Particularly Challenging' for Blockchains: IOSCO",
+      "description": "The global securities watchdog said markets shouldn't wait for quantum computers to arrive, flagging bulkier signatures and harder upgrades.",
+      "link": "https://decrypt.co/383613/quantum-upgrade-could-be-particularly-challenging-for-blockchains-iosco",
+      "pubDate": "Thu, 19 Nov 2026 13:47:00 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Morning Minute: Google’s Newest AI Model Tops Benchmarks Ahead of Anthropic IPO",
+      "description": "Anthropic bulls seem to be shrugging off the news, as ANT pops 25% over IPO price on Hyperliquid pre-debut.",
+      "link": "https://decrypt.co/383609/morning-minute-googles-newest-ai-model-tops-benchmarks-ahead-of-anthropic-ipo",
+      "pubDate": "Thu, 19 Nov 2026 13:05:28 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
+      "description": "An Abu Dhabi court's worldwide injunction targets the unknown hackers, backed by a &#34;living list&#34; of 26,000 wallets holding stolen funds.",
+      "link": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
+      "pubDate": "Thu, 19 Nov 2026 12:59:14 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "GameStop CEO Says Digital-Only Games Have ‘Hurt Consumers’ as GTA 6 Skips Discs",
+      "description": "Ryan Cohen said publishers are cutting out trade-ins, as he backs a U.S. bill that would guarantee gamers keep access to games they buy.",
+      "link": "https://decrypt.co/383600/gamestop-ceo-says-digital-only-games-have-hurt-consumers-as-gta-6-skips-discs",
+      "pubDate": "Thu, 19 Nov 2026 11:15:08 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
+      "description": "Bitcoin is down 13% in a week as investors pull money from spot ETFs and brace for another Federal Reserve rate hike.",
+      "link": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+      "pubDate": "Thu, 19 Nov 2026 10:25:05 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Ledger Confirms Tampered Bitcoin Wallets in Berlin as Spy Implant Probe Spreads Beyond Asia",
+      "description": "Ledger says its hardware implant investigation has confirmed tampered devices in Berlin and is examining two suspected units in Dubai, as the incident spreads beyond Southeast Asia.",
+      "link": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia",
+      "pubDate": "Wed, 18 Nov 2026 22:16:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "ChatGPT, Claude, Gemini and Grok Helped Plan Terror Attacks in Government Tests",
+      "description": "Federal investigators bypassed safeguards on four popular chatbots, producing viable attack plans within hours.",
+      "link": "https://decrypt.co/383584/chatgpt-claude-gemini-grok-help-plan-terror-attacks-government-tests",
+      "pubDate": "Wed, 18 Nov 2026 21:46:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Palmer Luckey Says He’s Building an Offshore Haven for Industry—And 'Illegal' Medicine",
+      "description": "The Oculus founder says his decade-old SLAB project aims to escape state restrictions on manufacturing and medical treatment.",
+      "link": "https://decrypt.co/383576/palmer-luckey-offshore-haven-industry-illegal-medicine",
+      "pubDate": "Wed, 18 Nov 2026 21:16:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Google's Genie 4 Is Here, Letting Ultra Subscribers Build AI Worlds in Real Time",
+      "description": "Google's Genie 4 lets Ultra subscribers reshape interactive scenes while exploring them, complete with sound and dialogue, as Project Genie adds longer sessions and new community creation and sharing tools.",
+      "link": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time",
+      "pubDate": "Wed, 18 Nov 2026 20:16:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
+      "description": "The crypto asset manager sold $16.6 million in Ethereum and $2.7 million in Solana, freeing up $19.3 million. Here's why.",
+      "link": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
+      "pubDate": "Wed, 18 Nov 2026 19:46:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
+      "description": "Bitcoin slid toward $63,000 as Anthropic prepared its blockbuster debut. Analysts dispute whether the IPO is draining crypto liquidity, pointing instead to ETF outflows, forced selling and rising interest rates.",
+      "link": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai",
+      "pubDate": "Wed, 18 Nov 2026 19:16:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Bitcoin Miners Are Selling Their Stacks to Fund the AI Boom",
+      "description": "MARA sold 13,597 BTC after September and Riot sold 20,264 BTC through September to fund debt repayment and AI data center buildouts, as Glassnode flagged the pair as the main sellers among Bitcoin treasury firms.",
+      "link": "https://decrypt.co/383568/bitcoin-miners-selling-fund-ai-boom",
+      "pubDate": "Wed, 18 Nov 2026 18:46:03 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Fed's Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
+      "description": "Christopher Waller says stubborn inflation may warrant a bigger December rate hike, while a separate speech outlined why blockchain-based payments still need traditional settlement systems and stronger safeguards to scale.",
+      "link": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+      "pubDate": "Wed, 18 Nov 2026 18:16:02 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "Lucky Trader Banks 66,000% Profit on GTA 6 Meme Coin Ticker Confusion",
+      "description": "The trader turned $300 into over $200,000 as early footage of GTA 6 sent degens flocking between different token tickers.",
+      "link": "https://decrypt.co/383536/lucky-trader-banks-66000-profit-on-gta-6-meme-coin-ticker-confusion",
+      "pubDate": "Wed, 18 Nov 2026 17:32:13 +0000",
+      "source": "decrypt.co"
+    },
+    {
+      "title": "JPMorgan says bitcoin’s price drop pressures miners, Senate passes ‘Death Bets Act’, and more",
+      "description": "In today's newsletter, JPMorgan says bitcoin's price drop puts more pressure on miners; Senate passes bill to ban prediction markets tied to death and war; and more.",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-20-jpmorgan-bitcoin-price-drop-miners-senate-passes-death-bets-act-more-crypto-news-444786",
+      "pubDate": "Sat, 21 Nov 2026 04:30:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "DCG’s Zcash miner Fortitude clears vote for Nasdaq listing as ZEC retreats from all-time high",
+      "description": "Fortitude wins shareholder backing for its planned Nasdaq debut as ZEC trades 55% below its record high.",
+      "link": "https://www.theblock.co/news/business/2026-11-20-dcgs-zcash-miner-fortitude-clears-vote-nasdaq-listing-zec-retreats-all-time-high-444784",
+      "pubDate": "Fri, 20 Nov 2026 21:40:01 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Rep. Casten seeks to curb prediction market insider trading with DOJ whistleblower program",
+      "description": "Rep. Sean Casten, who could have a top spot in Congress next year, is clamping down on insider trading in prediction markets.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-20-rep-casten-seeks-curb-prediction-market-insider-trading-doj-whistleblower-program-444779",
+      "pubDate": "Fri, 20 Nov 2026 19:41:52 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
+      "description": "Elliptic says little has likely been cashed out, despite a sharp rise in bitcoin mixing since Nov. 17.",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+      "pubDate": "Fri, 20 Nov 2026 18:22:39 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "JPMorgan says bitcoin price correction widens gap to estimated $86,000 production cost",
+      "description": "Bitcoin's recent price drop has widened the gap between its market price and JPMorgan's estimated production cost of $86,000.",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+      "pubDate": "Fri, 20 Nov 2026 18:17:39 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Wagyu’s XMR1 wrapped Monero plunges 99% after $13 million hack as founder promises refunds",
+      "description": "Wagyu’s founder pledged refunds after an attacker sold XMR1 Wrapped Monero tokens in a $13 million exploit.",
+      "link": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+      "pubDate": "Fri, 20 Nov 2026 16:11:22 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Rep. Horsford sees opening for House vote on crypto tax bill before Congress ends",
+      "description": "Rep. Steven Horsford said a bipartisan crypto tax bill could pass the House before this current Congress ends.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-20-rep-horsford-sees-opening-house-vote-crypto-tax-bill-before-congress-ends-444720",
+      "pubDate": "Fri, 20 Nov 2026 14:51:32 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Wintermute policy chief calls for crypto lobby to ‘clean house’ in D.C.",
+      "description": "Wintermute's Ron Hammond says crypto needs a new strategy after repeated lobbying setbacks against established financial interests.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-20-wintermute-policy-chief-calls-for-crypto-lobby-clean-house-d-c-444721",
+      "pubDate": "Fri, 20 Nov 2026 14:36:10 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+      "description": "BlackRock's IBIT made up nearly all of Thursday's outflows, despite Morgan Stanley's MSBT attracting $49.6 million.",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217",
+      "pubDate": "Fri, 20 Nov 2026 12:29:57 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+      "description": "Ark Invest bought nearly 1 million Anthropic shares and trimmed its Ethereum and Solana staking ETF holdings.",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
+      "pubDate": "Fri, 20 Nov 2026 12:12:29 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "MoonPay applies for national trust bank charter to expand stablecoin services",
+      "description": "MoonPay has applied for a national trust bank charter to expand its custody and stablecoin services under federal oversight.",
+      "link": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
+      "pubDate": "Fri, 20 Nov 2026 10:39:09 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Senate passes ‘Death Bets Act’ to ban prediction market contracts tied to death and war",
+      "description": "The Death Bets Act, which now heads to the House, would ban prediction market contracts tied to death, terrorism, assassination, and war.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200",
+      "pubDate": "Fri, 20 Nov 2026 10:09:25 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Michael Saylor sees up to $7.5 billion in ‘natural demand’ for Strategy’s STRC preferred stock",
+      "description": "Saylor said the company is currently responding to the credit-market contraction by reducing the amount of STRC outstanding.",
+      "link": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
+      "pubDate": "Fri, 20 Nov 2026 08:02:36 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
+      "description": "In today's newsletter, CFTC Chair Selig outlines how Hyperliquid and other onchain venues could enter the US; Ripple's Alderoty doubts Elizabeth Warren will set US crypto policy; and more.",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143",
+      "pubDate": "Fri, 20 Nov 2026 05:40:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+      "description": "Coinbase said event contracts already qualify as swaps under the CEA and that explicit inclusion would provide greater regulatory certainty.",
+      "link": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+      "pubDate": "Fri, 20 Nov 2026 04:24:05 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Kalshi’s Quintenz says insider trading is ‘just easier to see’ in prediction markets than stocks",
+      "description": "Quintenz said the possibility of insider trading doesn't make a market illegal and that enforcement should back up exchanges' efforts to prevent it.",
+      "link": "https://www.theblock.co/news/markets/2026-11-19-kalshi-quintenz-insider-trading-prediction-markets-stocks-444133",
+      "pubDate": "Thu, 19 Nov 2026 20:20:59 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Ripple’s Alderoty doubts Elizabeth Warren will ‘set crypto policy in this country,’ backs durable agency rules",
+      "description": "Ripple’s Alderoty backs durable agency rules as hopes for crypto market structure legislation fade.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-19-ripple-alderoty-elizabeth-warren-wont-set-crypto-policy-backs-durable-agency-rules-444105",
+      "pubDate": "Thu, 19 Nov 2026 18:47:30 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "CFTC Chair Selig outlines how Hyperliquid and other onchain venues could enter the US",
+      "description": "Michael Selig said platforms like Hyperliquid have two ways to enter the U.S. retail market and must follow the same rules as other exchanges",
+      "link": "https://www.theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106",
+      "pubDate": "Thu, 19 Nov 2026 18:04:15 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
+      "description": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, […]",
+      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
+      "pubDate": "Thu, 19 Nov 2026 17:12:00 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Hill, Moreno blame delays for missed Clarity Act window but differ on reach of agency rulemaking",
+      "description": "Hill and Moreno fault Clarity Act delays but disagree on how much crypto regulators can accomplish.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
+      "pubDate": "Thu, 19 Nov 2026 16:01:16 +0000",
+      "source": "www.theblock.co"
+    },
+    {
+      "title": "Crypto news today: ETF inflows, Ethereum demand and US regulation lift sentiment",
+      "link": "https://investinglive.com/cryptocurrency/crypto-news-today-etf-inflows-ethereum-demand-and-us-regulation-lift-sentiment",
+      "description": "Bitcoin ETF inflows: About $1.92 billion  \nThis was the larger share of the week's regulated crypto-fund demand.\n\nEthereum ETF inflows: About $697 million  \nThe strong ETH total shows that investors were not looking only at Bitcoin.\n\nCombined ETF trading volume: About $29 billion  \nHigher volume shows that participation increased as money returned to the funds. [...] ## Why are Bitcoin and Ethereum ETF inflows important?\n\nUS spot Bitcoin ETFs attracted approximately $1.92 billion during the August 17-21 trading week. Spot Ethereum ETFs added about $697 million. Together, the two groups received roughly $2.6 billion, while combined trading volume rose to approximately $29 billion, according to data reported by The Block.\n\nThat was the strongest week for both categories since October 2025. [...] - US spot Bitcoin and Ethereum ETFs attracted about\n  \n  $2.6 billion combined during the August 17-21 week, their strongest week since October 2025.\n- Ethereum demand came from two directions: nearly\n  \n  $700 million entered spot ETH ETFs, while BitMine disclosed another 32,447 ETH purchase.\n- US regulators are moving toward clearer crypto rules, but the main market-structure legislation sought by the industry remains stalled in the Senate.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Ethereum and Bitcoin spot ETFs snap lengthy outflow streaks with fresh inflows",
+      "link": "https://cryptobriefing.com/bitcoin-ethereum-etf-inflows-end-outflow-streak",
+      "description": "After weeks of watching money walk out the door, US spot Bitcoin and Ethereum ETFs finally caught a break. Both product categories recorded net inflows on June 4-5, ending outflow streaks that had lasted nearly half a month for Bitcoin and even longer for Ethereum.\n\nThe numbers themselves are modest. Bitcoin spot ETFs pulled in roughly $3.05 million in net inflows, while Ethereum spot ETFs attracted $19.30 million.\n\n## Thirteen days of bleeding, then a trickle of relief [...] ## What this means for investors\n\nLook at the asymmetry in the numbers for context. Bitcoin ETFs lost $4.4 billion over 13 days and gained back $3.05 million. That recovery represents less than 0.1% of what left. Ethereum’s $19.30 million inflow is more meaningful relative to its $9.78 billion AUM, but it still barely moves the needle after 17 days of outflows. [...] Bitcoin ETFs had endured 13 consecutive days of net outflows before the reversal. During that stretch, which began in mid-May, investors redeemed approximately $4.4 billion from these products.\n\nEthereum’s outflow streak was even longer at 17 consecutive days. The $19.30 million inflow that broke it is interesting for one specific reason: every dollar of it came from a single fund.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Ethereum ETFs Outpace Bitcoin ETFs in 2026 Inflows",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/ethereum-etfs-outpace-bitcoin-etfs-105251031.html",
+      "description": "Ethereum ETF inflows into U.S. spot Ethereum (CRYPTO:ETH) funds reached approximately $1.5 billion, surpassing the $985 million that spot Bitcoin (CRYPTO:BTC) ETFs brought in. This data, sourced from SoSoValue, shows daily crypto ETF inflows and outflows. Spot ETFs directly hold the coins, so their share prices rise and fall with the cryptocurrency's market value. [...] Ethereum ETFs pulled in $1.5B in 2026 inflows, topping Bitcoin's $985M, yet Bitcoin ETFs still hold $109B in total assets, a figure roughly six times greater.\n Bitcoin ETFs staged a massive Q3 recovery, attracting $6.3 billion after $5 billion in net outflows during the first half of 2026.\n Ethereum is outpacing Bitcoin's inflow rate by $525M annually, but closing Bitcoin's $44B cumulative lead would still take over 80 years. [...] Both Bitcoin and Ethereum funds have declined from their highs earlier in 2026. Bitcoin fund assets peaked at $128 billion in mid-January 2026, while Ethereum funds hit $21 billion the same day. Since then, both funds have dropped by about 15%.\n\n## Why Are Bitcoin ETFs Still Six Times Bigger Despite Ethereum ETF Inflows?",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto ETF List & Market Overview: Live Spot ETF Flows | CoinGlass",
+      "link": "https://www.coinglass.com/etf",
+      "description": "Download APP\n\nOpen InterestFunding Rate\nLegendWatchlist\n\nMore\n\nSearch\n\n/\n\n# Crypto ETF Market Overview\n\nTrack real-time crypto ETF inflows, outflows, total AUM and institutional activity across Bitcoin, Ethereum, XRP and Solana ETFs.\n\nLast update: --\n\nCrypto ETF Fund Flow Flash: Latest Trading Day -, the crypto ETF market showed a Outflow trend, totaling a net Outflow of -$0.\n\nKey Driver: undefined showed the strongest performance with a daily inflow of +$0. [...] Period Trend: Over the past 5 trading days, crypto ETFs saw total Outflow of -$0. This indicates that in the current market environment, institutional sentiment is leaning toward Risk-off.\n\nTrading Note: During ETF market close, it is recommended to combine the Coinbase Premium Index and other derivative indicators to gauge market direction.\n\nCrypto ETF Net Inflow\n\n-$-\n\nTotal Crypto ETF AUM\n\n$-\n\nNumber of Active Crypto ETFs\n\n-\n\nActive ETF Issuers\n\n-\n\nBitcoin ETF Net Flows\n\n-$- [...] -$-\n\nEthereum ETF Net Flows\n\n-$-\n\nSolana ETF Net Flows\n\n-$-\n\nXRP ETF Net Flows\n\n-$-\n\nHYPE ETF Net Flows\n\n-$-\n\n## Crypto ETF Net Flows\n\n## Crypto ETF Flow Performance\n\nLast Week\n\n-$0\n\nLast Month\n\n-$0\n\nLast Quarter\n\n-$0\n\n## Yearly Crypto ETF Performance\n\nStrongest month\n\n-$0\n\nWeakest month\n\n-$0\n\n## Crypto ETF Assets Under Management (AUM) Trend\n\n## Top Crypto ETFs by Net Inflow\n\n| ETF | Netflow |\n --- |\n|  |  |\n\n## Crypto ETF Net Flow, AUM and Marketcap",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Bitcoin, Ethereum ETF Divergence from Futures; Bracing for Next Catalyst",
+      "link": "https://www.youtube.com/watch?v=vSsNxPq2-h4",
+      "description": "### Description\n4,224 views\nPosted: 2026-10-14\nJenny Kovacs returns to Crypto Corner and sits down with Adam Lynch of ‪@CharlesSchwab‬ to talk about the latest moves in Bitcoin and Ethereum. Though Bitcoin and Ethereum have pulled back from their recent rallies, Adam says that ETF inflows show a \"much more constructive\" picture compared to this time last year. Keep an eye for incoming headlines are well, as Adam addresses a key question: what is the next key catalyst for cryptocurrencies? [...] [1:36] Okay. So, Spock crypto ETFs have also brought in some significant institutional interest and so are Flow still holding up at these higher prices and what should we really watch for next?\n[1:47] Yeah, that's an interesting one. We've seen the flows hop around all year. I think it was just about two weeks ago where they went net positive year to\n[1:55] date. Uh now we're probably back down in the red. We had Bitcoin ETFs lose about 500 million the past seven days while [...] [2:03] the Ethereum spot ETFs lost about 600 million over that same time period. Uh longer term, the the picture is much\n[2:10] more constructive. I mean the products only launched the Bitcoin ETFs launched back in January of 2024. It's just two\n[2:18] and a half years or so now and they already have $60 billion of assets. So I don't think that the question is have\n[2:25] you know institutional investors found less demand but I think it's rather have the way that they invest in these",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Digital Assets Regulatory Policy Tracker - OMFIF",
+      "link": "https://www.omfif.org/digitalassetstracker",
+      "description": "Virtual asset-linked ETFs have been approved since 2021. Existing anti-money laundering rules have been extended to cryptoasset transactions.\n\nDeposit-backed stablecoins Legal\n\nAlgorithmic stablecoins Legal\n\nOctober 2022 guidance initially classifies stablecoins as asset-backed.\n\n##### Canada\n\nApplying existing securities law\n\nCustody and exchange Legal\n\nCryptocurrency mining Legal\n\nDerivatives products Legal [...] The SFC published the conclusion to this consultation shortly before the June launch of its new licensing regime.\n\nRetail investors are able to gain exposure to digital assets indirectly via regulated ETFs. The SFC has authorised three digital asset-linked ETFs since setting out its guidance in 2022. A separate consultation on futures products is expected in the future. Under current rules, VASPs are not allowed to offer or trade in derivatives.\n\nDeposit-backed stablecoinsLegal [...] Deposit-backed stablecoins Legal\n\nAlgorithmic stablecoins Illegal\n\nMiCA mandates prudential requirements for issuers of asset-referenced tokens (ART), including qualifying stablecoins. Issuers of ARTs will be subject to rules relating to the segregation of customer funds and reserve requirements, such as monthly disclosures. MiCA’s stablecoin provisions are set to be applied first, by June 2024.\n\n##### Germany\n\nCustody and exchangeLegal\n\nCryptocurrency miningLegal\n\nDerivatives productsLegal",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto Regulation in 2026: What Changed and What’s Ahead",
+      "link": "https://sumsub.com/blog/global-crypto-regulations",
+      "description": "Hong Kong has introduced a dedicated stablecoin issuer licensing regime under the HKMA and FSTB. It proposes high-quality reserve-asset backing, segregation and custody requirements, independent audits, clear redemption rights, and governance standards. Algorithmic stablecoins and unbacked arrangements will face restrictions.\n\nETF & tokenized-asset guidelines [...] Regulatory trends\n\nStablecoin legislation\n\nIn July 2025, President Donald Trump signed the GENIUS Act legislation into law, requiring stablecoins to be backed 1-to-1 by the US dollar or other low-risk assets. The United States has also enacted the Anti-CBDC Surveillance State Act, which prohibits Federal Reserve banks from establishing or issuing a US CBDC.\n\nSEC and CFTC crypto clarity [...] MiCA has been introduced in two phases. The first phase was introduced on June 30, 2024, and regulates the authorization and supervision for stablecoins, divided into asset-referenced tokens (ARTs) and e-money tokens (EMTs). The second phase was introduced on December 30, 2024, and covers other crypto assets and crypto asset service providers (CASPs).\n\nStablecoin issuer obligations",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto Regulation Hub | Davis Polk",
+      "link": "https://www.davispolk.com/insights/resource-centers/crypto-regulation-hub",
+      "description": "Crypto asset regulation has moved from the horizon to reality. Congress enacted the GENIUS Act—the first federal law to regulate payment stablecoins—and has pursued comprehensive market structure legislation. At the same time, the SEC and CFTC have taken significant steps to clarify the application of federal securities and commodity laws to crypto assets through joint interpretive guidance and tailored rulemaking proposals. The drawers below contain links to these legislative and regulatory [...] ---\n\n## Stablecoins\n\nGENIUS Act\n\nFull text of act\n\nSTABLE Act of 2025\n\nFull text of act\n\nLummis-Gillibrand Payment Stablecoin Act\n\nFull text of act\n\nOfficial section-by-section overview\n\nOfficial one-pager overview\n\nClarity for Payment Stablecoins Act of 2023\n\nFull text of act\n\nToomey Stablecoin TRUST Act of 2022\n\nFull text of act\n\nSummary\n\nDavis Polk blackline of 12/21/22 introduced version against 4/6/22 discussion draft\n\nWaters-McHenry discussion draft\n\nFull draft",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "US Crypto Policy Tracker Regulatory Developments",
+      "link": "https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments",
+      "description": "On April 4, 2025, the SEC’s Division of Corporation Finance (the Staff) published a Statement on Stablecoins clarifying that in the Staff’s view the offer and sale of certain dollar-backed stablecoins does not involve an offer and sale of securities requiring registration under the US federal securities laws (the Stablecoin Statement). The Stablecoin Statement specifically addresses stablecoins that are designed to maintain a stable value relative to the US dollar (USD) on a one-for-one basis, [...] On December 16, 2025, the FDIC issued a notice of proposed rulemaking (the Proposal) to implement Section 5 of the Guiding and Establishing National Innovation for US Stablecoins Act (GENIUS Act). The GENIUS Act, enacted by Congress in July 2025, created a federal regulatory framework for stablecoins whereby a subsidiary of an insured depository institution could be approved to issue payment stablecoins.\n\nRead more on Latham’sGlobal Fintech & Digital Assets Blog. [...] The GENIUS Act, 2025 legislation that established a regulatory framework for payment stablecoins, permits national trust banks to be permitted issuers of payment stablecoins (see this Latham Client Alert). The GENIUS Act has driven a surge of applications from non‑traditional firms and financial institutions seeking national trust bank charters, including to act as custodians for digital assets. That influx drew criticism that, if those applications were approved, the OCC would have improperly",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Cryptocurrency Regulation: A Guide to U.S. & Global Policies | Britannica Money",
+      "link": "https://www.britannica.com/money/cryptocurrency-regulation",
+      "description": "Cryptocurrency regulation is no longer a theoretical debate—it’s an evolving framework that is beginning to take shape worldwide. In the United States, Congress has moved toward establishing federal oversight of stablecoins and digital asset markets. The GENIUS Act, signed into law in 2025, established a federal regulatory framework for stablecoins, while broader market structure legislation known as the CLARITY Act advanced in Congress in 2026 but has yet to become law. [...] The GENIUS Act, signed into law in 2025, established the first federal regulatory framework for stablecoins in the United States. It limits who can issue stablecoins and requires issuers to maintain reserves backing the tokens they have issued, make monthly disclosures detailing the assets held in reserve, and comply with anti–money laundering and consumer protection requirements.\n\n### What is the CLARITY Act? [...] United Kingdom. The U.K. began regulating cryptocurrency in 2020. In October 2023, the Financial Conduct Authority (FCA) introduced stricter rules on crypto advertising. The Financial Services and Markets Act 2023 also expanded oversight of stablecoins. A broader regulatory framework was approved in 2026 and is scheduled to take effect in October 2027, bringing activities including crypto trading, custody, staking, and stablecoin issuance under FCA oversight.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto’s Macro Moment: How Fed Shifts and Geopolitics Fuel the Rally | E8 Markets Blog",
+      "link": "https://blog.e8markets.com/article/cryptos-macro-moment-how-fed-shifts-and-geopolitics-fuel-the-rally",
+      "description": "The durability of the current crypto rally will depend on whether Fed expectations and geopolitical narratives continue to move in a supportive direction. Upcoming U.S. inflation prints, labor market data, and Fed speeches will shape how quickly markets price in rate cuts and whether real yields start to trend lower. A sustained easing narrative tends to support risk assets, while any hawkish surprises or upside inflation shocks could reintroduce downside pressure and volatility. [...] Crypto markets have surged globally in recent sessions, with traders increasingly tying the rally to shifting expectations around the Federal Reserve’s next moves and a steady stream of geopolitical headlines. The combination of war-related news, evolving rate-cut probabilities, and aggressive dip-buying has reinforced a growing narrative that the recent bear phase in digital assets may be drawing to a close. For both spot and derivatives traders, the key question is whether this improved [...] Crypto’s latest upswing is closely aligned with a broader improvement in global risk appetite as markets price in a higher likelihood of Fed easing. In one recent episode, expectations for rate cuts later in the year helped push Bitcoin to fresh highs and lifted total crypto market capitalization toward the multi-trillion dollar mark. When traders anticipate lower policy rates, they tend to re-risk portfolios, benefiting high-beta assets such as cryptocurrencies alongside equities and",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "The Role of Macroeconomics in Cryptocurrency  - Learn",
+      "link": "https://learn.swyftx.com/cryptocurrency/the-role-of-macroeconomics-in-cryptocurrency",
+      "description": "In June alone, BTC plummeted 37.8%, as the Feds raised the national cash rate 13 times between March 22 and June 23. Through this period, Bitcoin’s price fell from $50k USD to $25k USD.\n\nWhile it’s worth noting other market-specific factors played a role — specifically the collapse of FTX and the de-pegging of TerraUSD — the macroeconomic environment was a key reason for the crypto winter of 2022-23.\n\n## How to integrate macroeconomic analysis into crypto trading [...] The 2025 investigation uncovered that a rise in PPI had a notable negative impact on Bitcoin’s short-term price. Similarly, the paper also found that a rising US Dollar — relative to other fiat currencies — had the same effect.\n\nThis is just one example of many demonstrating the powerful influence macroeconomics can have on the crypto market.\n\n## Historical macroeconomic events and their impact on the crypto market\n\n### 2020 Covid pandemic and lockdowns [...] This, paired with significant supply chain issues, caused inflation to run rampant across the world. Yet, because economies were still reeling from the impact of lockdowns, Governments maintained these loose financial policies for as long as possible.\n\nAs we’ve learned earlier in this course, low interest rates in the United States can lead to greater global liquidity. Risky, volatile assets like crypto tend to thrive in such periods — and 2021 was no exception.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Crypto market selloff wipes billions of dollars amid inflation, geopolitical risks",
+      "link": "https://www.aa.com.tr/en/economy/crypto-market-selloff-wipes-billions-of-dollars-amid-inflation-geopolitical-risks/4126632",
+      "description": "Crypto market sheds 13% amid 6-week selloff driven by US inflation, Middle East tensions and Nvidia-linked tech sector decline, experts say",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Geopolitical risk, US–China tensions, and systemic risk in cryptocurrency markets: A regime-dependent analysis - ScienceDirect",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1059056026006878",
+      "description": "geopolitical shocks remain poorly understood. This paper provides the first empirical analysis linking US–China tensions (UCT) to systemic risk in cryptocurrency markets. Using monthly data from August 2015 to February 2024, we measure systemic interconnectedness via a TVP-VAR Total Connectedness Index, applying linear and nonlinear ARDL frameworks to the full sample, as well as to bearish and bullish markets separately. The results reveal strong persistence in systemic risk. Crucially, UCT [...] Crucially, UCT emerges as the dominant driver of contagion across all regimes, whereas general geopolitical risk (GPR) measures exhibit limited explanatory power. The nonlinear analysis uncovers symmetric long-run effects, indicating that the mere uncertainty of UCT, whether increasing or decreasing, elevates long-run systemic risk. Furthermore, lagged Bitcoin trading volume consistently exacerbates contagion across all regimes. These findings provide implications for regulators and investors, [...] risk, US–China tensions, and systemic risk in cryptocurrency markets: A regime-dependent analysis Author links open overlay panel Chi Keung Marco Lau a , Michal Wojewodzki b , Giray Gozgor c e , Wui Wing Andy Cheng d Show more View PDF Download full issue Cite Add to Mendeley Share 10.1016/j.iref.2026.105574 More actions Article Metrics Abstract Cryptocurrency markets have become increasingly integrated into the global financial system, yet their systemic vulnerabilities to geopolitical shocks",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "How geopolitical risk impacts forex trading and currency markets | FOREX.com",
+      "link": "https://www.forex.com/en/trading-guides/geopolitical-risks-in-forex-trading",
+      "description": "Crypto Outlook: Political Uncertainty and NFP Data Weigh on Market Confidence\n\nNovember 07, 2026 04:00 PM\n\nExtreme Euro Shorts Meet Renewed US Dollar Strength | COT Report\n\nNovember 07, 2026 06:47 AM\n\nEUR/USD Forecast: Euro Under Pressure After Strong NFP Data\n\nNovember 06, 2026 11:06 PM\n\nAustralian Dollar Short-term Outlook: AUD/USD 3% Plunge Puts Multi-Month Range at Risk\n\nNovember 06, 2026 09:04 PM\n\nLatest Research\n\nEconomic Calendar\n\nEconomic Calendar\n\n### It’s easy to get started [...] For this reason, traders often monitor geopolitical developments closely to better understand how events such as elections or trade negotiations may influence forex markets.\n\n## How geopolitical events impact currency markets and exchange rates\n\nGeopolitical events affect exchange rates by shaping global economic expectations, interest‑rate assumptions, and market sentiment. [...] However, central‑bank responses are not always aligned across regions. Differences in policy direction can contribute to currency volatility, particularly when markets compare interest‑rate expectations between economies. These dynamics can influence currency pairs over varying time horizons.\n\n## Examples of geopolitical events and their impact on currency markets",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Santiment Intelligence on X: \"🚨 Retail Fear is Reaching a BOILING POINT As Crypto Tests Major Lows! 😨 Bitcoin, Ethereum, and XRP s…\"",
+      "link": "https://x.com/SantimentData/status/2120240706275180816",
+      "description": "# Santiment Intelligence on X: \"🚨 Retail Fear is Reaching a BOILING POINT As Crypto Tests Major Lows! 😨 Bitcoin, Ethereum, and XRP s…\"\n\n🚨 Retail Fear is Reaching a BOILING POINT As Crypto Tests Major Lows!\n\n😨 Bitcoin, Ethereum, and XRP sentiment has fallen deep into bearish territory according to our X, Reddit, Telegram and other social platform data. BTC sits at 0.82 bullish comments per bearish one, ETH at 0.88 and XRP at just 0.49. [...] 🔄 This level of retail pessimism can actually improve the setup for a crypto-wide recovery. Major cryptocurrency market rallies rarely begin when everyone expects one. They usually form while traders are fearful, selling losses, and doubting that prices can bounce at all.\n\n📊 If we continue to see bearish commentary outweigh bullish commentary, especially for top caps, prices will inevitably see a strong relief rally.\n\n🔗 Our Live Top Cap Sentiment Comparison Chart: \n\n[Image 1] [...] [Image 1]\n\n- Author: @SantimentData (Santiment Intelligence)\n- Posted: 2026-11-10T19:42:31+00:00\n- Views: 13920\n- Likes: 60\n- Reposts: 9\n- Replies: 12\n- Quotes: 1\n- Bookmarks: 7\n- Links: \n\n## People\n\n- @SantimentData (Santiment Intelligence) — See, predict, validate. Crypto behavioral intelligence since 2017: social, on-chain, developer data for analysts, funds, builders — via Sanbase, API, MCP.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Deepcoin News on X: \"TODAY'S MARKET | November 6, 2026 📈 🟠 Bitcoin (BTC): $76,143.51 🔵 Ethereum (ETH): $2,241.74 💎 Total …\"",
+      "link": "https://x.com/deepcoin_news/status/2118539210168860755",
+      "description": "> Quoting @deepcoin_news (Deepcoin News):\n>\n> TODAY'S MARKET | Nov 4, 2026 📈\n> \n> 🟠 Bitcoin (BTC): $76,508.07\n> 🔵 Ethereum (ETH): $2,249.74\n> 💎 Total Crypto Market Cap: $2.57T\n> 🔥 Fear & Greed Index: 34 (Fear)\n> \n> Other news\n> > U.S. midterm elections were held on Nov 3\n> > Spot Bitcoin ETFs saw $399M in outflows on Nov 2, following $643M on Oct 30\n> > Strategy bought 811 more BTC (~$65.5M), bringing total holdings to 849,327 BTC\n> \n> Follow for market updates\n\n## People [...] # Deepcoin News on X: \"TODAY'S MARKET | November 6, 2026 📈 🟠 Bitcoin (BTC): $76,143.51 🔵 Ethereum (ETH): $2,241.74 💎 Total …\"\n\nTODAY'S MARKET | November 6, 2026 📈\n\n🟠 Bitcoin (BTC): $76,143.51\n🔵 Ethereum (ETH): $2,241.74\n💎 Total Crypto Market Cap: $2.55T\n🔥 Fear & Greed Index: 32 (Fear)\n\nOther news:\n> The US October Nonfarm Payrolls report is released today\n> The University of Michigan preliminary consumer sentiment index is also due today\n\nFollow for market updates\n\n[Image 1] [...] [Image 1]\n\n- Author: @deepcoin_news (Deepcoin News)\n- Posted: 2026-11-06T03:01:22+00:00\n- Views: 405\n- Likes: 1\n- Reposts: 0\n- Replies: 0\n- Quotes: 0\n- Bookmarks: 0",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Cryptopolitan on X: \"MARKET UPDATE: @Bitcoin bitcoin:native climbed to $81,800, while @ethereum ethereum:native edged clo…\"",
+      "link": "https://x.com/CPOfficialtx/status/2115374665816502348",
+      "description": "# Cryptopolitan on X: \"MARKET UPDATE: @Bitcoin bitcoin:native climbed to $81,800, while @ethereum ethereum:native edged clo…\"\n\nMARKET UPDATE: @Bitcoin bitcoin:native climbed to $81,800, while @ethereum ethereum:native edged closer to $2,400 ahead of today's Fed decision.\n\nMarkets are pricing in a 94% chance of no rate hike, boosting sentiment across the crypto market.\n\n[Image 1]\n\n[Image 2] [...] [Image 2]\n\n- Author: @CPOfficialtx (Cryptopolitan)\n- Posted: 2026-10-28T09:26:36+00:00\n- Views: 433\n- Likes: 2\n- Reposts: 0\n- Replies: 1\n- Quotes: 0\n- Bookmarks: 0\n- Mentions: @Bitcoin (Bitcoin), @ethereum (Ethereum)\n\n## People\n\n- @CPOfficialtx (Cryptopolitan) — Crypto news that doesn't waste your time. Breaking updates, market analysis, on-chain insights. Building the smartest crypto community.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "ETMarkets on X: \"Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 supp…\"",
+      "link": "https://x.com/ETMarkets/status/2123809651951325416",
+      "description": "- Links: \n- Card: Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000... — economictimes.indiatimes.com — Bitcoin fell below $62,000 and Ethereum extended losses as ETF outflows, hawkish Federal Reserve signals and technology stock weakness rattled crypto markets. Extreme investor fear intensified,... [...] # ETMarkets on X: \"Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 supp…\"\n\nBitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 support\n\n#ETMarkets [...] ## People\n\n- @ETMarkets (ETMarkets) — Welcome! You have just landed on India's No. 1 platform for #news, #views and cues on #financialmarkets | A Times Internet Product\n- @EconomicTimes (Economic Times) — The Economic Times (Official) India's No. 1 Destination for Business News, Economy and Politics | A Times Internet Product 📧:feedback@economictimes.com",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Markets Today on X: \"Cryptocurrency Selloff Deepens as Bitcoin Breaks Under $56,000 Amid Heavy Liquidations - November 21…\"",
+      "link": "https://x.com/marketsday/status/2124022116786045304",
+      "description": "🔹 $ETH fell below $1,550 amid heavy selling pressure and continued outflows from U.S. spot Ether exchange-traded funds, while $XRP slipped under $0.88 and$SOL dropped below $66 as major altcoins tracked Bitcoin's breakdown.\n\n🔹 Tightening liquidity expectations—fueled by hawkish Federal Reserve rate-hike speculation, firm Treasury yields, a stronger U.S. dollar, and persistent ETF withdrawals—have amplified forced deleveraging across crypto derivatives markets. [...] #CryptoCrash #Bitcoin #Ethereum #XRP #Solana #Liquidations #MarketNews\n\n- Author: @marketsday (Markets Today)\n- Posted: 2026-11-21T06:08:29+00:00\n- Views: 335\n- Likes: 0\n- Reposts: 0\n- Replies: 0\n- Quotes: 0\n- Bookmarks: 0\n- Hashtags: #CryptoCrash #Bitcoin #Ethereum #XRP #Solana #Liquidations #MarketNews\n- Cashtags: $BTC $ETH $XRP\n\n## People [...] 🔹 Digital asset markets suffered another leg down on Saturday, November 21, 2026, with $650 million in leveraged positions wiped out over the past hour and total 24-hour liquidations surging past $2.4 billion as broader risk-off sentiment, higher Treasury yields, and U.S. equity turmoil weighed on crypto.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    }
+  ]
+}
