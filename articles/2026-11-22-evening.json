@@ -3,8 +3,22 @@
   "edition": "evening",
   "displayDate": "Sunday, November 22, 2026",
   "generationProvider": "source-based fallback",
-  "fragment": "<p class=\"article-lead\">The day's crypto news is a mixture of market positioning, fund flows, policy updates, and company decisions. The headlines below are worth reading for the detail behind them, not just the reaction on a price chart.</p>\n    <section><h2>What is moving the conversation</h2><p><strong>Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave.</strong> The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Cross-chain protocol Chainflip&#39;s FLIP tanks 30% after suspected $4.86 million vault drain.</strong> The withdrawal carried a valid signature, which Onchain Lens said points to a possible compromise of the key validators use to approve vault payouts. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated.</strong> BTCS cut its reported Aave debt by about $10 million in ten days, but falling ether prices are keeping its collateral under pressure. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug.</strong> Bitcoin Core shipped fixes on Friday for a bug flagged by Loupe, an open-source scanner from Block’s Spiral that uses AI agents to examine bitcoin code. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>XRP falls 10% as long bets unwind and ETF assets slip below $1 billion.</strong> The token broke its previous November lows during Saturday&#39;s crypto selloff, with long positions accounting for most XRP liquidations and technical indicators showing further weakness. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin tanks below $57,000 for the first time in two years, and its not alone.</strong> BTC&#39;s sell-off deepened on Saturday, with prices hitting two-year lows under $57,000. Readers should check the original report before treating the headline as a confirmed change in the market.</p></section>\n    <section><h2>Market context</h2><p>Bitcoin is around $60,906 with a +4.85% 24-hour move, while Ether is around $1,705.99 with a +3.30% move. Those figures are a snapshot, not a forecast. The useful question is whether the move is supported by spot demand, volume, and a clear change in the news.</p><p>When the market is quiet, leverage and liquidity can matter as much as direction. A small headline can move price quickly when traders are positioned too closely on one side.</p></section>\n    <section><h2>What to watch next</h2><ul class=\"article-watchlist\"><li>New ETF creations and redemptions.</li><li>Futures open interest and funding rates.</li><li>Fresh regulatory text or official statements.</li><li>Security warnings, outages, or custody changes.</li><li>Whether the reported developments become live products rather than announcements.</li></ul></section>\n    <p class=\"article-closing\">The fairest reading today is cautious attention. There are real developments in the industry, but none should be stretched into a guaranteed market direction.</p>",
+  "fragment": "<p class=\"article-lead\">The day's crypto news is a mixture of market positioning, fund flows, policy updates, and company decisions. The headlines below are worth reading for the detail behind them, not just the reaction on a price chart.</p>\n    <section><h2>What is moving the conversation</h2><p><strong>More on the pending oversight hearings: State of Crypto.</strong> New letters show the widening range of Congressional committees that will be probing the presidential administration — and the crypto collateral that may be swept up. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin&#39;s quantum security challenge extends to bridges, custodians and millions of coins.</strong> Quantum computers can’t break Bitcoin network’s security yet, but Leo Fan warns that upgrading it and moving funds could take longer than expected. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave.</strong> The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Cross-chain protocol Chainflip&#39;s FLIP tanks 30% after suspected $4.86 million vault drain.</strong> The withdrawal carried a valid signature, which Onchain Lens said points to a possible compromise of the key validators use to approve vault payouts. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos.</strong> OpenAI, Anthropic, and other technology giants are backing standards designed to enable agents to work together without putting any one company in control. Readers should check the original report before treating the headline as a confirmed change in the market.</p>\n<p><strong>Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated.</strong> BTCS cut its reported Aave debt by about $10 million in ten days, but falling ether prices are keeping its collateral under pressure. Readers should check the original report before treating the headline as a confirmed change in the market.</p></section>\n    <section><h2>Market context</h2><p>Bitcoin is around $60,517 with a +0.35% 24-hour move, while Ether is around $1,710.68 with a +1.56% move. Those figures are a snapshot, not a forecast. The useful question is whether the move is supported by spot demand, volume, and a clear change in the news.</p><p>When the market is quiet, leverage and liquidity can matter as much as direction. A small headline can move price quickly when traders are positioned too closely on one side.</p></section>\n    <section><h2>What to watch next</h2><ul class=\"article-watchlist\"><li>New ETF creations and redemptions.</li><li>Futures open interest and funding rates.</li><li>Fresh regulatory text or official statements.</li><li>Security warnings, outages, or custody changes.</li><li>Whether the reported developments become live products rather than announcements.</li></ul></section>\n    <p class=\"article-closing\">The fairest reading today is cautious attention. There are real developments in the industry, but none should be stretched into a guaranteed market direction.</p>",
   "items": [
+    {
+      "title": "More on the pending oversight hearings: State of Crypto",
+      "description": "New letters show the widening range of Congressional committees that will be probing the presidential administration — and the crypto collateral that may be swept up.",
+      "link": "https://www.coindesk.com/",
+      "pubDate": "Sun, 22 Nov 2026 19:30:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+      "description": "Quantum computers can’t break Bitcoin network’s security yet, but Leo Fan warns that upgrading it and moving funds could take longer than expected.",
+      "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+      "pubDate": "Sun, 22 Nov 2026 14:00:00 +0000",
+      "source": "www.coindesk.com"
+    },
     {
       "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
       "description": "The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices.",
@@ -17,6 +31,13 @@
       "description": "The withdrawal carried a valid signature, which Onchain Lens said points to a possible compromise of the key validators use to approve vault payouts.",
       "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
       "pubDate": "Sat, 21 Nov 2026 16:41:00 +0000",
+      "source": "www.coindesk.com"
+    },
+    {
+      "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
+      "description": "OpenAI, Anthropic, and other technology giants are backing standards designed to enable agents to work together without putting any one company in control.",
+      "link": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+      "pubDate": "Sat, 21 Nov 2026 14:00:00 +0000",
       "source": "www.coindesk.com"
     },
     {
@@ -160,25 +181,53 @@
       "source": "www.coindesk.com"
     },
     {
-      "title": "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-      "description": "About $1.7 billion traded through a Hyperliquid contract on the AI company’s shares in 24 hours, and the biggest position heading into Friday’s Nasdaq open is a $30 million short.",
-      "link": "https://www.coindesk.com/markets/2026/11/20/crypto-traders-have-anthropic-trading-below-its-first-nasdaq-close-on-hyperliquid",
-      "pubDate": "Fri, 20 Nov 2026 06:08:28 +0000",
-      "source": "www.coindesk.com"
+      "title": "Bitcoin&#8217;s Price Dip Attracts a Whale as Hedge Fund Scoops up $1B",
+      "description": "Wallets associated with hedge fund Abraxas Capital Management received approximately 17,597 BTC, valued at more than $1 billion, during bitcoin&#8217;s price decline below $60,000. The substantial exchange withdrawals coincided with a dramatic recovery in the firm&#8217;s tracked bitcoin balances after months of contraction. Abraxas-Linked Wallets Receive 17,597 BTC During Bitcoin Sell-Off As bitcoin struggled through [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/bitcoins-price-dip-attracts-a-whale-as-hedge-fund-scoops-up-1b/",
+      "pubDate": "Sun, 22 Nov 2026 19:36:11 +0000",
+      "source": "news.bitcoin.com"
     },
     {
-      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
-      "description": "PowerCompute had its lender sell 267 pledged bitcoin in September, wiping out most of its debt, and ended the month with about $650,000 in cash and a going-concern warning.",
-      "link": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
-      "pubDate": "Fri, 20 Nov 2026 05:32:25 +0000",
-      "source": "www.coindesk.com"
+      "title": "Kalshi Faces Massive Nationwide Shutdown in NY Court Showdown",
+      "description": "The prediction market alerted that it might face a nationwide shutdown if the New York Supreme Court issues a temporary restraining order (TRO) in a Monday hearing after a court denied Kalshi&#8217;s intention to move the lawsuit into federal court. Kalshi Faces Nationwide Shutdown in New York&#8217;s Lawsuit Hearing Kalshi, one of the leading prediction [&#8230;]",
+      "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-faces-massive-nationwide-shutdown-in-ny-court-showdown/",
+      "pubDate": "Sun, 22 Nov 2026 18:36:15 +0000",
+      "source": "news.bitcoin.com"
     },
     {
-      "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
-      "description": "Wall Street piled into Bitcoin funds in the third quarter, ending a three-quarter selling streak, according to Galaxy Research. But the buying has given way to renewed selling this quarter.",
-      "link": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
-      "pubDate": "Fri, 20 Nov 2026 05:20:51 +0000",
-      "source": "www.coindesk.com"
+      "title": "Peter Brandt Links 75% Bitcoin Drops to Parabolic Rallies",
+      "description": "Peter Brandt pointed to corrections of at least 75% that followed bitcoin&#8217;s previous parabolic rallies. The veteran trader questioned whether the current sell-off was following that pattern as losses deepened from bitcoin&#8217;s record high. Brandt Questions Whether Bitcoin&#8217;s Past Corrections Are Repeating Veteran futures trader Peter Brandt of The Factor Report compared bitcoin&#8217;s sell-off with [&#8230;]",
+      "link": "https://news.bitcoin.com/market-updates/peter-brandt-links-75-bitcoin-drops-to-parabolic-rallies/",
+      "pubDate": "Sun, 22 Nov 2026 17:01:11 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Bitcoin Price Predictions Favor $50K as Market Fear Deepens",
+      "description": "Bitcoin prediction markets are painting a decidedly cautious picture on Sunday, Nov. 22, 2026, as traders weigh further losses against increasingly improbable recoveries. Across six Polymarket and Kalshi markets, $172.54 million in cumulative trading volume accompanies defensive options positioning and extreme market fear. Bitcoin&#8217;s price traded at $60,634 during Sunday&#8217;s trading session at 9:00 a.m. [&#8230;]",
+      "link": "https://news.bitcoin.com/price-predictions/bitcoin-price-predictions-favor-50k-as-market-fear-deepens/",
+      "pubDate": "Sun, 22 Nov 2026 15:45:39 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "&#8216;The Dots Aren’t Done&#8217;: Michael Saylor Hints at Another Strategy Bitcoin Buy",
+      "description": "Michael Saylor revived speculation about another Strategy bitcoin purchase as the company&#8217;s holdings remained below their acquisition cost. Bitcoin traded near $60,000 after recovering from a sharper sell-off, while the latest disclosed purchase left Strategy holding 850,849 BTC. Saylor Shares Another Bitcoin Purchase Chart Michael Saylor, founder and executive chairman of Strategy Inc. (Nasdaq: MSTR), [&#8230;]",
+      "link": "https://news.bitcoin.com/featured/the-dots-arent-done-michael-saylor-hints-at-another-strategy-bitcoin-buy/",
+      "pubDate": "Sun, 22 Nov 2026 14:30:27 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "Institutional Conviction Meets Market Despair — Week in Review",
+      "description": "This editorial is from this week’s edition of the newsletter Week in Review, sent to subscribers on Friday. Subscribe to the newsletter to get this weekly editorial the second it’s finished. The newsletter also includes the biggest stories of the week, with a comment on each story. Bitcoin is trading below $62,000, down more than [&#8230;]",
+      "link": "https://news.bitcoin.com/opinion-and-analysis/institutional-conviction-meets-market-despair-week-in-review/",
+      "pubDate": "Sun, 22 Nov 2026 14:00:01 +0000",
+      "source": "news.bitcoin.com"
+    },
+    {
+      "title": "US Officially Axes Penny as Trump Signs New Coin Law",
+      "description": "President Donald Trump signed H.R. 10167, known as the Common Sense Act, into law on November 20. The new law establishes the end of the production of the $0.01 coin, commonly referred to as the penny, and guides the adaptation of cash pricing schemes. Common Cents Act Signed Into Law, Terminates Penny Production The Trump [&#8230;]",
+      "link": "https://news.bitcoin.com/finance/us-officially-axes-penny-as-trump-signs-new-coin-law/",
+      "pubDate": "Sun, 22 Nov 2026 12:30:02 +0000",
+      "source": "news.bitcoin.com"
     },
     {
       "title": "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks",
@@ -202,53 +251,11 @@
       "source": "news.bitcoin.com"
     },
     {
-      "title": "Bitcoin Retakes $60K After Michael Saylor&#8217;s 4-Word Message to Holders",
-      "description": "Michael Saylor urged bitcoin holders to remember why they bought the crypto during the Nov. 20 sell-off. Bitcoin later fell to near $55K before recovering above $60K the next morning. Bitcoin Reclaims $60,000 on Nov. 21 Bitcoin&#8217;s monthlong selloff had erased more than a quarter of its value by the morning of Nov. 21. The [&#8230;]",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-retakes-60k-after-michael-saylors-4-word-message-to-holders/",
-      "pubDate": "Sun, 22 Nov 2026 04:45:10 +0000",
-      "source": "news.bitcoin.com"
-    },
-    {
-      "title": "Robert Kiyosaki Urges Buyers to Wait Out the Crash as Bitcoin Plummets",
-      "description": "Robert Kiyosaki urged bitcoin buyers to wait until the crash ends as falling prices renewed his interest in buying more. He recalled buying bitcoin at $20,000 per coin after an earlier downturn and said he would wait for another bottom. Kiyosaki Says Wait for the Crash to End Bitcoin&#8217;s sell-off brought market timing into focus [&#8230;]",
-      "link": "https://news.bitcoin.com/featured/robert-kiyosaki-urges-buyers-to-wait-out-the-crash-as-bitcoin-plummets/",
-      "pubDate": "Sun, 22 Nov 2026 03:30:33 +0000",
-      "source": "news.bitcoin.com"
-    },
-    {
-      "title": "Bitcoin Mining Profits Turn Ugly Despite Hashrate’s Return Above 1 ZH/s",
-      "description": "After shedding roughly 100 exahash per second (EH/s) in computational power, while bitcoin’s price retreated to levels last witnessed during the first week of September 2024, Bitcoin’s hashrate has rebounded decisively, reclaiming the 1,000 EH/s threshold, equivalent to 1 zettahash per second (ZH/s) of processing power. Financial Breathing Room Gets Thin for Bitcoin Miners Bitcoin’s [&#8230;]",
-      "link": "https://news.bitcoin.com/mining/bitcoin-mining-profits-turn-ugly-despite-hashrates-return-above-1-zh-s/",
-      "pubDate": "Sun, 22 Nov 2026 02:14:34 +0000",
-      "source": "news.bitcoin.com"
-    },
-    {
-      "title": "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
-      "description": "Bitcoin Core disclosed a medium-severity vulnerability on Friday, Nov. 20, 2026, that allowed malicious peers to temporarily paralyze nodes through repeated transaction announcements. The flaw, discovered through artificial intelligence-assisted security research, highlights how automated vulnerability detection is transforming cryptocurrency software security. The vulnerability, cataloged as CVE-2026-117348 and titled “Node stall through duplicate orphan announcements,” could [&#8230;]",
-      "link": "https://news.bitcoin.com/security/ai-finds-bitcoin-core-security-flaw-that-could-temporarily-freeze-nodes/",
-      "pubDate": "Sun, 22 Nov 2026 00:17:40 +0000",
-      "source": "news.bitcoin.com"
-    },
-    {
-      "title": "Behind Closed Doors, Central Banks Build a Case for Bitcoin—But With Gold",
-      "description": "In conversations behind closed doors, central bank officials explain that these institutions hold gold and don’t want tokenized gold for the exact same reason bitcoin is valuable: self-custody. At least one central bank is already known to hold bitcoin (BTC), while 7% of surveyed central banks said they were considering digital assets in both 2025 [&#8230;]",
-      "link": "https://news.bitcoin.com/finance/behind-closed-doors-central-banks-build-case-bitcoin-gold/",
-      "pubDate": "Sat, 21 Nov 2026 22:55:12 +0000",
-      "source": "news.bitcoin.com"
-    },
-    {
-      "title": "Bitcoin Proof-of-Work Can Help Stop AI Cyberattacks: Ex-Space Force Director",
-      "description": "Major Jason Lowery, author of the Softwar thesis, has proposed using the proof-of-work consensus mechanism that secures bitcoin to defend key U.S. digital property against artificial intelligence-led threats, which are already affecting financial institutions and government agencies. Jason Lowery Proposes Using Proof of Work to Defend Against AI Bitcoin&#8217;s proof-of-work (PoW) consensus mechanism, which has [&#8230;]",
-      "link": "https://news.bitcoin.com/security/bitcoin-proof-work-stop-ai-cyberattacks-ex-space-force-director/",
-      "pubDate": "Sat, 21 Nov 2026 21:25:44 +0000",
-      "source": "news.bitcoin.com"
-    },
-    {
-      "title": "Bitcoin Miners Had Fewer Hardware Sellers in 2026 as BTC Tanked and AI Grew",
-      "description": "While more companies attempted to challenge Bitmain’s dominance in the Bitcoin mining hardware market, these efforts—which are relevant to Bitcoin’s resilience—now appear to be on pause. Bitmain’s challengers have either stopped selling to external clients or sharply reduced sales. While mining pool concentration is the most frequently cited concern about mining centralization, a more diversified [&#8230;]",
-      "link": "https://news.bitcoin.com/opinion-and-analysis/bitcoin-miners-fewer-hardware-sellers-2026-btc-tanked-ai-grew/",
-      "pubDate": "Sat, 21 Nov 2026 19:55:48 +0000",
-      "source": "news.bitcoin.com"
+      "title": "The future of onchain FX could start with users, not institutional liquidity",
+      "description": "Onchain FX does not need to recreate the trillion-dollar institutional market to become useful. Real demand can make smaller markets work first.",
+      "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pubDate": "Sun, 22 Nov 2026 14:30:00 +0000",
+      "source": "cointelegraph.com"
     },
     {
       "title": "Here’s what happened in crypto today",
@@ -454,11 +461,11 @@
       "source": "cointelegraph.com"
     },
     {
-      "title": "Anthropic shares open at $111.50, 34.3% above $83 IPO price",
-      "description": "The Claude chatbot maker began trading under the ticker ANT, with the company’s valuation at around $2 trillion at the opening price.",
-      "link": "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pubDate": "Thu, 19 Nov 2026 16:07:51 +0000",
-      "source": "cointelegraph.com"
+      "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+      "description": "Google’s Willow quantum processor beat the classical ceiling in a four-qubit coordination game, revealing a promising hardware test rather than commercial quantum computing.",
+      "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+      "pubDate": "Sun, 22 Nov 2026 14:01:02 +0000",
+      "source": "decrypt.co"
     },
     {
       "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
@@ -713,11 +720,11 @@
       "source": "decrypt.co"
     },
     {
-      "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
-      "description": "The crypto asset manager sold $16.6 million in Ethereum and $2.7 million in Solana, freeing up $19.3 million. Here's why.",
-      "link": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
-      "pubDate": "Wed, 18 Nov 2026 19:46:02 +0000",
-      "source": "decrypt.co"
+      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+      "description": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
+      "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+      "pubDate": "Sun, 22 Nov 2026 18:58:57 +0000",
+      "source": "www.theblock.co"
     },
     {
       "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
@@ -734,7 +741,7 @@
       "source": "www.theblock.co"
     },
     {
-      "title": "Chainflip’s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+      "title": "Chainflip’s FLIP drops 34% after attacker drains $12 million from vaults with suspected key compromise",
       "description": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
       "link": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
       "pubDate": "Sat, 21 Nov 2026 15:24:14 +0000",
@@ -853,23 +860,9 @@
       "source": "www.theblock.co"
     },
     {
-      "title": "Ripple’s Alderoty doubts Elizabeth Warren will ‘set crypto policy in this country,’ backs durable agency rules",
-      "description": "Ripple’s Alderoty backs durable agency rules as hopes for crypto market structure legislation fade.",
-      "link": "https://www.theblock.co/news/regulation/2026-11-19-ripple-alderoty-elizabeth-warren-wont-set-crypto-policy-backs-durable-agency-rules-444105",
-      "pubDate": "Thu, 19 Nov 2026 18:47:30 +0000",
-      "source": "www.theblock.co"
-    },
-    {
       "title": "Crypto news today: ETF inflows, Ethereum demand and US regulation lift sentiment",
       "link": "https://investinglive.com/cryptocurrency/crypto-news-today-etf-inflows-ethereum-demand-and-us-regulation-lift-sentiment",
       "description": "Bitcoin ETF inflows: About $1.92 billion  \nThis was the larger share of the week's regulated crypto-fund demand.\n\nEthereum ETF inflows: About $697 million  \nThe strong ETH total shows that investors were not looking only at Bitcoin.\n\nCombined ETF trading volume: About $29 billion  \nHigher volume shows that participation increased as money returned to the funds. [...] ## Why are Bitcoin and Ethereum ETF inflows important?\n\nUS spot Bitcoin ETFs attracted approximately $1.92 billion during the August 17-21 trading week. Spot Ethereum ETFs added about $697 million. Together, the two groups received roughly $2.6 billion, while combined trading volume rose to approximately $29 billion, according to data reported by The Block.\n\nThat was the strongest week for both categories since October 2025. [...] - US spot Bitcoin and Ethereum ETFs attracted about\n  \n  $2.6 billion combined during the August 17-21 week, their strongest week since October 2025.\n- Ethereum demand came from two directions: nearly\n  \n  $700 million entered spot ETH ETFs, while BitMine disclosed another 32,447 ETH purchase.\n- US regulators are moving toward clearer crypto rules, but the main market-structure legislation sought by the industry remains stalled in the Senate.",
-      "pubDate": "",
-      "source": "Tavily web search"
-    },
-    {
-      "title": "Crypto ETF Flows Today: Bitcoin, Ethereum, Solana, XRP & More",
-      "link": "https://cryptoetf.today/en",
-      "description": "# Crypto ETF flows today\n\n−$158.0Mnet flow · 20 Nov · 16 assets\n\nOn Fri 20 Nov US spot crypto ETFs saw a net outflow of −$158.0M. It was the 12th outflow day in a row. Bitcoin led the outflows with −$124.5M. Read the issue\n\n## Net flow\n\nMore: Net flow\n\n−$158.0MOutflow\n\nFunds 55/58as of 20 Nov\n\n## CEFI\n\nMore: CEFI\n\n11Extreme fear+2.0\n\nweek ago 14month ago 39as of 20 Nov\n\n## Cumulative\n\nMore: Cumulative\n\n+$69.0B\n\nsince 11 Jan 2024 · YTD −$2.06B\n\n## NAV\n\nMore: NAV\n\n$84.1B\n\n86%ETH\n\n10%Other\n\n4% [...] | Issuer | Cumulative | 20 Nov |\n---\n| BlackRock | +$75.16B | — |\n| Fidelity | +$12.62B | −$73.6M |\n| Bitwise | +$4.36B | −$19.0M |\n| VanEck | +$1.27B | 0 |\n| Morgan Stanley | +$976.6M | +$2.3M |\n| Franklin Templeton | +$902.3M | −$1.7M |\n| 21Shares | +$794.0M | 0 |\n| Canary Capital | +$617.9M | −$620K |\n| CoinShares | +$326.9M | — |\n| Invesco | +$158.0M | — |\n| WisdomTree | +$74.4M | — |\n| Grayscale | −$28.28B | −$65.4M | [...] | ARKB 21Shares | −$4.3M | −$13.1M | −$19.3M | −$31.3M | 0 | −$68.0M |\n| GBTC Grayscale | −$34.6M | −$17.7M | −$20.3M | −$13.9M | −$32.8M | −$119.3M |\n| ETHA BlackRock | 0 | −$27.6M | −$17.4M | −$124.2M | — | −$169.2M |\n| FBTC Fidelity | −$11.3M | 0 | −$69.3M | −$45.9M | −$72.4M | −$198.9M |\n| IBIT BlackRock | +$76.5M | −$209.5M | −$148.7M | −$541.1M | — | −$822.8M |",
       "pubDate": "",
       "source": "Tavily web search"
     },
@@ -890,7 +883,14 @@
     {
       "title": "Crypto ETF List & Market Overview: Live Spot ETF Flows | CoinGlass",
       "link": "https://www.coinglass.com/etf",
-      "description": "Download APP\n\nOpen InterestFunding Rate\nLegendWatchlist\n\nMore\n\nSearch\n\n/\n\n# Crypto ETF Market Overview\n\nTrack real-time crypto ETF inflows, outflows, total AUM and institutional activity across Bitcoin, Ethereum, XRP and Solana ETFs.\n\nLast update: --\n\nCrypto ETF Fund Flow Flash: Latest Trading Day -, the crypto ETF market showed a Outflow trend, totaling a net Outflow of -$0.\n\nKey Driver: undefined showed the strongest performance with a daily inflow of +$0.",
+      "description": "Download APP\n\nOpen InterestFunding Rate\nLegendWatchlist\n\nMore\n\nSearch\n\n/\n\n# Crypto ETF Market Overview\n\nTrack real-time crypto ETF inflows, outflows, total AUM and institutional activity across Bitcoin, Ethereum, XRP and Solana ETFs.\n\nLast update: --\n\nCrypto ETF Fund Flow Flash: Latest Trading Day -, the crypto ETF market showed a Outflow trend, totaling a net Outflow of -$0.\n\nKey Driver: undefined showed the strongest performance with a daily inflow of +$0. [...] Period Trend: Over the past 5 trading days, crypto ETFs saw total Outflow of -$0. This indicates that in the current market environment, institutional sentiment is leaning toward Risk-off.\n\nTrading Note: During ETF market close, it is recommended to combine the Coinbase Premium Index and other derivative indicators to gauge market direction.\n\nCrypto ETF Net Inflow\n\n-$-\n\nTotal Crypto ETF AUM\n\n$-\n\nNumber of Active Crypto ETFs\n\n-\n\nActive ETF Issuers\n\n-\n\nBitcoin ETF Net Flows\n\n-$-",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "Bitcoin, Ethereum ETF Divergence from Futures; Bracing for Next Catalyst",
+      "link": "https://www.youtube.com/watch?v=vSsNxPq2-h4",
+      "description": "### Description\n4,224 views\nPosted: 2026-10-14\nJenny Kovacs returns to Crypto Corner and sits down with Adam Lynch of ‪@CharlesSchwab‬ to talk about the latest moves in Bitcoin and Ethereum. Though Bitcoin and Ethereum have pulled back from their recent rallies, Adam says that ETF inflows show a \"much more constructive\" picture compared to this time last year. Keep an eye for incoming headlines are well, as Adam addresses a key question: what is the next key catalyst for cryptocurrencies? [...] [1:36] Okay. So, Spock crypto ETFs have also brought in some significant institutional interest and so are Flow still holding up at these higher prices and what should we really watch for next?\n[1:47] Yeah, that's an interesting one. We've seen the flows hop around all year. I think it was just about two weeks ago where they went net positive year to\n[1:55] date. Uh now we're probably back down in the red. We had Bitcoin ETFs lose about 500 million the past seven days while [...] [2:03] the Ethereum spot ETFs lost about 600 million over that same time period. Uh longer term, the the picture is much\n[2:10] more constructive. I mean the products only launched the Bitcoin ETFs launched back in January of 2024. It's just two\n[2:18] and a half years or so now and they already have $60 billion of assets. So I don't think that the question is have\n[2:25] you know institutional investors found less demand but I think it's rather have the way that they invest in these",
       "pubDate": "",
       "source": "Tavily web search"
     },
@@ -898,13 +898,6 @@
       "title": "Digital Assets Regulatory Policy Tracker - OMFIF",
       "link": "https://www.omfif.org/digitalassetstracker",
       "description": "Virtual asset-linked ETFs have been approved since 2021. Existing anti-money laundering rules have been extended to cryptoasset transactions.\n\nDeposit-backed stablecoins Legal\n\nAlgorithmic stablecoins Legal\n\nOctober 2022 guidance initially classifies stablecoins as asset-backed.\n\n##### Canada\n\nApplying existing securities law\n\nCustody and exchange Legal\n\nCryptocurrency mining Legal\n\nDerivatives products Legal [...] The SFC published the conclusion to this consultation shortly before the June launch of its new licensing regime.\n\nRetail investors are able to gain exposure to digital assets indirectly via regulated ETFs. The SFC has authorised three digital asset-linked ETFs since setting out its guidance in 2022. A separate consultation on futures products is expected in the future. Under current rules, VASPs are not allowed to offer or trade in derivatives.\n\nDeposit-backed stablecoinsLegal [...] Deposit-backed stablecoins Legal\n\nAlgorithmic stablecoins Illegal\n\nMiCA mandates prudential requirements for issuers of asset-referenced tokens (ART), including qualifying stablecoins. Issuers of ARTs will be subject to rules relating to the segregation of customer funds and reserve requirements, such as monthly disclosures. MiCA’s stablecoin provisions are set to be applied first, by June 2024.\n\n##### Germany\n\nCustody and exchangeLegal\n\nCryptocurrency miningLegal\n\nDerivatives productsLegal",
-      "pubDate": "",
-      "source": "Tavily web search"
-    },
-    {
-      "title": "SEC Crypto Regulation News Today: Key Updates & Impact",
-      "link": "https://voozon.org/sec-crypto-regulation-news-today",
-      "description": "The latest wave of sec crypto regulation news today focuses on three major themes:\n\n1. Increased enforcement against exchanges\n2. Spot Bitcoin ETF expansion and compliance scrutiny\n3. Stablecoin and DeFi oversight discussions\n\n### Exchange Compliance Crackdowns\n\nThe SEC has intensified its scrutiny of centralized crypto exchanges. Recent filings suggest that platforms must register either as securities exchanges, broker-dealers, or clearing agencies if they list certain digital assets. [...] Billions of dollars have flowed into these ETFs within months of launch. That institutional validation has:\n\n Stabilized market sentiment\n Increased liquidity\n Encouraged pension funds and asset managers to participate\n\nHowever, ETFs also bring heightened regulatory oversight.\n\n## How Regulation Impacts Retail Investors\n\n### Increased Transparency\n\nRegulatory pressure forces exchanges to improve:\n\n Disclosure standards\n Proof-of-reserves reporting\n Consumer protections [...] Bitcoin is generally viewed as a commodity rather than a security, but related products like ETFs still fall under SEC oversight.\n\n### Why does the SEC sue crypto exchanges?\n\nThe SEC alleges some exchanges operate as unregistered securities platforms, listing tokens that qualify as securities.\n\n### Does regulation hurt crypto prices?\n\nShort term, yes. Long term, regulation may increase stability and institutional trust.\n\n### What is the Howey Test?",
       "pubDate": "",
       "source": "Tavily web search"
     },
@@ -930,44 +923,72 @@
       "source": "Tavily web search"
     },
     {
+      "title": "Cryptocurrency Regulation: A Guide to U.S. & Global Policies | Britannica Money",
+      "link": "https://www.britannica.com/money/cryptocurrency-regulation",
+      "description": "Cryptocurrency regulation is no longer a theoretical debate—it’s an evolving framework that is beginning to take shape worldwide. In the United States, Congress has moved toward establishing federal oversight of stablecoins and digital asset markets. The GENIUS Act, signed into law in 2025, established a federal regulatory framework for stablecoins, while broader market structure legislation known as the CLARITY Act advanced in Congress in 2026 but has yet to become law. [...] The GENIUS Act, signed into law in 2025, established the first federal regulatory framework for stablecoins in the United States. It limits who can issue stablecoins and requires issuers to maintain reserves backing the tokens they have issued, make monthly disclosures detailing the assets held in reserve, and comply with anti–money laundering and consumer protection requirements.\n\n### What is the CLARITY Act? [...] United Kingdom. The U.K. began regulating cryptocurrency in 2020. In October 2023, the Financial Conduct Authority (FCA) introduced stricter rules on crypto advertising. The Financial Services and Markets Act 2023 also expanded oversight of stablecoins. A broader regulatory framework was approved in 2026 and is scheduled to take effect in October 2027, bringing activities including crypto trading, custody, staking, and stablecoin issuance under FCA oversight.",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
       "title": "Research │ Crypto & Macro Market Analysis │ BIT",
       "link": "https://www.bit.com/research",
-      "description": "95 and 102. In September it started to break out, driven by surging US yields, a widening gap between US rates and everyone else's, and the usual flight to the world's reserve currency in uncertain times. The index crossed 100 in mid-September, and by early October it was above 102, an 18-month high. Normally, that spells trouble. A strong dollar has historically been one of the most direct ways tighter US policy hits the bitcoin price. It tightens financial conditions worldwide and makes [...] could help limit Bitcoin's drawdowns and provide renewed buying support as market conditions improve. The main headwinds remain a strong US dollar and Federal Reserve policy. Foreign investment flowing into US technology stocks, together with the Fed's increasingly hawkish stance in response to higher energy prices, has supported the dollar. Current market pricing indicates a 77% probability of a rate hike at the December 9 FOMC meeting, but only a 30% chance of another hike on January 27, [...] news stops moving a price, the market is telling you something. Here is a rundown of what happened and how the market responded. For each piece of news, it asks two questions: what should it have done to the price, and why did it do less than expected or, in one case, bite only briefly? In mid-September 2026, bitcoin was hit by a failed CLARITY Act, the Fed's first hike since 2023, a hawkish BoJ, $106 oil, a surging dollar and a weak bond auction, and it still ended the month higher. Forced",
+      "description": "95 and 102. In September it started to break out, driven by surging US yields, a widening gap between US rates and everyone else's, and the usual flight to the world's reserve currency in uncertain times. The index crossed 100 in mid-September, and by early October it was above 102, an 18-month high. Normally, that spells trouble. A strong dollar has historically been one of the most direct ways tighter US policy hits the bitcoin price. It tightens financial conditions worldwide and makes [...] could help limit Bitcoin's drawdowns and provide renewed buying support as market conditions improve. The main headwinds remain a strong US dollar and Federal Reserve policy. Foreign investment flowing into US technology stocks, together with the Fed's increasingly hawkish stance in response to higher energy prices, has supported the dollar. Current market pricing indicates a 77% probability of a rate hike at the December 9 FOMC meeting, but only a 30% chance of another hike on January 27, [...] US–Iran conflict. Pressure built over the summer. In July, three policymakers dissented in favour of a hike, and a hotter-than-expected August inflation print all but sealed it. There was politics in it too. President Trump had repeatedly called for lower rates, and Kevin Warsh, his own pick to run the Fed, was about to defy him. On 16 September, Warsh's Fed voted unanimously to raise rates by a quarter point to 3.75–4.00%, its first hike since 2023. Sixteen of its 18 officials pencilled in at",
       "pubDate": "",
       "source": "Tavily web search"
     },
     {
-      "title": "Crypto Outlook: Is a More Restrictive Fed Reducing Market Demand Appetite?",
-      "link": "https://www.forex.com/en/news-and-analysis/crypto-outlook-is-a-more-restrictive-fed-reducing-market-demand-appetite",
-      "description": "The current dynamic is not limited solely to expectations of higher U.S. interest rates. Bitcoin's weakness has also been reinforced by the behavior of alternative markets such as the U.S. dollar. The dollar tends to benefit from a higher-rate environment and often acts as a liquidity-based safe haven, a situation that could be limiting capital flows into assets such as BTC. [...] This dynamic is especially important because, as the DXY Index continues to reach new highs and reinforce U.S. dollar strength, Bitcoin has responded with a similarly consistent pattern of weakness. This suggests that while markets perceived as more stable continue to gain appeal, risk assets are finding it increasingly difficult to maintain investor confidence. Even Bitcoin, as the leading cryptocurrency, is not currently being viewed as a stability alternative relative to other markets, [...] This dynamic could become increasingly concerning for cryptocurrency market confidence because a higher interest rate environment tends to increase borrowing costs and reduce the liquidity available for risk-oriented assets. In addition, uncertainty surrounding a more restrictive monetary policy often favors more stable markets such as the U.S. dollar and the bond market, a situation that could also be reducing the relative appeal of crypto assets. As a result, part of the appetite for risk",
+      "title": "Crypto market selloff wipes billions of dollars amid inflation, geopolitical risks",
+      "link": "https://www.aa.com.tr/en/economy/crypto-market-selloff-wipes-billions-of-dollars-amid-inflation-geopolitical-risks/4126632",
+      "description": "“The pressure on the US dollar and bond yields needs to ease for capital to flow back into Bitcoin ETFs,” he said, adding that it was still too early to say the pressure had eased and that high volatility in the crypto market was likely to continue ahead of the Fed’s rate decision in December.\n\nnews\\_share\\_descriptionsubscription\\_contact\n\ncontact\\_the\\_ombudsman\n\nis\\_there\\_an\\_error\\_in\\_this\\_story [...] “It’s hard to expect a serious and sustained recovery in the crypto market as long as concerns over the global inflation, geopolitical risks, and uncertainties in the Middle East continue, alongside hawkish Fed expectations — the potential for selling pressure to continue remains high without a significant upward breakout and an influx of new funds into the market,” she said. [...] Mete Ali Baskaya, a blockchain and crypto asset strategist, told Anadolu that the prolonged market contraction was driven by hotter-than-expected US inflation data and growing hawkish expectations from the Federal Reserve.\n\nBaskaya said capital outflows from spot Bitcoin exchange-traded funds (ETFs) and the liquidation of leveraged positions in the futures market drove the decline.",
       "pubDate": "",
       "source": "Tavily web search"
     },
     {
-      "title": "Bitcoin price catalysts after Clarity Act setback",
-      "link": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
-      "description": "The industry is also watching whether inflation will ease and geopolitical tensions will subside in the new year, which could lower broader macro risk currently hampering the industry.\n\nLast month, Strategy's Michael Saylor said he thinks bitcoin's next bull market is already underway. [...] \"Our macro forecast has inflation breaking down considerably,\" Wood told CNBC in an exclusive interview at Cantor Convergence. \"I think the elections have increased our confidence there because the war \\[in Iran], one way or the other, is going to end.\"\n\nShe added that \"bitcoin has weathered so much bad news,\" including the $6.3 billion Binance hack and the \"distraction\" of AI which, \"many people would say is sucking the oxygen away from bitcoin.\" [...] Crypto investors are hunting for the next positive catalyst after U.S. crypto regulation — a long-time market driver — fizzled in 2026.\n\nBitcoin traded around $61,500 on Friday, a more than 50% decline from its all-time high above $126,000 reached in October 2025. The broader digital asset market has struggled after the Clarity Act, a crypto market structure bill, failed to advance in the Senate in September.",
+      "title": "Matrix on Point: The U.S. Dollar Hegemony in Transition - Social Science Matrix",
+      "link": "https://matrix.berkeley.edu/research-article/dollar-hegemony",
+      "description": "The global dominance of the U.S. dollar has long shaped international trade, financial markets, and geopolitical power. Amid shifting global dynamics and the rapid development of stablecoins and other digital assets, new questions are emerging around the structure and evolution of dollar hegemony. How are technological innovation and geopolitical change reshaping the international monetary system, and what possibilities lie ahead? [...] The second consequence of low interest rates is that, well, everybody, even outside the U.S., if they can borrow in dollars, they will, because it’s cheap to do so. And that’s going to imply that dollar funding is an important part of balance sheets for leveraged investors, think hedge funds or other risk-taking parts of the economy globally. But that means then that U.S. monetary policy, which is really about changing dollar interest rates, propagates internationally in important ways. [...] Namely, in crises, as you can imagine, global investors really want to hold dollar assets. It’s a safe store of value. But as they do that, what will happen is the dollar will strengthen in foreign exchange markets ’cause they’re buying up more dollars, but also it’ll drive down U.S. interest rates, dollar interest rates broadly, because you’re buying up all these assets, so you’re willing to hold them even at a lower interest rate, at a lower rate of return.",
       "pubDate": "",
       "source": "Tavily web search"
     },
     {
-      "title": "Cryptocurrency pricing, market & regulation news - Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/crypto",
-      "description": "1. AI\n\ncrypto background image\n\n# Crypto | Top Stories\n\nTrack Crypto in AlphaSpace\n\nWall Street's two favorite trades are unraveling\n\n### Wall Street's two favorite trades are unraveling\n\nWhile Wall Street watches AI stocks plummet, bets on a hawkish Fed are unraveling the dollar debasement trade.\n\nYahoo Finance • 6h ago \n\nDX-Y.NYB +0.11%\n\n 6 reasons bitcoin could see a wild week as Nvidia, Fed loom \n\n  ### 6 reasons bitcoin could see a wild week as Nvidia, Fed loom [...] CRCL -2.12%\n Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal \n\n  ### Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal\n\n  decrypt • 4h ago \n\n  BTC-USD +0.22%\n\n## More Crypto News [...] 3. Markets \n      1. Stock Market News\n      2. Real Estate\n      3. Magnificent 7\n      4. Private Markets\n      5. Futures & Derivatives\n   4. Originals\n   5. Newsletters\n   6. Economy & Policy \n      1. Earnings\n      2. Oil & Gas\n      3. Strait of Hormuz\n      4. Tariffs\n      5. Clean Energy\n   7. Tech \n      1. Aerospace & Defense\n      2. Enterprise Cloud\n   8. Exchange-Traded Funds\n5. Research & Tools\n   1. Calendars \n      1. Earnings Calendar\n      2. IPO Calendar",
+      "title": "Cryptocurrencies - FXStreet",
+      "link": "https://www.fxstreet.com/cryptocurrencies",
+      "description": "Ethereum continues to face intense headwinds, trading below $1,750 on Friday. Broadly, the smart contract token is down about 6% since Monday and 23% from November 1. This persistent pullback can largely be attributed to risk-off sentiment following the Binance hack, macroeconomic pressures including sticky US inflation, and a lack of catalysts to sustain higher crypto prices. [...] # Cryptocurrencies Market Prices\n\nBitcoin price falls below the $60,000 mark on Friday, down nearly 8.5% so far this week and reaching a level not seen since early July. Market momentum suggests firm selling pressure despite reaching oversold levels, with technical indicators pointing to further downside toward the yearly low of $57,800. [...] Ripple trades around $0.96 on Friday, positioned between the lower range limit at $0.90 and the upper range limit at $1.00. The remittance token recently failed to advance above the critical $1.00 level, leaving bears largely in control. Nonetheless, bulls appear not ready to give up, increasing buy-the-dip activity toward the $0.90 zone.\n\n### BTC/USD Forecast Poll\n\n### 1 Week\n\n0%\n\nBullish\n\n100%\n\nBearish\n\n0%\n\nSideways\n\n### 1 Month\n\n0%\n\nBullish\n\n100%\n\nBearish\n\n0%\n\nSideways\n\n### 1 Quarter\n\n0%",
       "pubDate": "",
       "source": "Tavily web search"
     },
     {
-      "title": "India Global Review on Instagram: \"#IGR: Bitcoin is facing a sharp sell-off, hitting its lowest level in nearly three months. Heavy ETF…\"",
-      "link": "https://www.instagram.com/p/DgAjlQOAv5F",
-      "description": "# India Global Review on Instagram: \"#IGR: Bitcoin is facing a sharp sell-off, hitting its lowest level in nearly three months. Heavy ETF…\"\n\n#IGR: Bitcoin is facing a sharp sell-off, hitting its lowest level in nearly three months. \n\nHeavy ETF outflows, security concerns, rising interest rate fears and regulatory uncertainty are adding to the pressure. \n\nBut what is really behind the sudden decline, and is this just a temporary setback or a warning sign for the crypto market?\n\nSwipe to know. [...] [Image: Photo by India Global Review on November 21, 2026. May be an image of money and text.]\n\n- Author: @igr_media (India Global Review)\n- Posted: 2026-11-21T15:30:14+00:00\n- Type: carousel_container\n- Hashtags: #igr\n- Likes: 56\n- Comments: 0\n- Slides: 5 [...] Swipe to know.\n\n[Image: Photo by India Global Review on November 21, 2026.]\n\n[Image: Photo by India Global Review on November 21, 2026. May be an image of text.]\n\n[Image: Photo by India Global Review on November 21, 2026. May be an image of money, magazine and text.]\n\n[Image: Photo by India Global Review on November 21, 2026. May be an image of money and text.]\n\n[Image: Photo by India Global Review on November 21, 2026. May be an image of poster, magazine and text.]",
+      "title": "Thoughts on the Market Podcast | Morgan Stanley",
+      "link": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+      "description": "## Transcript\n\nWelcome to Thoughts on the Market. I'm Mike Wilson, Morgan Stanley’s CIO and Chief U.S. Equity Strategist.\n\nToday on the podcast I’ll be discussing the shifting landscape in macro markets.\n\nIt's Monday, August 24 th at 11:30am in New York.\n\nSo, let’s get after it.\n\nOver the past few weeks we’ve seen large moves in rates, oil, gold and crypto. What does it mean for equities? [...] And that brings me to the third factor: geopolitics. Brazil has strengthened its economic ties with the East, while remaining deeply connected to Western capital markets and U.S. technology. A more balanced relationship could improve access to capital markets and support long-term investments. Of course, an election result alone doesn't guarantee change. Fiscal discipline, policy execution, and global financing conditions remain critical. Higher U.S. Treasury yields are an especially important [...] Another piece that should help this broadening. Macro variables that have been holding lower quality cyclicals back include interest rates, crude, and the dollar – they may all now be peaking. That fits nicely with the announced deal to reopen the Straits of Hormuz last night. If oil pressure eases and the bond market walks back the Fed hike it is currently pricing, interest rate sensitive groups should have room to extend their recent outperformance.",
       "pubDate": "",
       "source": "Tavily web search"
     },
     {
-      "title": "Coinpedia on X: \"🚀 Why the #Crypto Market is up Today The crypto market is gaining strong momentum today, with #Bitco…\"",
-      "link": "https://x.com/CoinpediaNews/status/2066412077305258300",
-      "description": "# Coinpedia on X: \"🚀 Why the #Crypto Market is up Today The crypto market is gaining strong momentum today, with #Bitco…\"\n\n🚀 Why the #Crypto Market is up Today\n\nThe crypto market is gaining strong momentum today, with #Bitcoin, #Ethereum, and several #altcoins moving higher. Improved market sentiment, macroeconomic shifts, and renewed investor confidence are all contributing to the rally. [...] 👉 Read more here:\n\n- Author: @CoinpediaNews (Coinpedia)\n- Posted: 2026-06-15T06:46:45+00:00\n- Views: 118\n- Likes: 0\n- Reposts: 0\n- Replies: 0\n- Quotes: 0\n- Bookmarks: 0\n- Hashtags: #Crypto #Bitcoin #Ethereum #altcoins\n- Links: \n- Card: Why the Crypto Market is up Today — coinpedia.org — The crypto market added $40 billion as Bitcoin hit a two-week high, fueled by easing geopolitical tensions and slowing ETF outflow.\n\n## People [...] 📊 In this article, we break down the key reasons behind today’s surge and what it could mean for the next market move.\n\n👉 Read more here:",
+      "title": "Deepcoin News on X: \"TODAY'S MARKET | November 6, 2026 📈 🟠 Bitcoin (BTC): $76,143.51 🔵 Ethereum (ETH): $2,241.74 💎 Total …\"",
+      "link": "https://x.com/deepcoin_news/status/2118539210168860755",
+      "description": "> Quoting @deepcoin_news (Deepcoin News):\n>\n> TODAY'S MARKET | Nov 4, 2026 📈\n> \n> 🟠 Bitcoin (BTC): $76,508.07\n> 🔵 Ethereum (ETH): $2,249.74\n> 💎 Total Crypto Market Cap: $2.57T\n> 🔥 Fear & Greed Index: 34 (Fear)\n> \n> Other news\n> > U.S. midterm elections were held on Nov 3\n> > Spot Bitcoin ETFs saw $399M in outflows on Nov 2, following $643M on Oct 30\n> > Strategy bought 811 more BTC (~$65.5M), bringing total holdings to 849,327 BTC\n> \n> Follow for market updates\n\n## People [...] # Deepcoin News on X: \"TODAY'S MARKET | November 6, 2026 📈 🟠 Bitcoin (BTC): $76,143.51 🔵 Ethereum (ETH): $2,241.74 💎 Total …\"\n\nTODAY'S MARKET | November 6, 2026 📈\n\n🟠 Bitcoin (BTC): $76,143.51\n🔵 Ethereum (ETH): $2,241.74\n💎 Total Crypto Market Cap: $2.55T\n🔥 Fear & Greed Index: 32 (Fear)\n\nOther news:\n> The US October Nonfarm Payrolls report is released today\n> The University of Michigan preliminary consumer sentiment index is also due today\n\nFollow for market updates\n\n[Image 1] [...] [Image 1]\n\n- Author: @deepcoin_news (Deepcoin News)\n- Posted: 2026-11-06T03:01:22+00:00\n- Views: 405\n- Likes: 1\n- Reposts: 0\n- Replies: 0\n- Quotes: 0\n- Bookmarks: 0",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "ETMarkets on X: \"Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 supp…\"",
+      "link": "https://x.com/ETMarkets/status/2123809651951325416",
+      "description": "- Links: \n- Card: Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000... — economictimes.indiatimes.com — Bitcoin fell below $62,000 and Ethereum extended losses as ETF outflows, hawkish Federal Reserve signals and technology stock weakness rattled crypto markets. Extreme investor fear intensified,... [...] # ETMarkets on X: \"Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 supp…\"\n\nBitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 support\n\n#ETMarkets [...] - Author: @ETMarkets (ETMarkets)\n- Posted: 2026-11-20T16:04:14+00:00\n- Views: 3792\n- Likes: 1\n- Reposts: 0\n- Replies: 0\n- Quotes: 0\n- Bookmarks: 0\n- Hashtags: #ETMarkets\n- Links:",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "xChief - Global on X: \"Bitcoin and Ethereum Rebound Strongly After U.S. Elections The crypto market bounced back from its i…\"",
+      "link": "https://x.com/xChief_Global/status/2118070787450007875",
+      "description": "# xChief - Global on X: \"Bitcoin and Ethereum Rebound Strongly After U.S. Elections The crypto market bounced back from its i…\"\n\nBitcoin and Ethereum Rebound Strongly After U.S. Elections\n\nThe crypto market bounced back from its initial decline following the U.S. midterm elections, as results pointed to a Democratic victory in Congress.\n\n#Bitcoin (BTC): Rose 3.65% from its low, climbing back above $78,000.\n\n#Ethereum (ETH): Gained 4.57%, reaching around $2,320. [...] The rebound also added approximately $87 billion to the total crypto market cap.\n\n✔️Reduced political uncertainty following the U.S. elections has improved market sentiment. However, sustained gains in Bitcoin and Ethereum depend on price stability and stronger buying demand.\n\n[Image 1]\n\n- Author: @xChief_Global (xChief - Global)\n- Posted: 2026-11-04T20:00:02+00:00\n- Views: 65\n- Likes: 0\n- Reposts: 0\n- Replies: 0\n- Quotes: 0\n- Bookmarks: 0\n- Hashtags: #Bitcoin #Ethereum\n\n## People [...] ## People\n\n- @xChief_Global (xChief - Global) — Trusted CFD Broker since 2014 | 1 Million clients | Join our Affiliate Program: CPA, CPL, Multi-level Bonuses and Rebates up to $25/lot",
+      "pubDate": "",
+      "source": "Tavily web search"
+    },
+    {
+      "title": "CoinGape on X: \"📈 #Bitcoin, #Ethereum & #XRP Eye Recovery as $2.2B Crypto Options Expire Today $BTC, $ETH, and $XRP …\"",
+      "link": "https://x.com/CoinGapeMedia/status/2072952407110152251",
+      "description": "# CoinGape on X: \"📈 #Bitcoin, #Ethereum & #XRP Eye Recovery as $2.2B Crypto Options Expire Today $BTC, $ETH, and $XRP …\"\n\n📈 #Bitcoin, #Ethereum & #XRP Eye Recovery as $2.2B Crypto Options Expire Today\n\n$BTC, $ETH, and $XRP are in focus as more than $2.2 billion in Bitcoin, Ethereum, and XRP options expire today, with rising call activity and improving market sentiment fueling expectations of a potential crypto market recovery. [...] Investors are closely watching Bitcoin price, Ethereum price, XRP price, options expiry, and Federal Reserve rate cut expectations for the next major market move.\n\n🔗 Know more in comments.\n\n[Image 1]\n\n- Author: @CoinGapeMedia (CoinGape)\n- Posted: 2026-07-03T07:55:42+00:00\n- Views: 2227\n- Likes: 0\n- Reposts: 0\n- Replies: 1\n- Quotes: 0\n- Bookmarks: 0\n- Hashtags: #Bitcoin #Ethereum #XRP\n- Cashtags: $BTC $ETH $XRP\n\n## People [...] ## People\n\n- @CoinGapeMedia (CoinGape) — 📰Largest news publisher of crypto, blockchain & Web3. 🏆Awarded with best crypto media of the year. 📧 Business Enquiry:hello@coingape.com",
       "pubDate": "",
       "source": "Tavily web search"
     },
@@ -975,27 +996,6 @@
       "title": "Cryptopolitan on X: \"KEY CRYPTO MARKET MOVES, Nov. 18, 2026: 1. Bitcoin $BTC traded around $62,400–$64,000, roughly 50% b…\"",
       "link": "https://x.com/CPOfficialtx/status/2123181804387442794",
       "description": "3. Spot Ethereum ETFs $ETH lost another $29.09 million, marking their third consecutive day of outflows.\n\n4. Russia opened regulated cryptocurrency investment channels for retail investors, allowing purchases of Bitcoin $BTC, Ethereum $ETH and Tether $USDT.\n\n5. The World Bank Group plans to test stablecoin payments with Citigroup $C and Circle $CRCL. [...] # Cryptopolitan on X: \"KEY CRYPTO MARKET MOVES, Nov. 18, 2026: 1. Bitcoin $BTC traded around $62,400–$64,000, roughly 50% b…\"\n\nKEY CRYPTO MARKET MOVES, Nov. 18, 2026:\n\n1. Bitcoin $BTC traded around $62,400–$64,000, roughly 50% below its October 2025 all-time high of $126,198. Market sentiment remained in Extreme Fear.\n\n2. Spot Bitcoin ETFs recorded $240 million in net outflows on November 17. [...] [Image 1]\n\n- Author: @CPOfficialtx (Cryptopolitan)\n- Posted: 2026-11-18T22:29:23+00:00\n- Views: 436\n- Likes: 0\n- Reposts: 0\n- Replies: 3\n- Quotes: 0\n- Bookmarks: 0\n- Cashtags: $BTC $ETH $BTC $ETH $USDT $C $CRCL $MARA $WFC $GS $MSTR $BTC $XRP\n\n## People\n\n- @CPOfficialtx (Cryptopolitan) — Crypto news that doesn't waste your time. Breaking updates, market analysis, on-chain insights. Building the smartest crypto community.",
-      "pubDate": "",
-      "source": "Tavily web search"
-    },
-    {
-      "title": "Analytics Insight on X: \"𝐂𝐫𝐲𝐩𝐭𝐨 𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐨𝐝𝐚𝐲: 𝐗𝐑𝐏, 𝐒𝐨𝐥𝐚𝐧𝐚 & 𝐍𝐄𝐀𝐑 𝐑𝐢𝐬𝐞 𝐚𝐬 𝐁𝐢𝐭𝐜𝐨𝐢𝐧 𝐇𝐨𝐥𝐝𝐬 𝐍𝐞𝐚𝐫 𝐔𝐒𝐃 𝟔𝟒,𝟓𝟎𝟎 🚨 Bitcoin holds near U…\"",
-      "link": "https://x.com/analyticsinme/status/2123067252622962856",
-      "description": "# Analytics Insight on X: \"𝐂𝐫𝐲𝐩𝐭𝐨 𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐨𝐝𝐚𝐲: 𝐗𝐑𝐏, 𝐒𝐨𝐥𝐚𝐧𝐚 & 𝐍𝐄𝐀𝐑 𝐑𝐢𝐬𝐞 𝐚𝐬 𝐁𝐢𝐭𝐜𝐨𝐢𝐧 𝐇𝐨𝐥𝐝𝐬 𝐍𝐞𝐚𝐫 𝐔𝐒𝐃 𝟔𝟒,𝟓𝟎𝟎 🚨 Bitcoin holds near U…\"\n\n𝐂𝐫𝐲𝐩𝐭𝐨 𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐨𝐝𝐚𝐲: 𝐗𝐑𝐏, 𝐒𝐨𝐥𝐚𝐧𝐚 & 𝐍𝐄𝐀𝐑 𝐑𝐢𝐬𝐞 𝐚𝐬 𝐁𝐢𝐭𝐜𝐨𝐢𝐧 𝐇𝐨𝐥𝐝𝐬 𝐍𝐞𝐚𝐫 𝐔𝐒𝐃 𝟔𝟒,𝟓𝟎𝟎\n \n🚨 Bitcoin holds near USD 64,500 as crypto market sentiment remains in extreme fear! Spot Bitcoin ETFs recorded USD 240 million in outflows, while XRP, Solana, Zcash and NEAR posted gains. Meanwhile, Solana's institutional developments keep investors watching the network. 📉📈 [...] #Bitcoin #CryptoMarket #XRP #Solana #Ethereum #analyticsinsight #analyticsinsightmagazine\n \nRead More 👇\n\n[Image 1]\n\n- Author: @analyticsinme (Analytics Insight)\n- Posted: 2026-11-18T14:54:12+00:00\n- Views: 114\n- Likes: 1\n- Reposts: 0\n- Replies: 1\n- Quotes: 0\n- Bookmarks: 0\n- Hashtags: #Bitcoin #CryptoMarket #XRP #Solana #Ethereum #analyticsinsight #analyticsinsightmagazine\n- Links: \n\n## People [...] ## People\n\n- @analyticsinme (Analytics Insight) — Analytics Insight is the World’s First Print and Digital Publication focused on Artificial Intelligence, Big Data, and Analytics.",
-      "pubDate": "",
-      "source": "Tavily web search"
-    },
-    {
-      "title": "Michaël van de Poppe (@CryptoMichNL) / X",
-      "link": "https://x.com/CryptoMichNL",
-      "description": "8h\n\n  It's the classic principle. The biggest event of them al comes up: $NVDA earnings. What happens prior? Everything, including #Bitcoin, sells off as there's a ton of fear in the markets. The most likely case? Nothing special comes out of it, earnings are fine and there will be a strong rebounce upwards. The 'Sell the Rumor, Buy the News' scenario.\n\n  21 [...] 3h\n\n  $NVDA earnings has been a beat on all levels. They even increased their forward guidance for Q4. It's relief in the markets, and nothing has changed on this one. Buy the dip on $NVDA. Buy the dip on $BTC.\n\n  21\n @CryptoMichNL\n\n  Michaël van de Poppe@CryptoMichNL\n\n  4h [...] ## Michaël van de Poppe’s posts\n\n Pinned\n\n  @CryptoMichNL\n\n  Michaël van de Poppe@CryptoMichNL\n\n  6h\n\n  At some point in this conversation @CryptoHayes told me he LOVES it when the market dumps 10% in a day: \"I'm like: yes. We're just that much closer to the bailout.\" He was grinning. I was sitting there fully invested. And that's basically the whole episode. Arthur is back on\n\n  \n\n  00:00\n\n  12\n @CryptoMichNL\n\n  Michaël van de Poppe@CryptoMichNL\n\n  3h",
-      "pubDate": "",
-      "source": "Tavily web search"
-    },
-    {
-      "title": "CoinDesk (@CoinDesk) / X",
-      "link": "https://x.com/CoinDesk",
-      "description": "1h\n\n  Retail used to lead crypto. Not anymore. @nemild says institutions have driven the last year and a half of growth, via tokenized stocks and stablecoins. Live from @solana Breakpoint.\n\n  \n\n  00:00\n\n  12\n @CoinDesk\n\n  CoinDesk@CoinDesk\n\n  2h\n\n  LATEST: The Bank of England opens a regulated pathway for blockchain-based clearing houses, letting DLT firms test live operations under a 12-month sandbox before meeting full requirements, under the same standards as traditional clearinghouses. [...] Log inSign up\n\nLog inSign up\n\n144.1K posts\n\nCoinDesk profile banner\n\n@CoinDesk\n\n# CoinDesk\n\n@CoinDesk\n\nLeading the conversation on accelerating crypto’s future. Follow @CoinDeskPodcast @consensus2027 @CoinDeskMarkets @CoinDeskData\n\nNew York, USA\n\ncoindesk.com\n\nJoined April 2013\n\n1,814 Following4M Followers4 Affiliates\n\nRepliesRepliesRepostsRepostsMediaMediaArticlesArticles\n\n## CoinDesk’s posts\n\n Pinned\n\n  @CoinDesk\n\n  CoinDesk@CoinDesk\n\n  10h [...] 3h\n\n  NEW: The @CFTC approves blockchain-based derivatives exchange and clearinghouse licenses for both @Backpack and @tZERO, marking the first time the regulator has greenlighted onchain derivatives infrastructure under existing US law.\n\n  The image displays the yellow and black logo of the Commodity Futures Trading Commission (CFTC) with its name written beside it.\n\n  read image description",
       "pubDate": "",
       "source": "Tavily web search"
     }
